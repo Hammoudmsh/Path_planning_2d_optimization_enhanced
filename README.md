@@ -68,6 +68,18 @@ Profiles with `download_data: true` can download the configured archives. The co
 
 ## Run a benchmark
 
+To run all street maps and scenarios with 16 workers and then generate the report, first prepare the street dataset as described above. From the repository root:
+
+```bash
+cd server
+python Astar_JPS_SA_JPS_config_profiles_ready.py street street_all --workers 16
+python create_report.py
+```
+
+Wait for the benchmark to finish successfully before running `create_report.py`. The report script uses the default street checkpoint under `results_new_ablation/street/street_all/cache/` and creates a new report output directory automatically.
+
+Return to the repository root with `cd ..` before using the examples below.
+
 Run these commands from the repository root. Inspect a small experiment without running searches:
 
 ```bash
