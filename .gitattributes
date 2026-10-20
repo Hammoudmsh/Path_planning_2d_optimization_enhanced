@@ -1,0 +1,4 @@
+# Large experiment artifacts are stored using Git LFS.
+*.sqlite3 filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+results_new_ablation/street/street_all/per_run_results_street.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,3 @@
+selection,map,scenario,status,parameters,path_file
+Representative,Sydney_0_1024.map,1179,Verified reconstruction,"{'turn_weight': 0.35, 'turn_count_weight': 5.0, 'heuristic_weight': 1.15}",figure_4_path_example_1.json
+Longer but smoother,Milan_0_512.map,1665,Verified reconstruction,"{'turn_weight': 0.35, 'turn_count_weight': 5.0, 'heuristic_weight': 1.15}",figure_4_path_example_2.json

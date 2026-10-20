@@ -1,0 +1,4 @@
+Stratum,Metric,N,Wins,Ties,Losses,Relative_tolerance,Absolute_tolerance
+All matched scenarios,Time ms,197490,146839,1890,48761,0.01,0.0
+All matched scenarios,Path length,197490,0,104487,93003,0.0,1e-07
+All matched scenarios,Turns,197490,94838,100736,1916,0.0,0.0

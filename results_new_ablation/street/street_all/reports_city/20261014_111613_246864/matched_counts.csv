@@ -1,0 +1,10 @@
+Grouping,Group,Matched scenarios,Maps represented,Both successful,Standard JPS successes,Standard JPS success rate (%),Optimized FWSAJPS successes,Optimized FWSAJPS success rate (%)
+Overall,All,197490,90,197490,197490,100.0,197490,100.0
+Map size,256 x 256,28020,30,28020,28020,100.0,28020,100.0
+Map size,512 x 512,56270,30,56270,56270,100.0,56270,100.0
+Map size,1024 x 1024,113200,30,113200,113200,100.0,113200,100.0
+Reference length,R1: 0 <= L < 100,22500,90,22500,22500,100.0,22500,100.0
+Reference length,R2: 100 <= L < 250,33748,90,33748,33748,100.0,33748,100.0
+Reference length,R3: 250 <= L < 500,46772,90,46772,46772,100.0,46772,100.0
+Reference length,R4: 500 <= L < 1000,56270,60,56270,56270,100.0,56270,100.0
+Reference length,R5: L >= 1000,38200,30,38200,38200,100.0,38200,100.0

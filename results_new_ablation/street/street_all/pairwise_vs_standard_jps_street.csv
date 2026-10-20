@@ -1,0 +1,12 @@
+Algorithm,Paired_scenarios,Median_runtime_change_percent,Median_expanded_nodes_change_percent,Median_path_length_change_percent,Median_turns_change_percent
+A*,0,,,,
+Standard JPS,197490,0.0,0.0,0.0,0.0
+Bidirectional Standard JPS,0,,,,
+Smooth JPS,0,,,,
+SA-JPS,0,,,,
+Bidirectional SA-JPS,0,,,,
+Fast Weighted SA-JPS,0,,,,
+Optimized Fast Weighted SA-JPS,197490,-32.48267499438472,1.0046646431584032,0.0,0.0
+Bidirectional Fast Weighted SA-JPS,0,,,,
+JPS-Dijkstra Corridor,0,,,,
+Fast Weighted SA-JPS-Dijkstra Corridor,0,,,,

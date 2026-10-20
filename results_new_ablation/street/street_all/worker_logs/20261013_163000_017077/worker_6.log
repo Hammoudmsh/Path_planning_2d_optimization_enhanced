@@ -1,0 +1,219 @@
+========================================================================
+SELECTED EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : street_all
+Description   : All street maps and scenarios: standard JPS versus optimized FWSAJPS
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\street_all
+========================================================================
+
+========================================================================
+RUNNING EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : street_all
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\street_all
+========================================================================
+Selected 90 map(s):
+  Berlin_0_1024.map
+  Berlin_0_256.map
+  Berlin_0_512.map
+  Berlin_1_1024.map
+  Berlin_1_256.map
+  Berlin_1_512.map
+  Berlin_2_1024.map
+  Berlin_2_256.map
+  Berlin_2_512.map
+  Boston_0_1024.map
+  Boston_0_256.map
+  Boston_0_512.map
+  Boston_1_1024.map
+  Boston_1_256.map
+  Boston_1_512.map
+  Boston_2_1024.map
+  Boston_2_256.map
+  Boston_2_512.map
+  Denver_0_1024.map
+  Denver_0_256.map
+  Denver_0_512.map
+  Denver_1_1024.map
+  Denver_1_256.map
+  Denver_1_512.map
+  Denver_2_1024.map
+  Denver_2_256.map
+  Denver_2_512.map
+  London_0_1024.map
+  London_0_256.map
+  London_0_512.map
+  London_1_1024.map
+  London_1_256.map
+  London_1_512.map
+  London_2_1024.map
+  London_2_256.map
+  London_2_512.map
+  Milan_0_1024.map
+  Milan_0_256.map
+  Milan_0_512.map
+  Milan_1_1024.map
+  Milan_1_256.map
+  Milan_1_512.map
+  Milan_2_1024.map
+  Milan_2_256.map
+  Milan_2_512.map
+  Moscow_0_1024.map
+  Moscow_0_256.map
+  Moscow_0_512.map
+  Moscow_1_1024.map
+  Moscow_1_256.map
+  Moscow_1_512.map
+  Moscow_2_1024.map
+  Moscow_2_256.map
+  Moscow_2_512.map
+  NewYork_0_1024.map
+  NewYork_0_256.map
+  NewYork_0_512.map
+  NewYork_1_1024.map
+  NewYork_1_256.map
+  NewYork_1_512.map
+  NewYork_2_1024.map
+  NewYork_2_256.map
+  NewYork_2_512.map
+  Paris_0_1024.map
+  Paris_0_256.map
+  Paris_0_512.map
+  Paris_1_1024.map
+  Paris_1_256.map
+  Paris_1_512.map
+  Paris_2_1024.map
+  Paris_2_256.map
+  Paris_2_512.map
+  Shanghai_0_1024.map
+  Shanghai_0_256.map
+  Shanghai_0_512.map
+  Shanghai_1_1024.map
+  Shanghai_1_256.map
+  Shanghai_1_512.map
+  Shanghai_2_1024.map
+  Shanghai_2_256.map
+  Shanghai_2_512.map
+  Sydney_0_1024.map
+  Sydney_0_256.map
+  Sydney_0_512.map
+  Sydney_1_1024.map
+  Sydney_1_256.map
+  Sydney_1_512.map
+  Sydney_2_1024.map
+  Sydney_2_256.map
+  Sydney_2_512.map
+
+Running dataset benchmark...
+Preparing benchmark workload...
+
+========================================================================
+BENCHMARK WORKLOAD
+========================================================================
+Dataset             : street
+Maps                : 90
+Scenario iterations : 197,490
+Algorithms          : 2
+Search executions   : 394,980
+------------------------------------------------------------------------
+[  1/90] Berlin_0_1024.map                           3,850 scenarios
+[  2/90] Berlin_0_256.map                              930 scenarios
+[  3/90] Berlin_0_512.map                            1,870 scenarios
+[  4/90] Berlin_1_1024.map                           3,920 scenarios
+[  5/90] Berlin_1_256.map                              910 scenarios
+[  6/90] Berlin_1_512.map                            1,950 scenarios
+[  7/90] Berlin_2_1024.map                           3,870 scenarios
+[  8/90] Berlin_2_256.map                              960 scenarios
+[  9/90] Berlin_2_512.map                            1,950 scenarios
+[ 10/90] Boston_0_1024.map                           3,840 scenarios
+[ 11/90] Boston_0_256.map                              950 scenarios
+[ 12/90] Boston_0_512.map                            1,890 scenarios
+[ 13/90] Boston_1_1024.map                           3,720 scenarios
+[ 14/90] Boston_1_256.map                              910 scenarios
+[ 15/90] Boston_1_512.map                            1,830 scenarios
+[ 16/90] Boston_2_1024.map                           3,870 scenarios
+[ 17/90] Boston_2_256.map                              860 scenarios
+[ 18/90] Boston_2_512.map                            1,850 scenarios
+[ 19/90] Denver_0_1024.map                           3,680 scenarios
+[ 20/90] Denver_0_256.map                              940 scenarios
+[ 21/90] Denver_0_512.map                            1,830 scenarios
+[ 22/90] Denver_1_1024.map                           3,770 scenarios
+[ 23/90] Denver_1_256.map                              830 scenarios
+[ 24/90] Denver_1_512.map                            1,780 scenarios
+[ 25/90] Denver_2_1024.map                           3,700 scenarios
+[ 26/90] Denver_2_256.map                              910 scenarios
+[ 27/90] Denver_2_512.map                            1,890 scenarios
+[ 28/90] London_0_1024.map                           4,010 scenarios
+[ 29/90] London_0_256.map                            1,000 scenarios
+[ 30/90] London_0_512.map                            2,080 scenarios
+[ 31/90] London_1_1024.map                           3,410 scenarios
+[ 32/90] London_1_256.map                              940 scenarios
+[ 33/90] London_1_512.map                            1,870 scenarios
+[ 34/90] London_2_1024.map                           3,840 scenarios
+[ 35/90] London_2_256.map                              940 scenarios
+[ 36/90] London_2_512.map                            1,910 scenarios
+[ 37/90] Milan_0_1024.map                            3,850 scenarios
+[ 38/90] Milan_0_256.map                               910 scenarios
+[ 39/90] Milan_0_512.map                             1,780 scenarios
+[ 40/90] Milan_1_1024.map                            3,680 scenarios
+[ 41/90] Milan_1_256.map                               870 scenarios
+[ 42/90] Milan_1_512.map                             1,800 scenarios
+[ 43/90] Milan_2_1024.map                            3,840 scenarios
+[ 44/90] Milan_2_256.map                               970 scenarios
+[ 45/90] Milan_2_512.map                             1,950 scenarios
+[ 46/90] Moscow_0_1024.map                           3,630 scenarios
+[ 47/90] Moscow_0_256.map                              910 scenarios
+[ 48/90] Moscow_0_512.map                            1,830 scenarios
+[ 49/90] Moscow_1_1024.map                           3,870 scenarios
+[ 50/90] Moscow_1_256.map                            1,100 scenarios
+[ 51/90] Moscow_1_512.map                            1,970 scenarios
+[ 52/90] Moscow_2_1024.map                           4,230 scenarios
+[ 53/90] Moscow_2_256.map                              990 scenarios
+[ 54/90] Moscow_2_512.map                            2,090 scenarios
+[ 55/90] NewYork_0_1024.map                          3,670 scenarios
+[ 56/90] NewYork_0_256.map                             910 scenarios
+[ 57/90] NewYork_0_512.map                           1,790 scenarios
+[ 58/90] NewYork_1_1024.map                          3,740 scenarios
+[ 59/90] NewYork_1_256.map                             910 scenarios
+[ 60/90] NewYork_1_512.map                           1,820 scenarios
+[ 61/90] NewYork_2_1024.map                          3,680 scenarios
+[ 62/90] NewYork_2_256.map                             870 scenarios
+[ 63/90] NewYork_2_512.map                           1,850 scenarios
+[ 64/90] Paris_0_1024.map                            3,820 scenarios
+[ 65/90] Paris_0_256.map                               980 scenarios
+[ 66/90] Paris_0_512.map                             1,810 scenarios
+[ 67/90] Paris_1_1024.map                            3,760 scenarios
+[ 68/90] Paris_1_256.map                             1,090 scenarios
+[ 69/90] Paris_1_512.map                             1,900 scenarios
+[ 70/90] Paris_2_1024.map                            3,990 scenarios
+[ 71/90] Paris_2_256.map                             1,060 scenarios
+[ 72/90] Paris_2_512.map                             2,190 scenarios
+[ 73/90] Shanghai_0_1024.map                         3,680 scenarios
+[ 74/90] Shanghai_0_256.map                            870 scenarios
+[ 75/90] Shanghai_0_512.map                          1,730 scenarios
+[ 76/90] Shanghai_1_1024.map                         3,570 scenarios
+[ 77/90] Shanghai_1_256.map                            900 scenarios
+[ 78/90] Shanghai_1_512.map                          1,780 scenarios
+[ 79/90] Shanghai_2_1024.map                         3,720 scenarios
+[ 80/90] Shanghai_2_256.map                            920 scenarios
+[ 81/90] Shanghai_2_512.map                          1,810 scenarios
+[ 82/90] Sydney_0_1024.map                           3,650 scenarios
+[ 83/90] Sydney_0_256.map                              900 scenarios
+[ 84/90] Sydney_0_512.map                            1,790 scenarios
+[ 85/90] Sydney_1_1024.map                           3,670 scenarios
+[ 86/90] Sydney_1_256.map                              870 scenarios
+[ 87/90] Sydney_1_512.map                            1,790 scenarios
+[ 88/90] Sydney_2_1024.map                           3,670 scenarios
+[ 89/90] Sydney_2_256.map                              910 scenarios
+[ 90/90] Sydney_2_512.map                            1,890 scenarios
+------------------------------------------------------------------------
+Selected approaches:
+  [1/2] {'label': 'Standard JPS', 'algorithm': 'Standard JPS', 'parameters': {'heuristic_weight': 1.0, 'smooth_tie_break': False}}
+  [2/2] {'label': 'Optimized Fast Weighted SA-JPS', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'heuristic_weight': 1.15, 'turn_count_weight': 5.0}}
+========================================================================
+
+Checkpoint: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\street_all\cache\benchmark_f29e734530e46b1d_street_checkpoint.sqlite3
+Resuming 0 saved algorithm results.
+Benchmark:   0%|          | 0/197490 [00:00<?, ?scenario/s]Map 27/90:   0%|          | 0/197490 [00:53<?, ?scenario/s]Map 27/90:   0%|          | 0/197490 [00:53<?, ?scenario/s, name=Denver_2_512, scenario=378/1890, overall=57748/197490, searches=0/394980, elapsed=00:00:53, ETA=--:--:--]Map 27/90:   0%|          | 1/197490 [00:54<3004:39:53, 54.77s/scenario, name=Denver_2_512, scenario=378/1890, overall=57748/197490, searches=0/394980, elapsed=00:00:53, ETA=--:--:--]Map 27/90:   0%|          | 1/197490 [00:54<3004:39:53, 54.77s/scenario, name=Denver_2_512, scenario=378/1890, overall=57748/197490, searches=2/394980, elapsed=00:00:54, ETA=04:59:56]Map 27/90:   0%|          | 1/197490 [00:54<3004:39:53, 54.77s/scenario, name=Denver_2_512, scenario=378/1890, overall=57748/197490, searches=2/394980, elapsed=00:00:54, ETA=04:59:56]Map 27/90:   0%|          | 1/197490 [00:54<3004:39:53, 54.77s/scenario, name=Denver_2_512, scenario=383/1890, overall=57753/197490, searches=2/394980, elapsed=00:00:54, ETA=05:09:14]Map 27/90:   0%|          | 2/197490 [00:55<1257:17:58, 22.92s/scenario, name=Denver_2_512, scenario=383/1890, overall=57753/197490, searches=2/394980, elapsed=00:00:54, ETA=05:09:14]Map 27/90:   0%|          | 2/197490 [00:55<1257:17:58, 22.92s/scenario, name=Denver_2_512, scenario=383/1890, overall=57753/197490, searches=4/394980, elapsed=00:00:55, ETA=07:33:29]Map 27/90:   0%|          | 2/197490 [00:55<1257:17:58, 22.92s/scenario, name=Denver_2_512, scenario=383/1890, overall=57753/197490, searches=4/394980, elapsed=00:00:55, ETA=07:33:29]Map 27/90:   0%|          | 2/197490 [00:55<1257:17:58, 22.92s/scenario, name=Denver_2_512, scenario=387/1890, overall=57757/197490, searches=4/394980, elapsed=00:00:55, ETA=07:39:37]Map 27/90:   0%|          | 3/197490 [00:56<703:44:08, 12.83s/scenario, name=Denver_2_512, scenario=387/1890, overall=57757/197490, searches=4/394980, elapsed=00:00:55, ETA=07:39:37] Map 27/90:   0%|          | 3/197490 [00:56<703:44:08, 12.83s/scenario, name=Denver_2_512, scenario=387/1890, overall=57757/197490, searches=6/394980, elapsed=00:00:56, ETA=20:01:50]Map 27/90:   0%|          | 3/197490 [00:56<703:44:08, 12.83s/scenario, name=Denver_2_512, scenario=387/1890, overall=57757/197490, searches=6/394980, elapsed=00:00:56, ETA=20:01:50]Map 27/90:   0%|          | 3/197490 [00:56<703:44:08, 12.83s/scenario, name=Denver_2_512, scenario=391/1890, overall=57761/197490, searches=6/394980, elapsed=00:00:56, ETA=20:04:20]Map 27/90:   0%|          | 4/197490 [00:57<450:06:09,  8.20s/scenario, name=Denver_2_512, scenario=391/1890, overall=57761/197490, searches=6/394980, elapsed=00:00:56, ETA=20:04:20]Map 27/90:   0%|          | 4/197490 [00:57<450:06:09,  8.20s/scenario, name=Denver_2_512, scenario=391/1890, overall=57761/197490, searches=8/394980, elapsed=00:00:57, ETA=18:20:31]Map 27/90:   0%|          | 4/197490 [00:57<450:06:09,  8.20s/scenario, name=Denver_2_512, scenario=391/1890, overall=57761/197490, searches=8/394980, elapsed=00:00:57, ETA=18:20:31]Map 27/90:   0%|          | 4/197490 [00:57<450:06:09,  8.20s/scenario, name=Denver_2_512, scenario=395/1890, overall=57765/197490, searches=8/394980, elapsed=00:00:57, ETA=18:22:16]Map 27/90:   0%|          | 5/197490 [00:58<302:26:28,  5.51s/scenario, name=Denver_2_512, scenario=395/1890, overall=57765/197490, searches=8/394980, elapsed=00:00:57, ETA=18:22:16]Map 27/90:   0%|          | 5/197490 [00:58<302:26:28,  5.51s/scenario, name=Denver_2_512, scenario=395/1890, overall=57765/197490, searches=10/394980, elapsed=00:00:58, ETA=13:12:04]Map 27/90:   0%|          | 5/197490 [00:58<302:26:28,  5.51s/scenario, name=Denver_2_512, scenario=395/1890, overall=57765/197490, searches=10/394980, elapsed=00:00:58, ETA=13:12:04]Map 27/90:   0%|          | 5/197490 [00:58<302:26:28,  5.51s/scenario, name=Denver_2_512, scenario=398/1890, overall=57768/197490, searches=10/394980, elapsed=00:00:58, ETA=13:13:38]Map 27/90:   0%|          | 6/197490 [00:59<231:16:31,  4.22s/scenario, name=Denver_2_512, scenario=398/1890, overall=57768/197490, searches=10/394980, elapsed=00:00:58, ETA=13:13:38]Map 27/90:   0%|          | 6/197490 [00:59<231:16:31,  4.22s/scenario, name=Denver_2_512, scenario=398/1890, overall=57768/197490, searches=12/394980, elapsed=00:00:59, ETA=18:31:08]Map 27/90:   0%|          | 6/197490 [00:59<231:16:31,  4.22s/scenario, name=Denver_2_512, scenario=398/1890, overall=57768/197490, searches=12/394980, elapsed=00:00:59, ETA=18:31:08]Map 27/90:   0%|          | 6/197490 [00:59<231:16:31,  4.22s/scenario, name=Denver_2_512, scenario=403/1890, overall=57773/197490, searches=12/394980, elapsed=00:00:59, ETA=18:33:14]Map 27/90:   0%|          | 7/197490 [01:00<173:32:58,  3.16s/scenario, name=Denver_2_512, scenario=403/1890, overall=57773/197490, searches=12/394980, elapsed=00:00:59, ETA=18:33:14]Map 27/90:   0%|          | 7/197490 [01:00<173:32:58,  3.16s/scenario, name=Denver_2_512, scenario=403/1890, overall=57773/197490, searches=14/394980, elapsed=00:01:00, ETA=20:15:43]Map 27/90:   0%|          | 7/197490 [01:00<173:32:58,  3.16s/scenario, name=Denver_2_512, scenario=403/1890, overall=57773/197490, searches=14/394980, elapsed=00:01:00, ETA=20:15:43]Map 27/90:   0%|          | 7/197490 [01:00<173:32:58,  3.16s/scenario, name=Denver_2_512, scenario=408/1890, overall=57778/197490, searches=14/394980, elapsed=00:01:00, ETA=20:17:14]Map 27/90:   0%|          | 8/197490 [01:01<133:54:19,  2.44s/scenario, name=Denver_2_512, scenario=408/1890, overall=57778/197490, searches=14/394980, elapsed=00:01:00, ETA=20:17:14]Map 27/90:   0%|          | 8/197490 [01:01<133:54:19,  2.44s/scenario, name=Denver_2_512, scenario=408/1890, overall=57778/197490, searches=16/394980, elapsed=00:01:01, ETA=14:51:09]Map 27/90:   0%|          | 8/197490 [01:01<133:54:19,  2.44s/scenario, name=Denver_2_512, scenario=408/1890, overall=57778/197490, searches=16/394980, elapsed=00:01:01, ETA=14:51:09]Map 27/90:   0%|          | 8/197490 [01:01<133:54:19,  2.44s/scenario, name=Denver_2_512, scenario=412/1890, overall=57782/197490, searches=16/394980, elapsed=00:01:01, ETA=14:52:52]Map 27/90:   0%|          | 9/197490 [01:02<102:34:16,  1.87s/scenario, name=Denver_2_512, scenario=412/1890, overall=57782/197490, searches=16/394980, elapsed=00:01:01, ETA=14:52:52]Map 27/90:   0%|          | 9/197490 [01:02<102:34:16,  1.87s/scenario, name=Denver_2_512, scenario=412/1890, overall=57782/197490, searches=18/394980, elapsed=00:01:02, ETA=19:36:21]Map 27/90:   0%|          | 9/197490 [01:02<102:34:16,  1.87s/scenario, name=Denver_2_512, scenario=412/1890, overall=57782/197490, searches=18/394980, elapsed=00:01:02, ETA=19:36:21]Map 27/90:   0%|          | 9/197490 [01:02<102:34:16,  1.87s/scenario, name=Denver_2_512, scenario=416/1890, overall=57786/197490, searches=18/394980, elapsed=00:01:02, ETA=19:37:09]Map 27/90:   0%|          | 10/197490 [01:03<89:40:28,  1.63s/scenario, name=Denver_2_512, scenario=416/1890, overall=57786/197490, searches=18/394980, elapsed=00:01:02, ETA=19:37:09]Map 27/90:   0%|          | 10/197490 [01:03<89:40:28,  1.63s/scenario, name=Denver_2_512, scenario=416/1890, overall=57786/197490, searches=20/394980, elapsed=00:01:03, ETA=11:43:40]Map 27/90:   0%|          | 10/197490 [01:03<89:40:28,  1.63s/scenario, name=Denver_2_512, scenario=416/1890, overall=57786/197490, searches=20/394980, elapsed=00:01:03, ETA=11:43:40]Map 27/90:   0%|          | 10/197490 [01:03<89:40:28,  1.63s/scenario, name=Denver_2_512, scenario=420/1890, overall=57790/197490, searches=20/394980, elapsed=00:01:03, ETA=11:44:50]Map 27/90:   0%|          | 11/197490 [01:05<97:45:50,  1.78s/scenario, name=Denver_2_512, scenario=420/1890, overall=57790/197490, searches=20/394980, elapsed=00:01:03, ETA=11:44:50]Map 27/90:   0%|          | 11/197490 [01:05<97:45:50,  1.78s/scenario, name=Denver_2_512, scenario=420/1890, overall=57790/197490, searches=22/394980, elapsed=00:01:05, ETA=14:39:58]Map 27/90:   0%|          | 11/197490 [01:05<97:45:50,  1.78s/scenario, name=Denver_2_512, scenario=420/1890, overall=57790/197490, searches=22/394980, elapsed=00:01:05, ETA=14:39:58]Map 27/90:   0%|          | 11/197490 [01:05<97:45:50,  1.78s/scenario, name=Denver_2_512, scenario=424/1890, overall=57794/197490, searches=22/394980, elapsed=00:01:05, ETA=14:40:58]Map 27/90:   0%|          | 12/197490 [01:06<82:25:10,  1.50s/scenario, name=Denver_2_512, scenario=424/1890, overall=57794/197490, searches=22/394980, elapsed=00:01:05, ETA=14:40:58]Map 27/90:   0%|          | 12/197490 [01:06<82:25:10,  1.50s/scenario, name=Denver_2_512, scenario=424/1890, overall=57794/197490, searches=24/394980, elapsed=00:01:06, ETA=15:23:12]Map 27/90:   0%|          | 12/197490 [01:06<82:25:10,  1.50s/scenario, name=Denver_2_512, scenario=424/1890, overall=57794/197490, searches=24/394980, elapsed=00:01:06, ETA=15:23:12]Map 27/90:   0%|          | 12/197490 [01:06<82:25:10,  1.50s/scenario, name=Denver_2_512, scenario=427/1890, overall=57797/197490, searches=24/394980, elapsed=00:01:06, ETA=15:24:00]Map 27/90:   0%|          | 13/197490 [01:07<82:54:03,  1.51s/scenario, name=Denver_2_512, scenario=427/1890, overall=57797/197490, searches=24/394980, elapsed=00:01:06, ETA=15:24:00]Map 27/90:   0%|          | 13/197490 [01:07<82:54:03,  1.51s/scenario, name=Denver_2_512, scenario=427/1890, overall=57797/197490, searches=26/394980, elapsed=00:01:07, ETA=22:30:41]Map 27/90:   0%|          | 13/197490 [01:07<82:54:03,  1.51s/scenario, name=Denver_2_512, scenario=427/1890, overall=57797/197490, searches=26/394980, elapsed=00:01:07, ETA=22:30:41]Map 27/90:   0%|          | 13/197490 [01:07<82:54:03,  1.51s/scenario, name=Denver_2_512, scenario=438/1890, overall=57808/197490, searches=26/394980, elapsed=00:01:07, ETA=22:32:01]Map 27/90:   0%|          | 14/197490 [01:09<79:16:45,  1.45s/scenario, name=Denver_2_512, scenario=438/1890, overall=57808/197490, searches=26/394980, elapsed=00:01:07, ETA=22:32:01]Map 27/90:   0%|          | 14/197490 [01:09<79:16:45,  1.45s/scenario, name=Denver_2_512, scenario=438/1890, overall=57808/197490, searches=28/394980, elapsed=00:01:09, ETA=07:06:34]Map 27/90:   0%|          | 14/197490 [01:09<79:16:45,  1.45s/scenario, name=Denver_2_512, scenario=438/1890, overall=57808/197490, searches=28/394980, elapsed=00:01:09, ETA=07:06:34]Map 27/90:   0%|          | 14/197490 [01:09<79:16:45,  1.45s/scenario, name=Denver_2_512, scenario=441/1890, overall=57811/197490, searches=28/394980, elapsed=00:01:09, ETA=07:33:18]Map 27/90:   0%|          | 15/197490 [01:14<138:36:58,  2.53s/scenario, name=Denver_2_512, scenario=441/1890, overall=57811/197490, searches=28/394980, elapsed=00:01:09, ETA=07:33:18]Map 27/90:   0%|          | 15/197490 [01:14<138:36:58,  2.53s/scenario, name=Denver_2_512, scenario=441/1890, overall=57811/197490, searches=30/394980, elapsed=00:01:14, ETA=07:26:33]Map 27/90:   0%|          | 15/197490 [01:14<138:36:58,  2.53s/scenario, name=Denver_2_512, scenario=441/1890, overall=57811/197490, searches=30/394980, elapsed=00:01:14, ETA=07:26:33]Map 27/90:   0%|          | 15/197490 [01:14<138:36:58,  2.53s/scenario, name=Denver_2_512, scenario=458/1890, overall=57828/197490, searches=30/394980, elapsed=00:01:14, ETA=07:56:36]Map 27/90:   0%|          | 16/197490 [01:15<118:21:28,  2.16s/scenario, name=Denver_2_512, scenario=458/1890, overall=57828/197490, searches=30/394980, elapsed=00:01:14, ETA=07:56:36]Map 27/90:   0%|          | 16/197490 [01:15<118:21:28,  2.16s/scenario, name=Denver_2_512, scenario=458/1890, overall=57828/197490, searches=32/394980, elapsed=00:01:15, ETA=18:56:09]Map 27/90:   0%|          | 16/197490 [01:15<118:21:28,  2.16s/scenario, name=Denver_2_512, scenario=458/1890, overall=57828/197490, searches=32/394980, elapsed=00:01:15, ETA=18:56:09]Map 27/90:   0%|          | 16/197490 [01:15<118:21:28,  2.16s/scenario, name=Denver_2_512, scenario=464/1890, overall=57834/197490, searches=32/394980, elapsed=00:01:15, ETA=18:58:04]Map 27/90:   0%|          | 17/197490 [01:18<124:05:08,  2.26s/scenario, name=Denver_2_512, scenario=464/1890, overall=57834/197490, searches=32/394980, elapsed=00:01:15, ETA=18:58:04]Map 27/90:   0%|          | 17/197490 [01:18<124:05:08,  2.26s/scenario, name=Denver_2_512, scenario=464/1890, overall=57834/197490, searches=34/394980, elapsed=00:01:18, ETA=11:47:00]Map 27/90:   0%|          | 17/197490 [01:18<124:05:08,  2.26s/scenario, name=Denver_2_512, scenario=464/1890, overall=57834/197490, searches=34/394980, elapsed=00:01:18, ETA=11:47:00]Map 27/90:   0%|          | 17/197490 [01:18<124:05:08,  2.26s/scenario, name=Denver_2_512, scenario=472/1890, overall=57842/197490, searches=34/394980, elapsed=00:01:18, ETA=11:47:36]Map 27/90:   0%|          | 18/197490 [01:19<109:23:33,  1.99s/scenario, name=Denver_2_512, scenario=472/1890, overall=57842/197490, searches=34/394980, elapsed=00:01:18, ETA=11:47:36]Map 27/90:   0%|          | 18/197490 [01:19<109:23:33,  1.99s/scenario, name=Denver_2_512, scenario=472/1890, overall=57842/197490, searches=36/394980, elapsed=00:01:19, ETA=01:58:16]Map 27/90:   0%|          | 18/197490 [01:19<109:23:33,  1.99s/scenario, name=Denver_2_512, scenario=472/1890, overall=57842/197490, searches=36/394980, elapsed=00:01:19, ETA=01:58:16]Map 27/90:   0%|          | 18/197490 [01:19<109:23:33,  1.99s/scenario, name=Denver_2_512, scenario=478/1890, overall=57848/197490, searches=36/394980, elapsed=00:01:19, ETA=02:21:47]Map 27/90:   0%|          | 19/197490 [01:20<100:26:40,  1.83s/scenario, name=Denver_2_512, scenario=478/1890, overall=57848/197490, searches=36/394980, elapsed=00:01:19, ETA=02:21:47]Map 27/90:   0%|          | 19/197490 [01:20<100:26:40,  1.83s/scenario, name=Denver_2_512, scenario=478/1890, overall=57848/197490, searches=38/394980, elapsed=00:01:20, ETA=17:25:33]Map 27/90:   0%|          | 19/197490 [01:20<100:26:40,  1.83s/scenario, name=Denver_2_512, scenario=478/1890, overall=57848/197490, searches=38/394980, elapsed=00:01:20, ETA=17:25:33]Map 27/90:   0%|          | 19/197490 [01:20<100:26:40,  1.83s/scenario, name=Denver_2_512, scenario=484/1890, overall=57854/197490, searches=38/394980, elapsed=00:01:20, ETA=17:26:08]Map 27/90:   0%|          | 20/197490 [01:21<83:56:13,  1.53s/scenario, name=Denver_2_512, scenario=484/1890, overall=57854/197490, searches=38/394980, elapsed=00:01:20, ETA=17:26:08] Map 27/90:   0%|          | 20/197490 [01:21<83:56:13,  1.53s/scenario, name=Denver_2_512, scenario=484/1890, overall=57854/197490, searches=40/394980, elapsed=00:01:21, ETA=08:01:33]Map 27/90:   0%|          | 20/197490 [01:21<83:56:13,  1.53s/scenario, name=Denver_2_512, scenario=484/1890, overall=57854/197490, searches=40/394980, elapsed=00:01:21, ETA=08:01:33]Map 27/90:   0%|          | 20/197490 [01:21<83:56:13,  1.53s/scenario, name=Denver_2_512, scenario=487/1890, overall=57857/197490, searches=40/394980, elapsed=00:01:21, ETA=08:01:51]Map 27/90:   0%|          | 21/197490 [01:28<177:56:34,  3.24s/scenario, name=Denver_2_512, scenario=487/1890, overall=57857/197490, searches=40/394980, elapsed=00:01:21, ETA=08:01:51]Map 27/90:   0%|          | 21/197490 [01:28<177:56:34,  3.24s/scenario, name=Denver_2_512, scenario=487/1890, overall=57857/197490, searches=42/394980, elapsed=00:01:28, ETA=16:16:09]Map 27/90:   0%|          | 21/197490 [01:29<177:56:34,  3.24s/scenario, name=Denver_2_512, scenario=487/1890, overall=57857/197490, searches=42/394980, elapsed=00:01:28, ETA=16:16:09]Map 27/90:   0%|          | 21/197490 [01:29<177:56:34,  3.24s/scenario, name=Denver_2_512, scenario=513/1890, overall=57883/197490, searches=42/394980, elapsed=00:01:29, ETA=18:35:53]Map 27/90:   0%|          | 22/197490 [01:30<158:38:56,  2.89s/scenario, name=Denver_2_512, scenario=513/1890, overall=57883/197490, searches=42/394980, elapsed=00:01:29, ETA=18:35:53]Map 27/90:   0%|          | 22/197490 [01:30<158:38:56,  2.89s/scenario, name=Denver_2_512, scenario=513/1890, overall=57883/197490, searches=44/394980, elapsed=00:01:30, ETA=10:52:31]Map 27/90:   0%|          | 22/197490 [01:31<158:38:56,  2.89s/scenario, name=Denver_2_512, scenario=513/1890, overall=57883/197490, searches=44/394980, elapsed=00:01:30, ETA=10:52:31]Map 27/90:   0%|          | 22/197490 [01:31<158:38:56,  2.89s/scenario, name=Denver_2_512, scenario=523/1890, overall=57893/197490, searches=44/394980, elapsed=00:01:31, ETA=12:44:52]Map 27/90:   0%|          | 23/197490 [01:32<136:16:52,  2.48s/scenario, name=Denver_2_512, scenario=523/1890, overall=57893/197490, searches=44/394980, elapsed=00:01:31, ETA=12:44:52]Map 27/90:   0%|          | 23/197490 [01:32<136:16:52,  2.48s/scenario, name=Denver_2_512, scenario=523/1890, overall=57893/197490, searches=46/394980, elapsed=00:01:32, ETA=04:39:56]Map 27/90:   0%|          | 23/197490 [01:32<136:16:52,  2.48s/scenario, name=Denver_2_512, scenario=523/1890, overall=57893/197490, searches=46/394980, elapsed=00:01:32, ETA=04:39:56]Map 27/90:   0%|          | 23/197490 [01:32<136:16:52,  2.48s/scenario, name=Denver_2_512, scenario=525/1890, overall=57895/197490, searches=46/394980, elapsed=00:01:32, ETA=04:40:21]Map 27/90:   0%|          | 24/197490 [01:33<106:01:09,  1.93s/scenario, name=Denver_2_512, scenario=525/1890, overall=57895/197490, searches=46/394980, elapsed=00:01:32, ETA=04:40:21]Map 27/90:   0%|          | 24/197490 [01:33<106:01:09,  1.93s/scenario, name=Denver_2_512, scenario=525/1890, overall=57895/197490, searches=48/394980, elapsed=00:01:33, ETA=20:56:45]Map 27/90:   0%|          | 24/197490 [01:33<106:01:09,  1.93s/scenario, name=Denver_2_512, scenario=525/1890, overall=57895/197490, searches=48/394980, elapsed=00:01:33, ETA=20:56:45]Map 27/90:   0%|          | 24/197490 [01:33<106:01:09,  1.93s/scenario, name=Denver_2_512, scenario=529/1890, overall=57899/197490, searches=48/394980, elapsed=00:01:33, ETA=20:57:04]Map 27/90:   0%|          | 25/197490 [01:33<84:53:05,  1.55s/scenario, name=Denver_2_512, scenario=529/1890, overall=57899/197490, searches=48/394980, elapsed=00:01:33, ETA=20:57:04] Map 27/90:   0%|          | 25/197490 [01:33<84:53:05,  1.55s/scenario, name=Denver_2_512, scenario=529/1890, overall=57899/197490, searches=50/394980, elapsed=00:01:33, ETA=13:51:00]Map 27/90:   0%|          | 25/197490 [01:33<84:53:05,  1.55s/scenario, name=Denver_2_512, scenario=529/1890, overall=57899/197490, searches=50/394980, elapsed=00:01:33, ETA=13:51:00]Map 27/90:   0%|          | 25/197490 [01:33<84:53:05,  1.55s/scenario, name=Denver_2_512, scenario=533/1890, overall=57903/197490, searches=50/394980, elapsed=00:01:33, ETA=13:51:21]Map 27/90:   0%|          | 26/197490 [01:36<99:28:01,  1.81s/scenario, name=Denver_2_512, scenario=533/1890, overall=57903/197490, searches=50/394980, elapsed=00:01:33, ETA=13:51:21]Map 27/90:   0%|          | 26/197490 [01:36<99:28:01,  1.81s/scenario, name=Denver_2_512, scenario=533/1890, overall=57903/197490, searches=52/394980, elapsed=00:01:36, ETA=11:03:58]Map 27/90:   0%|          | 26/197490 [01:36<99:28:01,  1.81s/scenario, name=Denver_2_512, scenario=533/1890, overall=57903/197490, searches=52/394980, elapsed=00:01:36, ETA=11:03:58]Map 27/90:   0%|          | 26/197490 [01:36<99:28:01,  1.81s/scenario, name=Denver_2_512, scenario=537/1890, overall=57907/197490, searches=52/394980, elapsed=00:01:36, ETA=11:04:18]Map 27/90:   0%|          | 27/197490 [01:37<85:11:09,  1.55s/scenario, name=Denver_2_512, scenario=537/1890, overall=57907/197490, searches=52/394980, elapsed=00:01:36, ETA=11:04:18]Map 27/90:   0%|          | 27/197490 [01:37<85:11:09,  1.55s/scenario, name=Denver_2_512, scenario=537/1890, overall=57907/197490, searches=54/394980, elapsed=00:01:37, ETA=05:27:58]Map 27/90:   0%|          | 27/197490 [01:37<85:11:09,  1.55s/scenario, name=Denver_2_512, scenario=537/1890, overall=57907/197490, searches=54/394980, elapsed=00:01:37, ETA=05:27:58]Map 27/90:   0%|          | 27/197490 [01:37<85:11:09,  1.55s/scenario, name=Denver_2_512, scenario=542/1890, overall=57912/197490, searches=54/394980, elapsed=00:01:37, ETA=05:41:31]Map 27/90:   0%|          | 28/197490 [01:38<79:34:12,  1.45s/scenario, name=Denver_2_512, scenario=542/1890, overall=57912/197490, searches=54/394980, elapsed=00:01:37, ETA=05:41:31]Map 27/90:   0%|          | 28/197490 [01:38<79:34:12,  1.45s/scenario, name=Denver_2_512, scenario=542/1890, overall=57912/197490, searches=56/394980, elapsed=00:01:38, ETA=00:47:14]Map 27/90:   0%|          | 28/197490 [01:38<79:34:12,  1.45s/scenario, name=Denver_2_512, scenario=542/1890, overall=57912/197490, searches=56/394980, elapsed=00:01:38, ETA=00:47:14]Map 27/90:   0%|          | 28/197490 [01:38<79:34:12,  1.45s/scenario, name=Denver_2_512, scenario=545/1890, overall=57915/197490, searches=56/394980, elapsed=00:01:38, ETA=00:47:41]Map 27/90:   0%|          | 29/197490 [01:42<118:05:27,  2.15s/scenario, name=Denver_2_512, scenario=545/1890, overall=57915/197490, searches=56/394980, elapsed=00:01:38, ETA=00:47:41]Map 27/90:   0%|          | 29/197490 [01:42<118:05:27,  2.15s/scenario, name=Denver_2_512, scenario=545/1890, overall=57915/197490, searches=58/394980, elapsed=00:01:42, ETA=01:18:34]Map 27/90:   0%|          | 29/197490 [01:42<118:05:27,  2.15s/scenario, name=Denver_2_512, scenario=545/1890, overall=57915/197490, searches=58/394980, elapsed=00:01:42, ETA=01:18:34]Map 27/90:   0%|          | 29/197490 [01:42<118:05:27,  2.15s/scenario, name=Denver_2_512, scenario=563/1890, overall=57933/197490, searches=58/394980, elapsed=00:01:42, ETA=02:30:20]Map 27/90:   0%|          | 30/197490 [01:43<106:33:35,  1.94s/scenario, name=Denver_2_512, scenario=563/1890, overall=57933/197490, searches=58/394980, elapsed=00:01:42, ETA=02:30:20]Map 27/90:   0%|          | 30/197490 [01:43<106:33:35,  1.94s/scenario, name=Denver_2_512, scenario=563/1890, overall=57933/197490, searches=60/394980, elapsed=00:01:43, ETA=21:31:08]Map 27/90:   0%|          | 30/197490 [01:43<106:33:35,  1.94s/scenario, name=Denver_2_512, scenario=563/1890, overall=57933/197490, searches=60/394980, elapsed=00:01:43, ETA=21:31:08]Map 27/90:   0%|          | 30/197490 [01:43<106:33:35,  1.94s/scenario, name=Denver_2_512, scenario=568/1890, overall=57938/197490, searches=60/394980, elapsed=00:01:43, ETA=21:55:23]Map 27/90:   0%|          | 31/197490 [01:49<163:19:42,  2.98s/scenario, name=Denver_2_512, scenario=568/1890, overall=57938/197490, searches=60/394980, elapsed=00:01:43, ETA=21:55:23]Map 27/90:   0%|          | 31/197490 [01:49<163:19:42,  2.98s/scenario, name=Denver_2_512, scenario=568/1890, overall=57938/197490, searches=62/394980, elapsed=00:01:49, ETA=00:56:51]Map 27/90:   0%|          | 31/197490 [01:49<163:19:42,  2.98s/scenario, name=Denver_2_512, scenario=568/1890, overall=57938/197490, searches=62/394980, elapsed=00:01:49, ETA=00:56:51]Map 27/90:   0%|          | 31/197490 [01:49<163:19:42,  2.98s/scenario, name=Denver_2_512, scenario=583/1890, overall=57953/197490, searches=62/394980, elapsed=00:01:49, ETA=00:57:30]Map 27/90:   0%|          | 32/197490 [01:49<128:52:15,  2.35s/scenario, name=Denver_2_512, scenario=583/1890, overall=57953/197490, searches=62/394980, elapsed=00:01:49, ETA=00:57:30]Map 27/90:   0%|          | 32/197490 [01:49<128:52:15,  2.35s/scenario, name=Denver_2_512, scenario=583/1890, overall=57953/197490, searches=64/394980, elapsed=00:01:49, ETA=20:25:51]Map 27/90:   0%|          | 32/197490 [01:50<128:52:15,  2.35s/scenario, name=Denver_2_512, scenario=583/1890, overall=57953/197490, searches=64/394980, elapsed=00:01:49, ETA=20:25:51]Map 27/90:   0%|          | 32/197490 [01:50<128:52:15,  2.35s/scenario, name=Denver_2_512, scenario=591/1890, overall=57961/197490, searches=64/394980, elapsed=00:01:50, ETA=21:22:24]Map 27/90:   0%|          | 33/197490 [01:58<232:07:12,  4.23s/scenario, name=Denver_2_512, scenario=591/1890, overall=57961/197490, searches=64/394980, elapsed=00:01:50, ETA=21:22:24]Map 27/90:   0%|          | 33/197490 [01:58<232:07:12,  4.23s/scenario, name=Denver_2_512, scenario=591/1890, overall=57961/197490, searches=66/394980, elapsed=00:01:58, ETA=05:03:15]Map 27/90:   0%|          | 33/197490 [01:58<232:07:12,  4.23s/scenario, name=Denver_2_512, scenario=591/1890, overall=57961/197490, searches=66/394980, elapsed=00:01:58, ETA=05:03:15]Map 27/90:   0%|          | 33/197490 [01:58<232:07:12,  4.23s/scenario, name=Denver_2_512, scenario=616/1890, overall=57986/197490, searches=66/394980, elapsed=00:01:58, ETA=05:03:44]Map 27/90:   0%|          | 34/197490 [01:59<176:45:43,  3.22s/scenario, name=Denver_2_512, scenario=616/1890, overall=57986/197490, searches=66/394980, elapsed=00:01:58, ETA=05:03:44]Map 27/90:   0%|          | 34/197490 [01:59<176:45:43,  3.22s/scenario, name=Denver_2_512, scenario=616/1890, overall=57986/197490, searches=68/394980, elapsed=00:01:59, ETA=00:39:29]Map 27/90:   0%|          | 34/197490 [01:59<176:45:43,  3.22s/scenario, name=Denver_2_512, scenario=616/1890, overall=57986/197490, searches=68/394980, elapsed=00:01:59, ETA=00:39:29]Map 27/90:   0%|          | 34/197490 [01:59<176:45:43,  3.22s/scenario, name=Denver_2_512, scenario=620/1890, overall=57990/197490, searches=68/394980, elapsed=00:01:59, ETA=00:39:41]Map 27/90:   0%|          | 35/197490 [02:00<138:24:06,  2.52s/scenario, name=Denver_2_512, scenario=620/1890, overall=57990/197490, searches=68/394980, elapsed=00:01:59, ETA=00:39:41]Map 27/90:   0%|          | 35/197490 [02:00<138:24:06,  2.52s/scenario, name=Denver_2_512, scenario=620/1890, overall=57990/197490, searches=70/394980, elapsed=00:02:00, ETA=20:33:00]Map 27/90:   0%|          | 35/197490 [02:00<138:24:06,  2.52s/scenario, name=Denver_2_512, scenario=620/1890, overall=57990/197490, searches=70/394980, elapsed=00:02:00, ETA=20:33:00]Map 27/90:   0%|          | 35/197490 [02:00<138:24:06,  2.52s/scenario, name=Denver_2_512, scenario=624/1890, overall=57994/197490, searches=70/394980, elapsed=00:02:00, ETA=20:33:11]Map 27/90:   0%|          | 36/197490 [02:00<104:23:40,  1.90s/scenario, name=Denver_2_512, scenario=624/1890, overall=57994/197490, searches=70/394980, elapsed=00:02:00, ETA=20:33:11]Map 27/90:   0%|          | 36/197490 [02:00<104:23:40,  1.90s/scenario, name=Denver_2_512, scenario=624/1890, overall=57994/197490, searches=72/394980, elapsed=00:02:00, ETA=16:00:24]Map 27/90:   0%|          | 36/197490 [02:00<104:23:40,  1.90s/scenario, name=Denver_2_512, scenario=624/1890, overall=57994/197490, searches=72/394980, elapsed=00:02:00, ETA=16:00:24]Map 27/90:   0%|          | 36/197490 [02:00<104:23:40,  1.90s/scenario, name=Denver_2_512, scenario=626/1890, overall=57996/197490, searches=72/394980, elapsed=00:02:00, ETA=16:00:31]Map 27/90:   0%|          | 37/197490 [02:02<95:44:13,  1.75s/scenario, name=Denver_2_512, scenario=626/1890, overall=57996/197490, searches=72/394980, elapsed=00:02:00, ETA=16:00:31] Map 27/90:   0%|          | 37/197490 [02:02<95:44:13,  1.75s/scenario, name=Denver_2_512, scenario=626/1890, overall=57996/197490, searches=74/394980, elapsed=00:02:02, ETA=13:04:26]Map 27/90:   0%|          | 37/197490 [02:03<95:44:13,  1.75s/scenario, name=Denver_2_512, scenario=626/1890, overall=57996/197490, searches=74/394980, elapsed=00:02:02, ETA=13:04:26]Map 27/90:   0%|          | 37/197490 [02:03<95:44:13,  1.75s/scenario, name=Denver_2_512, scenario=633/1890, overall=58003/197490, searches=74/394980, elapsed=00:02:03, ETA=15:29:54]Map 27/90:   0%|          | 38/197490 [02:05<124:44:43,  2.27s/scenario, name=Denver_2_512, scenario=633/1890, overall=58003/197490, searches=74/394980, elapsed=00:02:03, ETA=15:29:54]Map 27/90:   0%|          | 38/197490 [02:05<124:44:43,  2.27s/scenario, name=Denver_2_512, scenario=633/1890, overall=58003/197490, searches=76/394980, elapsed=00:02:05, ETA=13:22:20]Map 27/90:   0%|          | 38/197490 [02:05<124:44:43,  2.27s/scenario, name=Denver_2_512, scenario=633/1890, overall=58003/197490, searches=76/394980, elapsed=00:02:05, ETA=13:22:20]Map 27/90:   0%|          | 38/197490 [02:05<124:44:43,  2.27s/scenario, name=Denver_2_512, scenario=642/1890, overall=58012/197490, searches=76/394980, elapsed=00:02:05, ETA=13:22:34]Map 27/90:   0%|          | 39/197490 [02:06<97:04:49,  1.77s/scenario, name=Denver_2_512, scenario=642/1890, overall=58012/197490, searches=76/394980, elapsed=00:02:05, ETA=13:22:34] Map 27/90:   0%|          | 39/197490 [02:06<97:04:49,  1.77s/scenario, name=Denver_2_512, scenario=642/1890, overall=58012/197490, searches=78/394980, elapsed=00:02:06, ETA=09:33:17]Map 27/90:   0%|          | 39/197490 [02:06<97:04:49,  1.77s/scenario, name=Denver_2_512, scenario=642/1890, overall=58012/197490, searches=78/394980, elapsed=00:02:06, ETA=09:33:17]Map 27/90:   0%|          | 39/197490 [02:06<97:04:49,  1.77s/scenario, name=Denver_2_512, scenario=647/1890, overall=58017/197490, searches=78/394980, elapsed=00:02:06, ETA=09:33:31]

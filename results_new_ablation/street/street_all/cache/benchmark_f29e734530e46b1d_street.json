@@ -1,0 +1,803 @@
+{
+  "signature": {
+    "cache_version": 6,
+    "dataset_name": "street",
+    "maps": [
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_0_1024.map",
+        "map_size": 1050665,
+        "map_mtime_ns": 1785345642264770500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_0_1024.map.scen",
+        "scenario_size": 232875,
+        "scenario_mtime_ns": 1785345645041812300
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_0_256.map",
+        "map_size": 66087,
+        "map_mtime_ns": 1785345642264770500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_0_256.map.scen",
+        "scenario_size": 50837,
+        "scenario_mtime_ns": 1785345645042803500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_0_512.map",
+        "map_size": 263207,
+        "map_mtime_ns": 1785345642266770400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_0_512.map.scen",
+        "scenario_size": 104888,
+        "scenario_mtime_ns": 1785345645042803500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_1_1024.map",
+        "map_size": 1050665,
+        "map_mtime_ns": 1785345642268770700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_1_1024.map.scen",
+        "scenario_size": 237330,
+        "scenario_mtime_ns": 1785345645044803500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_1_256.map",
+        "map_size": 66087,
+        "map_mtime_ns": 1785345642268770700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_1_256.map.scen",
+        "scenario_size": 49824,
+        "scenario_mtime_ns": 1785345645044803500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_1_512.map",
+        "map_size": 263207,
+        "map_mtime_ns": 1785345642269764600,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_1_512.map.scen",
+        "scenario_size": 109547,
+        "scenario_mtime_ns": 1785345645045804500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_2_1024.map",
+        "map_size": 1050665,
+        "map_mtime_ns": 1785345642272774300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_2_1024.map.scen",
+        "scenario_size": 234157,
+        "scenario_mtime_ns": 1785345645046803800
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_2_256.map",
+        "map_size": 66087,
+        "map_mtime_ns": 1785345642272774300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_2_256.map.scen",
+        "scenario_size": 52571,
+        "scenario_mtime_ns": 1785345645046803800
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_2_512.map",
+        "map_size": 263207,
+        "map_mtime_ns": 1785345642273499900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_2_512.map.scen",
+        "scenario_size": 109686,
+        "scenario_mtime_ns": 1785345645047803600
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Boston_0_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642275429400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Boston_0_1024.map.scen",
+        "scenario_size": 231648,
+        "scenario_mtime_ns": 1785345645048805700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Boston_0_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642276418500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Boston_0_256.map.scen",
+        "scenario_size": 51942,
+        "scenario_mtime_ns": 1785345645048805700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Boston_0_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642277418600,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Boston_0_512.map.scen",
+        "scenario_size": 106022,
+        "scenario_mtime_ns": 1785345645049804400
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Boston_1_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642279425900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Boston_1_1024.map.scen",
+        "scenario_size": 224791,
+        "scenario_mtime_ns": 1785345645050812400
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Boston_1_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642280418500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Boston_1_256.map.scen",
+        "scenario_size": 49676,
+        "scenario_mtime_ns": 1785345645050812400
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Boston_1_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642281425700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Boston_1_512.map.scen",
+        "scenario_size": 102658,
+        "scenario_mtime_ns": 1785345645051803800
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Boston_2_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642283427600,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Boston_2_1024.map.scen",
+        "scenario_size": 233609,
+        "scenario_mtime_ns": 1785345645052813500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Boston_2_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642283427600,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Boston_2_256.map.scen",
+        "scenario_size": 47006,
+        "scenario_mtime_ns": 1785345645052813500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Boston_2_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642284372000,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Boston_2_512.map.scen",
+        "scenario_size": 103672,
+        "scenario_mtime_ns": 1785345645053804500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Denver_0_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642287368500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Denver_0_1024.map.scen",
+        "scenario_size": 221939,
+        "scenario_mtime_ns": 1785345645053804500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Denver_0_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642287368500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Denver_0_256.map.scen",
+        "scenario_size": 51276,
+        "scenario_mtime_ns": 1785345645054814500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Denver_0_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642288369400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Denver_0_512.map.scen",
+        "scenario_size": 102534,
+        "scenario_mtime_ns": 1785345645055803800
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Denver_1_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642290375500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Denver_1_1024.map.scen",
+        "scenario_size": 227500,
+        "scenario_mtime_ns": 1785345645056366700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Denver_1_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642291368700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Denver_1_256.map.scen",
+        "scenario_size": 45445,
+        "scenario_mtime_ns": 1785345645056366700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Denver_1_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642291368700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Denver_1_512.map.scen",
+        "scenario_size": 99789,
+        "scenario_mtime_ns": 1785345645057364100
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Denver_2_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642294368700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Denver_2_1024.map.scen",
+        "scenario_size": 223672,
+        "scenario_mtime_ns": 1785345645058363500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Denver_2_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642294368700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Denver_2_256.map.scen",
+        "scenario_size": 49720,
+        "scenario_mtime_ns": 1785345645058363500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Denver_2_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642295368800,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Denver_2_512.map.scen",
+        "scenario_size": 105841,
+        "scenario_mtime_ns": 1785345645059371500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\London_0_1024.map",
+        "map_size": 1050665,
+        "map_mtime_ns": 1785345642297376700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\London_0_1024.map.scen",
+        "scenario_size": 242919,
+        "scenario_mtime_ns": 1785345645060375700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\London_0_256.map",
+        "map_size": 66087,
+        "map_mtime_ns": 1785345642298369400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\London_0_256.map.scen",
+        "scenario_size": 55001,
+        "scenario_mtime_ns": 1785345645061363500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\London_0_512.map",
+        "map_size": 263207,
+        "map_mtime_ns": 1785345642298369400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\London_0_512.map.scen",
+        "scenario_size": 117216,
+        "scenario_mtime_ns": 1785345645061363500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\London_1_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642301370800,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\London_1_1024.map.scen",
+        "scenario_size": 206110,
+        "scenario_mtime_ns": 1785345645062364500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\London_1_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642301370800,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\London_1_256.map.scen",
+        "scenario_size": 51382,
+        "scenario_mtime_ns": 1785345645063364000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\London_1_512.map",
+        "map_size": 262693,
+        "map_mtime_ns": 1785345642302369900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\London_1_512.map.scen",
+        "scenario_size": 104984,
+        "scenario_mtime_ns": 1785345645063364000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\London_2_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642304375300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\London_2_1024.map.scen",
+        "scenario_size": 231963,
+        "scenario_mtime_ns": 1785345645064363200
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\London_2_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642305368600,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\London_2_256.map.scen",
+        "scenario_size": 51400,
+        "scenario_mtime_ns": 1785345645065365400
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\London_2_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642305368600,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\London_2_512.map.scen",
+        "scenario_size": 107110,
+        "scenario_mtime_ns": 1785345645066364400
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Milan_0_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642308375400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Milan_0_1024.map.scen",
+        "scenario_size": 229034,
+        "scenario_mtime_ns": 1785345645067376400
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Milan_0_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642308375400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Milan_0_256.map.scen",
+        "scenario_size": 48902,
+        "scenario_mtime_ns": 1785345645067376400
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Milan_0_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642309381300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Milan_0_512.map.scen",
+        "scenario_size": 98141,
+        "scenario_mtime_ns": 1785345645068364900
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Milan_1_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642311375500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Milan_1_1024.map.scen",
+        "scenario_size": 218604,
+        "scenario_mtime_ns": 1785345645068364900
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Milan_1_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642312368000,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Milan_1_256.map.scen",
+        "scenario_size": 46856,
+        "scenario_mtime_ns": 1785345645069374700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Milan_1_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642313377300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Milan_1_512.map.scen",
+        "scenario_size": 99222,
+        "scenario_mtime_ns": 1785345645069374700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Milan_2_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642315377500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Milan_2_1024.map.scen",
+        "scenario_size": 228528,
+        "scenario_mtime_ns": 1785345645070373700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Milan_2_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642315377500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Milan_2_256.map.scen",
+        "scenario_size": 52029,
+        "scenario_mtime_ns": 1785345645071456000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Milan_2_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642316368300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Milan_2_512.map.scen",
+        "scenario_size": 107495,
+        "scenario_mtime_ns": 1785345645071456000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Moscow_0_1024.map",
+        "map_size": 1050665,
+        "map_mtime_ns": 1785345642319375900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Moscow_0_1024.map.scen",
+        "scenario_size": 219754,
+        "scenario_mtime_ns": 1785345645072519100
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Moscow_0_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642319375900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Moscow_0_256.map.scen",
+        "scenario_size": 49758,
+        "scenario_mtime_ns": 1785345645073512600
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Moscow_0_512.map",
+        "map_size": 263207,
+        "map_mtime_ns": 1785345642320369300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Moscow_0_512.map.scen",
+        "scenario_size": 102769,
+        "scenario_mtime_ns": 1785345645074510700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Moscow_1_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642322368700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Moscow_1_1024.map.scen",
+        "scenario_size": 233850,
+        "scenario_mtime_ns": 1785345645075510200
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Moscow_1_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642323368700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Moscow_1_256.map.scen",
+        "scenario_size": 60186,
+        "scenario_mtime_ns": 1785345645075510200
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Moscow_1_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642323368700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Moscow_1_512.map.scen",
+        "scenario_size": 110650,
+        "scenario_mtime_ns": 1785345645076510300
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Moscow_2_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642326375800,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Moscow_2_1024.map.scen",
+        "scenario_size": 255509,
+        "scenario_mtime_ns": 1785345645077511700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Moscow_2_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642326375800,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Moscow_2_256.map.scen",
+        "scenario_size": 53807,
+        "scenario_mtime_ns": 1785345645078510500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Moscow_2_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642327369400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Moscow_2_512.map.scen",
+        "scenario_size": 117003,
+        "scenario_mtime_ns": 1785345645078510500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\NewYork_0_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642329375300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\NewYork_0_1024.map.scen",
+        "scenario_size": 225478,
+        "scenario_mtime_ns": 1785345645079512500
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\NewYork_0_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642329375300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\NewYork_0_256.map.scen",
+        "scenario_size": 50677,
+        "scenario_mtime_ns": 1785345645080516300
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\NewYork_0_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642330368500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\NewYork_0_512.map.scen",
+        "scenario_size": 102184,
+        "scenario_mtime_ns": 1785345645080565700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\NewYork_1_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642333375500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\NewYork_1_1024.map.scen",
+        "scenario_size": 229823,
+        "scenario_mtime_ns": 1785345645081509800
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\NewYork_1_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642333375500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\NewYork_1_256.map.scen",
+        "scenario_size": 50560,
+        "scenario_mtime_ns": 1785345645081509800
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\NewYork_1_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642334376300,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\NewYork_1_512.map.scen",
+        "scenario_size": 103836,
+        "scenario_mtime_ns": 1785345645082509600
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\NewYork_2_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642336375400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\NewYork_2_1024.map.scen",
+        "scenario_size": 226211,
+        "scenario_mtime_ns": 1785345645083511000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\NewYork_2_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642336375400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\NewYork_2_256.map.scen",
+        "scenario_size": 48425,
+        "scenario_mtime_ns": 1785345645083511000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\NewYork_2_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642337372000,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\NewYork_2_512.map.scen",
+        "scenario_size": 105564,
+        "scenario_mtime_ns": 1785345645084510000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Paris_0_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642339367500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Paris_0_1024.map.scen",
+        "scenario_size": 227254,
+        "scenario_mtime_ns": 1785345645085518000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Paris_0_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642340367700,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Paris_0_256.map.scen",
+        "scenario_size": 52669,
+        "scenario_mtime_ns": 1785345645085518000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Paris_0_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642341367600,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Paris_0_512.map.scen",
+        "scenario_size": 99843,
+        "scenario_mtime_ns": 1785345645086553700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Paris_1_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642343367600,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Paris_1_1024.map.scen",
+        "scenario_size": 223603,
+        "scenario_mtime_ns": 1785345645087066300
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Paris_1_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642343367600,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Paris_1_256.map.scen",
+        "scenario_size": 58788,
+        "scenario_mtime_ns": 1785345645088063700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Paris_1_512.map",
+        "map_size": 263207,
+        "map_mtime_ns": 1785345642344369100,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Paris_1_512.map.scen",
+        "scenario_size": 104671,
+        "scenario_mtime_ns": 1785345645088063700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Paris_2_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642346368400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Paris_2_1024.map.scen",
+        "scenario_size": 237272,
+        "scenario_mtime_ns": 1785345645089063300
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Paris_2_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642347368500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Paris_2_256.map.scen",
+        "scenario_size": 56810,
+        "scenario_mtime_ns": 1785345645090064000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Paris_2_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642347368500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Paris_2_512.map.scen",
+        "scenario_size": 120273,
+        "scenario_mtime_ns": 1785345645091072600
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Shanghai_0_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642350377900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Shanghai_0_1024.map.scen",
+        "scenario_size": 229448,
+        "scenario_mtime_ns": 1785345645091072600
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Shanghai_0_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642350377900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Shanghai_0_256.map.scen",
+        "scenario_size": 49236,
+        "scenario_mtime_ns": 1785345645092071800
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Shanghai_0_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642351369000,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Shanghai_0_512.map.scen",
+        "scenario_size": 100468,
+        "scenario_mtime_ns": 1785345645092071800
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Shanghai_1_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642353375800,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Shanghai_1_1024.map.scen",
+        "scenario_size": 222689,
+        "scenario_mtime_ns": 1785345645093065100
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Shanghai_1_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642354369500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Shanghai_1_256.map.scen",
+        "scenario_size": 50970,
+        "scenario_mtime_ns": 1785345645094064700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Shanghai_1_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642355368400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Shanghai_1_512.map.scen",
+        "scenario_size": 103328,
+        "scenario_mtime_ns": 1785345645094064700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Shanghai_2_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642358376100,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Shanghai_2_1024.map.scen",
+        "scenario_size": 232161,
+        "scenario_mtime_ns": 1785345645095063800
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Shanghai_2_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642358376100,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Shanghai_2_256.map.scen",
+        "scenario_size": 51959,
+        "scenario_mtime_ns": 1785345645096063700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Shanghai_2_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642359368900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Shanghai_2_512.map.scen",
+        "scenario_size": 105029,
+        "scenario_mtime_ns": 1785345645096063700
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Sydney_0_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642361375100,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Sydney_0_1024.map.scen",
+        "scenario_size": 220347,
+        "scenario_mtime_ns": 1785345645097063600
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Sydney_0_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642362368200,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Sydney_0_256.map.scen",
+        "scenario_size": 49121,
+        "scenario_mtime_ns": 1785345645097063600
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Sydney_0_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642363379200,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Sydney_0_512.map.scen",
+        "scenario_size": 100231,
+        "scenario_mtime_ns": 1785345645098065000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Sydney_1_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642365375900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Sydney_1_1024.map.scen",
+        "scenario_size": 221549,
+        "scenario_mtime_ns": 1785345645099067100
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Sydney_1_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642365375900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Sydney_1_256.map.scen",
+        "scenario_size": 47455,
+        "scenario_mtime_ns": 1785345645099067100
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Sydney_1_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642366368400,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Sydney_1_512.map.scen",
+        "scenario_size": 100270,
+        "scenario_mtime_ns": 1785345645100067000
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Sydney_2_1024.map",
+        "map_size": 1050667,
+        "map_mtime_ns": 1785345642368378900,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Sydney_2_1024.map.scen",
+        "scenario_size": 222061,
+        "scenario_mtime_ns": 1785345645101075100
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Sydney_2_256.map",
+        "map_size": 66089,
+        "map_mtime_ns": 1785345642369376100,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Sydney_2_256.map.scen",
+        "scenario_size": 49769,
+        "scenario_mtime_ns": 1785345645101075100
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Sydney_2_512.map",
+        "map_size": 263209,
+        "map_mtime_ns": 1785345642370368100,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Sydney_2_512.map.scen",
+        "scenario_size": 106187,
+        "scenario_mtime_ns": 1785345645102064200
+      }
+    ],
+    "approaches": [
+      {
+        "label": "Standard JPS",
+        "algorithm": "Standard JPS",
+        "parameters": {
+          "heuristic_weight": 1.0,
+          "smooth_tie_break": false
+        }
+      },
+      {
+        "label": "Optimized Fast Weighted SA-JPS",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "heuristic_weight": 1.15,
+          "turn_count_weight": 5.0
+        }
+      }
+    ],
+    "scenarios_per_map": null,
+    "scenario_selection": "uniform",
+    "random_seed": 42,
+    "fast_jps_weight": 1.15,
+    "sa_turn_weight": 0.35,
+    "fast_sa_heuristic_weight": 1.15,
+    "hybrid_corridor_radius": 4,
+    "fast_sa_corridor_radius": 4
+  },
+  "rows": 394980,
+  "columns": [
+    "Map name",
+    "Map type",
+    "Map width",
+    "Map height",
+    "Obstacle percentage",
+    "Obstacle density",
+    "Free-cell ratio",
+    "Dead-end ratio",
+    "Corridor ratio",
+    "Junction ratio",
+    "Obstacle-edge density",
+    "Mean axis visibility",
+    "Connected components",
+    "Largest component ratio",
+    "Scenario index",
+    "Source scenario index",
+    "Start x",
+    "Start y",
+    "Goal x",
+    "Goal y",
+    "Reference path length",
+    "Optimality gap percent",
+    "Search objective",
+    "Turn severity 45deg units",
+    "Turn penalty weight",
+    "Turn count weight",
+    "Search turn count",
+    "Heuristic weight",
+    "Algorithm",
+    "Success",
+    "Path length",
+    "Full path nodes",
+    "Waypoints",
+    "Turns",
+    "Total turning angle deg",
+    "Maximum turn angle deg",
+    "Expanded nodes",
+    "Generated successors",
+    "Queue pushes",
+    "Jump calls",
+    "Time ms",
+    "Note",
+    "Execution workers",
+    "A* reference length",
+    "Gap vs A* percent"
+  ]
+}

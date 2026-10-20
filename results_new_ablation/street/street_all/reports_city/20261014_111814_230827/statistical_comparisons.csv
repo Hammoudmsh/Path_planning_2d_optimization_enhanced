@@ -1,0 +1,91 @@
+Grouping,Group,Metric,Unit,Matched metric scenarios,Maps,Cities,N units,Nonzero units,Tied units,Optimized lower units,Optimized higher units,Median paired difference,Paired sign effect,Rank-biserial effect,p-value,Test,Status,Holm-adjusted p-value,Significant (Holm < 0.05)
+Overall,All,Runtime (ms),City median of map differences (primary),197490,90,10,10,10,0,10,0,-11.4399500065,-1.0,-1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Overall,All,Path length,City median of map differences (primary),197490,90,10,10,6,4,0,6,0.324116139,1.0,1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Overall,All,Turns,City median of map differences (primary),197490,90,10,10,7,3,7,0,-2.0,-1.0,-1.0,0.015625,Exact two-sided sign test,OK,0.75,No
+Overall,All,Total turning angle (deg),City median of map differences (primary),197490,90,10,10,7,3,7,0,-90.0,-1.0,-1.0,0.015625,Exact two-sided sign test,OK,0.75,No
+Overall,All,Expanded nodes,City median of map differences (primary),197490,90,10,10,8,2,0,8,3.0,1.0,1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Overall,All,Gap to dataset reference (%),City median of map differences (primary),197475,90,10,10,6,4,0,6,0.1372251565,1.0,1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Overall,All,Waypoints,City median of map differences (primary),197490,90,10,10,7,3,7,0,-2.0,-1.0,-1.0,0.015625,Exact two-sided sign test,OK,0.75,No
+Overall,All,Generated successors,City median of map differences (primary),197490,90,10,10,9,1,0,9,6.75,1.0,1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Overall,All,Queue pushes,City median of map differences (primary),197490,90,10,10,9,1,0,9,5.75,1.0,1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Overall,All,Jump calls,City median of map differences (primary),197490,90,10,10,9,1,0,9,5898.5,1.0,1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Map size,256 x 256,Runtime (ms),City median of map differences (primary),28020,30,10,10,10,0,7,3,-0.49759999099999996,-0.4,-0.5636363636363636,0.34375,Exact two-sided sign test,OK,1.0,No
+Map size,256 x 256,Path length,City median of map differences (primary),28020,30,10,10,6,4,0,6,0.324116139,1.0,1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,256 x 256,Turns,City median of map differences (primary),28020,30,10,10,6,4,6,0,-2.0,-1.0,-1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,256 x 256,Total turning angle (deg),City median of map differences (primary),28020,30,10,10,6,4,6,0,-90.0,-1.0,-1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,256 x 256,Expanded nodes,City median of map differences (primary),28020,30,10,10,10,0,0,10,13.5,1.0,1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Map size,256 x 256,Gap to dataset reference (%),City median of map differences (primary),28013,30,10,10,6,4,0,6,0.1372251565,1.0,1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,256 x 256,Waypoints,City median of map differences (primary),28020,30,10,10,6,4,6,0,-2.0,-1.0,-1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,256 x 256,Generated successors,City median of map differences (primary),28020,30,10,10,10,0,0,10,21.75,1.0,1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Map size,256 x 256,Queue pushes,City median of map differences (primary),28020,30,10,10,10,0,0,10,20.25,1.0,1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Map size,256 x 256,Jump calls,City median of map differences (primary),28020,30,10,10,10,0,0,10,4015.25,1.0,1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Map size,512 x 512,Runtime (ms),City median of map differences (primary),56270,30,10,10,10,0,10,0,-11.4399500065,-1.0,-1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Map size,512 x 512,Path length,City median of map differences (primary),56270,30,10,10,5,5,0,5,1.242640687,1.0,1.0,0.0625,Exact two-sided sign test,OK,1.0,No
+Map size,512 x 512,Turns,City median of map differences (primary),56270,30,10,10,6,4,6,0,-2.0,-1.0,-1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,512 x 512,Total turning angle (deg),City median of map differences (primary),56270,30,10,10,6,4,6,0,-90.0,-1.0,-1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,512 x 512,Expanded nodes,City median of map differences (primary),56270,30,10,10,7,3,0,7,3.0,1.0,1.0,0.015625,Exact two-sided sign test,OK,0.75,No
+Map size,512 x 512,Gap to dataset reference (%),City median of map differences (primary),56269,30,10,10,5,5,0,5,0.264319934,1.0,1.0,0.0625,Exact two-sided sign test,OK,1.0,No
+Map size,512 x 512,Waypoints,City median of map differences (primary),56270,30,10,10,6,4,6,0,-2.0,-1.0,-1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,512 x 512,Generated successors,City median of map differences (primary),56270,30,10,10,8,2,0,8,5.5,1.0,1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Map size,512 x 512,Queue pushes,City median of map differences (primary),56270,30,10,10,8,2,0,8,4.75,1.0,1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Map size,512 x 512,Jump calls,City median of map differences (primary),56270,30,10,10,9,1,0,9,7033.25,1.0,1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Map size,1024 x 1024,Runtime (ms),City median of map differences (primary),113200,30,10,10,10,0,10,0,-78.893800019,-1.0,-1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Map size,1024 x 1024,Path length,City median of map differences (primary),113200,30,10,10,5,5,0,5,0.600505063,1.0,1.0,0.0625,Exact two-sided sign test,OK,1.0,No
+Map size,1024 x 1024,Turns,City median of map differences (primary),113200,30,10,10,6,4,6,0,-2.0,-1.0,-1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,1024 x 1024,Total turning angle (deg),City median of map differences (primary),113200,30,10,10,6,4,6,0,-90.0,-1.0,-1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,1024 x 1024,Expanded nodes,City median of map differences (primary),113200,30,10,10,2,8,0,2,0.0,1.0,1.0,0.5,Exact two-sided sign test,OK,1.0,No
+Map size,1024 x 1024,Gap to dataset reference (%),City median of map differences (primary),113193,30,10,10,5,5,0,5,0.075297453,1.0,1.0,0.0625,Exact two-sided sign test,OK,1.0,No
+Map size,1024 x 1024,Waypoints,City median of map differences (primary),113200,30,10,10,6,4,6,0,-2.0,-1.0,-1.0,0.03125,Exact two-sided sign test,OK,1.0,No
+Map size,1024 x 1024,Generated successors,City median of map differences (primary),113200,30,10,10,2,8,0,2,0.0,1.0,1.0,0.5,Exact two-sided sign test,OK,1.0,No
+Map size,1024 x 1024,Queue pushes,City median of map differences (primary),113200,30,10,10,2,8,0,2,0.0,1.0,1.0,0.5,Exact two-sided sign test,OK,1.0,No
+Map size,1024 x 1024,Jump calls,City median of map differences (primary),113200,30,10,10,7,3,0,7,8320.0,1.0,1.0,0.015625,Exact two-sided sign test,OK,0.75,No
+Reference length,R1: 0 <= L < 100,Runtime (ms),City median of map differences (primary),22500,90,10,10,10,0,10,0,-4.639025006500001,-1.0,-1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Reference length,R1: 0 <= L < 100,Path length,City median of map differences (primary),22500,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R1: 0 <= L < 100,Turns,City median of map differences (primary),22500,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),City median of map differences (primary),22500,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R1: 0 <= L < 100,Expanded nodes,City median of map differences (primary),22500,90,10,10,1,9,0,1,0.0,1.0,1.0,,Exact two-sided sign test,Fewer than two nonzero units; no inference,,Not tested
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),City median of map differences (primary),22485,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R1: 0 <= L < 100,Waypoints,City median of map differences (primary),22500,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R1: 0 <= L < 100,Generated successors,City median of map differences (primary),22500,90,10,10,1,9,0,1,0.0,1.0,1.0,,Exact two-sided sign test,Fewer than two nonzero units; no inference,,Not tested
+Reference length,R1: 0 <= L < 100,Queue pushes,City median of map differences (primary),22500,90,10,10,1,9,0,1,0.0,1.0,1.0,,Exact two-sided sign test,Fewer than two nonzero units; no inference,,Not tested
+Reference length,R1: 0 <= L < 100,Jump calls,City median of map differences (primary),22500,90,10,10,1,9,0,1,0.0,1.0,1.0,,Exact two-sided sign test,Fewer than two nonzero units; no inference,,Not tested
+Reference length,R2: 100 <= L < 250,Runtime (ms),City median of map differences (primary),33748,90,10,10,10,0,10,0,-8.482600024,-1.0,-1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Reference length,R2: 100 <= L < 250,Path length,City median of map differences (primary),33748,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R2: 100 <= L < 250,Turns,City median of map differences (primary),33748,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),City median of map differences (primary),33748,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R2: 100 <= L < 250,Expanded nodes,City median of map differences (primary),33748,90,10,10,7,3,0,7,1.0,1.0,1.0,0.015625,Exact two-sided sign test,OK,0.75,No
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),City median of map differences (primary),33748,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R2: 100 <= L < 250,Waypoints,City median of map differences (primary),33748,90,10,10,0,10,0,0,0.0,0.0,0.0,1.0,Exact two-sided sign test,All differences zero,1.0,No
+Reference length,R2: 100 <= L < 250,Generated successors,City median of map differences (primary),33748,90,10,10,8,2,0,8,2.0,1.0,1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Reference length,R2: 100 <= L < 250,Queue pushes,City median of map differences (primary),33748,90,10,10,8,2,0,8,2.0,1.0,1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Reference length,R2: 100 <= L < 250,Jump calls,City median of map differences (primary),33748,90,10,10,9,1,0,9,1249.5,1.0,1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R3: 250 <= L < 500,Runtime (ms),City median of map differences (primary),46772,90,10,10,10,0,10,0,-14.6691500125,-1.0,-1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Reference length,R3: 250 <= L < 500,Path length,City median of map differences (primary),46772,90,10,10,5,5,0,5,1.318019485,1.0,1.0,0.0625,Exact two-sided sign test,OK,1.0,No
+Reference length,R3: 250 <= L < 500,Turns,City median of map differences (primary),46772,90,10,10,8,2,8,0,-3.0,-1.0,-1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),City median of map differences (primary),46772,90,10,10,7,3,7,0,-135.0,-1.0,-1.0,0.015625,Exact two-sided sign test,OK,0.75,No
+Reference length,R3: 250 <= L < 500,Expanded nodes,City median of map differences (primary),46772,90,10,10,8,2,0,8,6.0,1.0,1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),City median of map differences (primary),46772,90,10,10,5,5,0,5,0.4001321895,1.0,1.0,0.0625,Exact two-sided sign test,OK,1.0,No
+Reference length,R3: 250 <= L < 500,Waypoints,City median of map differences (primary),46772,90,10,10,8,2,8,0,-3.0,-1.0,-1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Reference length,R3: 250 <= L < 500,Generated successors,City median of map differences (primary),46772,90,10,10,8,2,0,8,10.0,1.0,1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Reference length,R3: 250 <= L < 500,Queue pushes,City median of map differences (primary),46772,90,10,10,8,2,0,8,9.5,1.0,1.0,0.0078125,Exact two-sided sign test,OK,0.453125,No
+Reference length,R3: 250 <= L < 500,Jump calls,City median of map differences (primary),46772,90,10,10,9,1,0,9,7597.0,1.0,1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R4: 500 <= L < 1000,Runtime (ms),City median of map differences (primary),56270,60,10,10,10,0,10,0,-70.348237485,-1.0,-1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Reference length,R4: 500 <= L < 1000,Path length,City median of map differences (primary),56270,60,10,10,9,1,0,9,12.874368670500001,1.0,1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R4: 500 <= L < 1000,Turns,City median of map differences (primary),56270,60,10,10,9,1,9,0,-15.5,-1.0,-1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),City median of map differences (primary),56270,60,10,10,9,1,9,0,-697.5,-1.0,-1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R4: 500 <= L < 1000,Expanded nodes,City median of map differences (primary),56270,60,10,10,8,2,1,7,8.0,0.75,0.8888888888888888,0.0703125,Exact two-sided sign test,OK,1.0,No
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),City median of map differences (primary),56270,60,10,10,9,1,0,9,1.8804513065,1.0,1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R4: 500 <= L < 1000,Waypoints,City median of map differences (primary),56270,60,10,10,9,1,9,0,-15.5,-1.0,-1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R4: 500 <= L < 1000,Generated successors,City median of map differences (primary),56270,60,10,10,9,1,1,8,13.875,0.7777777777777778,0.8666666666666667,0.0390625,Exact two-sided sign test,OK,1.0,No
+Reference length,R4: 500 <= L < 1000,Queue pushes,City median of map differences (primary),56270,60,10,10,9,1,1,8,13.5,0.7777777777777778,0.8666666666666667,0.0390625,Exact two-sided sign test,OK,1.0,No
+Reference length,R4: 500 <= L < 1000,Jump calls,City median of map differences (primary),56270,60,10,10,10,0,1,9,22116.375,0.8,0.9272727272727272,0.021484375,Exact two-sided sign test,OK,0.880859375,No
+Reference length,R5: L >= 1000,Runtime (ms),City median of map differences (primary),38200,30,10,10,10,0,10,0,-325.756050006,-1.0,-1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Reference length,R5: L >= 1000,Path length,City median of map differences (primary),38200,30,10,10,10,0,0,10,36.367532368,1.0,1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Reference length,R5: L >= 1000,Turns,City median of map differences (primary),38200,30,10,10,9,1,9,0,-40.5,-1.0,-1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R5: L >= 1000,Total turning angle (deg),City median of map differences (primary),38200,30,10,10,9,1,9,0,-1822.5,-1.0,-1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R5: L >= 1000,Expanded nodes,City median of map differences (primary),38200,30,10,10,10,0,6,4,-6.0,-0.2,-0.34545454545454546,0.75390625,Exact two-sided sign test,OK,1.0,No
+Reference length,R5: L >= 1000,Gap to dataset reference (%),City median of map differences (primary),38200,30,10,10,10,0,0,10,2.925465449,1.0,1.0,0.001953125,Exact two-sided sign test,OK,0.16796875,No
+Reference length,R5: L >= 1000,Waypoints,City median of map differences (primary),38200,30,10,10,9,1,9,0,-40.5,-1.0,-1.0,0.00390625,Exact two-sided sign test,OK,0.28125,No
+Reference length,R5: L >= 1000,Generated successors,City median of map differences (primary),38200,30,10,10,10,0,5,5,-2.75,0.0,-0.16363636363636364,1.0,Exact two-sided sign test,OK,1.0,No
+Reference length,R5: L >= 1000,Queue pushes,City median of map differences (primary),38200,30,10,10,10,0,5,5,-1.75,0.0,-0.23636363636363636,1.0,Exact two-sided sign test,OK,1.0,No
+Reference length,R5: L >= 1000,Jump calls,City median of map differences (primary),38200,30,10,10,10,0,2,8,55039.0,0.6,0.7090909090909091,0.109375,Exact two-sided sign test,OK,1.0,No

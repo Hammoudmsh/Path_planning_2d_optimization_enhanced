@@ -1,0 +1,181 @@
+Grouping,Group,Algorithm,Metric,N,Median,Q1,Q3
+Overall,All,Standard JPS,Runtime (ms),197490,175.1780999766197,48.78287499741418,586.5087749916711
+Overall,All,Optimized Fast Weighted SA-JPS,Runtime (ms),197490,128.8939000078244,38.17327498836676,424.7768000132055
+Overall,All,Standard JPS,Path length,197490,470.85638507985493,218.87720036002557,851.1127881065852
+Overall,All,Optimized Fast Weighted SA-JPS,Path length,197490,488.96403281818027,225.59797974644678,888.2450391004938
+Overall,All,Standard JPS,Turns,197490,19.0,5.0,49.0
+Overall,All,Optimized Fast Weighted SA-JPS,Turns,197490,11.0,5.0,23.0
+Overall,All,Standard JPS,Total turning angle (deg),197490,855.0,225.0,2205.0000000000005
+Overall,All,Optimized Fast Weighted SA-JPS,Total turning angle (deg),197490,495.0,225.0,1035.0
+Overall,All,Standard JPS,Expanded nodes,197490,84.0,19.0,286.0
+Overall,All,Optimized Fast Weighted SA-JPS,Expanded nodes,197490,86.0,21.0,323.0
+Overall,All,Standard JPS,Gap to dataset reference (%),197475,-0.08330726298491489,-0.2254020519173408,1.0389937226440103e-08
+Overall,All,Optimized Fast Weighted SA-JPS,Gap to dataset reference (%),197475,2.2120771018938482e-08,0.0,4.291531954935912
+Overall,All,Standard JPS,Waypoints,197490,21.0,7.0,51.0
+Overall,All,Optimized Fast Weighted SA-JPS,Waypoints,197490,13.0,7.0,25.0
+Overall,All,Standard JPS,Generated successors,197490,111.0,30.0,350.0
+Overall,All,Optimized Fast Weighted SA-JPS,Generated successors,197490,118.0,33.0,405.0
+Overall,All,Standard JPS,Queue pushes,197490,110.0,30.0,335.0
+Overall,All,Optimized Fast Weighted SA-JPS,Queue pushes,197490,117.0,33.0,385.0
+Overall,All,Standard JPS,Jump calls,197490,73204.5,23063.25,195553.0
+Overall,All,Optimized Fast Weighted SA-JPS,Jump calls,197490,90816.5,30273.25,235771.5
+Map size,256 x 256,Standard JPS,Runtime (ms),28020,19.089549998170696,8.589624993874168,36.9716499990318
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Runtime (ms),28020,18.568650004453957,7.895874994574115,38.524249983311165
+Map size,256 x 256,Standard JPS,Path length,28020,185.96803743153555,92.91778489984122,278.822636842656
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Path length,28020,193.68124086713203,95.25483399593898,292.7637623396102
+Map size,256 x 256,Standard JPS,Turns,28020,13.0,5.0,27.0
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Turns,28020,9.0,3.0,15.0
+Map size,256 x 256,Standard JPS,Total turning angle (deg),28020,585.0,225.0,1215.0
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Total turning angle (deg),28020,405.0,135.00000000000003,675.0
+Map size,256 x 256,Standard JPS,Expanded nodes,28020,51.0,15.0,151.0
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Expanded nodes,28020,77.0,19.0,267.0
+Map size,256 x 256,Standard JPS,Gap to dataset reference (%),28013,-0.3231404030611173,-0.7106063224326608,9.217796149416335e-09
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Gap to dataset reference (%),28013,2.1038947916454243e-08,-0.17857624126106744,4.399874301185886
+Map size,256 x 256,Standard JPS,Waypoints,28020,15.0,7.0,29.0
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Waypoints,28020,11.0,5.0,17.0
+Map size,256 x 256,Standard JPS,Generated successors,28020,72.0,24.0,200.0
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Generated successors,28020,109.0,32.0,360.0
+Map size,256 x 256,Standard JPS,Queue pushes,28020,71.0,24.0,191.0
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Queue pushes,28020,107.0,32.0,332.0
+Map size,256 x 256,Standard JPS,Jump calls,28020,9691.5,4430.75,18351.25
+Map size,256 x 256,Optimized Fast Weighted SA-JPS,Jump calls,28020,14793.5,6508.75,29078.75
+Map size,512 x 512,Standard JPS,Runtime (ms),56270,86.58285001001786,37.161349995585624,182.31380000088393
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Runtime (ms),56270,65.60160001390614,27.34614997461904,144.83467499667313
+Map size,512 x 512,Standard JPS,Path length,56270,374.5340546095182,187.16957056857532,561.5759915421817
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Path length,56270,389.2655480083449,192.28048327204937,586.4952557384378
+Map size,512 x 512,Standard JPS,Turns,56270,17.0,5.0,40.0
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Turns,56270,11.0,4.0,19.0
+Map size,512 x 512,Standard JPS,Total turning angle (deg),56270,765.0,225.0,1845.0
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Total turning angle (deg),56270,495.0,180.00000000000003,855.0000000000001
+Map size,512 x 512,Standard JPS,Expanded nodes,56270,72.0,18.0,230.0
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Expanded nodes,56270,80.0,20.0,293.0
+Map size,512 x 512,Standard JPS,Gap to dataset reference (%),56269,-0.12694391046952683,-0.3089185240770811,1.036678855215124e-08
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Gap to dataset reference (%),56269,2.2378325115328093e-08,0.0,4.4500000591947355
+Map size,512 x 512,Standard JPS,Waypoints,56270,19.0,7.0,42.0
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Waypoints,56270,13.0,6.0,21.0
+Map size,512 x 512,Standard JPS,Generated successors,56270,97.0,29.0,289.0
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Generated successors,56270,111.0,32.0,379.0
+Map size,512 x 512,Standard JPS,Queue pushes,56270,96.0,29.0,276.0
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Queue pushes,56270,110.0,32.0,358.0
+Map size,512 x 512,Standard JPS,Jump calls,56270,38822.0,17622.25,74494.0
+Map size,512 x 512,Optimized Fast Weighted SA-JPS,Jump calls,56270,50279.0,22434.25,97433.75
+Map size,1024 x 1024,Standard JPS,Runtime (ms),113200,436.34905002545565,165.08940001949668,1059.4381499963674
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Runtime (ms),113200,308.33704996621236,112.53052500251215,740.3370250103762
+Map size,1024 x 1024,Standard JPS,Path length,113200,753.9503602129465,377.0823048345348,1130.7986463317138
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Path length,113200,783.7112908632957,387.5150249980811,1178.5590539717996
+Map size,1024 x 1024,Standard JPS,Turns,113200,23.0,5.0,65.0
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Turns,113200,13.0,5.0,27.0
+Map size,1024 x 1024,Standard JPS,Total turning angle (deg),113200,1035.0,225.0,2925.0000000000005
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Total turning angle (deg),113200,585.0,225.0,1215.0000000000002
+Map size,1024 x 1024,Standard JPS,Expanded nodes,113200,106.0,22.0,370.0
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Expanded nodes,113200,91.0,22.0,359.0
+Map size,1024 x 1024,Standard JPS,Gap to dataset reference (%),113193,-0.05782483729965884,-0.146444078263949,1.0631536275775327e-08
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Gap to dataset reference (%),113193,2.2267840934258637e-08,1.877240686605758e-09,4.194643357389537
+Map size,1024 x 1024,Standard JPS,Waypoints,113200,25.0,7.0,67.0
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Waypoints,113200,15.0,7.0,29.0
+Map size,1024 x 1024,Standard JPS,Generated successors,113200,135.0,34.0,440.0
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Generated successors,113200,124.0,34.0,436.0
+Map size,1024 x 1024,Standard JPS,Queue pushes,113200,134.0,34.0,423.0
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Queue pushes,113200,123.0,34.0,420.0
+Map size,1024 x 1024,Standard JPS,Jump calls,113200,155716.5,70306.75,302863.5
+Map size,1024 x 1024,Optimized Fast Weighted SA-JPS,Jump calls,113200,184397.0,82611.25,358444.25
+Reference length,R1: 0 <= L < 100,Standard JPS,Runtime (ms),22500,14.378549996763468,6.023475012625568,37.38992498983862
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Runtime (ms),22500,10.141349990590243,4.7009749978315085,23.738374999084044
+Reference length,R1: 0 <= L < 100,Standard JPS,Path length,22500,49.94112549695428,24.970562748477146,74.95331880577397
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Path length,22500,50.14213562373095,24.970562748477146,75.56854249492375
+Reference length,R1: 0 <= L < 100,Standard JPS,Turns,22500,1.0,1.0,3.0
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Turns,22500,1.0,1.0,3.0
+Reference length,R1: 0 <= L < 100,Standard JPS,Total turning angle (deg),22500,45.00000000000001,45.0,135.0
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Total turning angle (deg),22500,45.00000000000001,45.0,135.0
+Reference length,R1: 0 <= L < 100,Standard JPS,Expanded nodes,22500,4.0,3.0,8.0
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Expanded nodes,22500,5.0,3.0,9.0
+Reference length,R1: 0 <= L < 100,Standard JPS,Gap to dataset reference (%),22485,1.0668352588383365e-08,0.0,2.0316201278354445e-08
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Gap to dataset reference (%),22485,1.1890916616558356e-08,0.0,2.2297500605462607e-08
+Reference length,R1: 0 <= L < 100,Standard JPS,Waypoints,22500,3.0,3.0,5.0
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Waypoints,22500,3.0,3.0,5.0
+Reference length,R1: 0 <= L < 100,Standard JPS,Generated successors,22500,8.0,6.0,14.0
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Generated successors,22500,9.0,6.0,16.0
+Reference length,R1: 0 <= L < 100,Standard JPS,Queue pushes,22500,8.0,6.0,14.0
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Queue pushes,22500,9.0,6.0,16.0
+Reference length,R1: 0 <= L < 100,Standard JPS,Jump calls,22500,6867.5,3004.0,17020.5
+Reference length,R1: 0 <= L < 100,Optimized Fast Weighted SA-JPS,Jump calls,22500,8299.0,3882.75,18658.25
+Reference length,R2: 100 <= L < 250,Standard JPS,Runtime (ms),33748,34.00704999512527,18.17474999870683,70.87222501286305
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Runtime (ms),33748,28.600050003660726,16.02787500451086,53.8346500170519
+Reference length,R2: 100 <= L < 250,Standard JPS,Path length,33748,174.47413408594537,137.19595949289322,211.95331880577402
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Path length,33748,179.05129855222077,139.76145366061212,218.19900782009827
+Reference length,R2: 100 <= L < 250,Standard JPS,Turns,33748,7.0,1.0,15.0
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Turns,33748,5.0,1.0,10.0
+Reference length,R2: 100 <= L < 250,Standard JPS,Total turning angle (deg),33748,315.0,45.00000000000001,675.0000000000001
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Total turning angle (deg),33748,225.0,45.00000000000001,495.0
+Reference length,R2: 100 <= L < 250,Standard JPS,Expanded nodes,33748,20.0,9.0,47.0
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Expanded nodes,33748,24.0,9.0,74.0
+Reference length,R2: 100 <= L < 250,Standard JPS,Gap to dataset reference (%),33748,4.690561682931234e-09,-0.3865689175814674,1.3772592725120394e-08
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Gap to dataset reference (%),33748,1.2337479926481075e-08,-0.23717069231064616,0.08505913962585104
+Reference length,R2: 100 <= L < 250,Standard JPS,Waypoints,33748,9.0,3.0,17.0
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Waypoints,33748,7.0,3.0,12.0
+Reference length,R2: 100 <= L < 250,Standard JPS,Generated successors,33748,31.0,15.0,64.0
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Generated successors,33748,37.0,16.0,100.0
+Reference length,R2: 100 <= L < 250,Standard JPS,Queue pushes,33748,31.0,15.0,64.0
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Queue pushes,33748,37.0,16.0,99.0
+Reference length,R2: 100 <= L < 250,Standard JPS,Jump calls,33748,16294.0,9131.75,31803.0
+Reference length,R2: 100 <= L < 250,Optimized Fast Weighted SA-JPS,Jump calls,33748,22890.0,13303.0,40922.0
+Reference length,R3: 250 <= L < 500,Standard JPS,Runtime (ms),46772,96.99594999801775,54.55652500677388,173.6723499780055
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Runtime (ms),46772,78.07890002732165,44.89747497427743,139.01777501450852
+Reference length,R3: 250 <= L < 500,Standard JPS,Path length,46772,353.4716087690041,301.13708498984784,421.94953083036205
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Path length,46772,367.07315985291956,311.30360723121885,437.20815280171354
+Reference length,R3: 250 <= L < 500,Standard JPS,Turns,46772,17.0,7.0,35.0
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Turns,46772,9.0,5.0,19.0
+Reference length,R3: 250 <= L < 500,Standard JPS,Total turning angle (deg),46772,765.0,315.0,1575.0
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Total turning angle (deg),46772,405.00000000000006,225.0,855.0
+Reference length,R3: 250 <= L < 500,Standard JPS,Expanded nodes,46772,66.0,26.0,155.0
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Expanded nodes,46772,74.0,25.0,230.0
+Reference length,R3: 250 <= L < 500,Standard JPS,Gap to dataset reference (%),46772,-0.14204864047342625,-0.32226509005417336,1.0328864373073872e-08
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Gap to dataset reference (%),46772,1.8345219278975082e-08,-0.12393059234764303,4.537267461396829
+Reference length,R3: 250 <= L < 500,Standard JPS,Waypoints,46772,19.0,9.0,37.0
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Waypoints,46772,11.0,7.0,21.0
+Reference length,R3: 250 <= L < 500,Standard JPS,Generated successors,46772,87.0,39.0,193.0
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Generated successors,46772,100.5,39.0,293.0
+Reference length,R3: 250 <= L < 500,Standard JPS,Queue pushes,46772,87.0,39.0,188.0
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Queue pushes,46772,100.0,39.0,280.0
+Reference length,R3: 250 <= L < 500,Standard JPS,Jump calls,46772,43820.5,26035.0,72826.25
+Reference length,R3: 250 <= L < 500,Optimized Fast Weighted SA-JPS,Jump calls,46772,59386.5,35854.5,97083.25
+Reference length,R4: 500 <= L < 1000,Standard JPS,Runtime (ms),56270,353.918499982683,209.9840999726439,600.8530500257621
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Runtime (ms),56270,262.5665000250592,151.00262498890515,470.4533750191331
+Reference length,R4: 500 <= L < 1000,Standard JPS,Path length,56270,686.2173875177059,592.7463017589649,814.8465004500324
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Path length,56270,715.1833329081867,615.2323227814102,850.3721497261436
+Reference length,R4: 500 <= L < 1000,Standard JPS,Turns,56270,33.0,13.0,63.0
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Turns,56270,15.0,9.0,28.0
+Reference length,R4: 500 <= L < 1000,Standard JPS,Total turning angle (deg),56270,1485.0,585.0,2835.0000000000005
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Total turning angle (deg),56270,675.0000000000001,405.0,1260.0
+Reference length,R4: 500 <= L < 1000,Standard JPS,Expanded nodes,56270,162.0,68.0,355.0
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Expanded nodes,56270,159.0,55.0,453.0
+Reference length,R4: 500 <= L < 1000,Standard JPS,Gap to dataset reference (%),56270,-0.09488328257011028,-0.20628931492529737,7.83377591285739e-09
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Gap to dataset reference (%),56270,1.0169644674480027,2.1685204732756684e-09,5.734845464356016
+Reference length,R4: 500 <= L < 1000,Standard JPS,Waypoints,56270,35.0,15.0,65.0
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Waypoints,56270,17.0,11.0,30.0
+Reference length,R4: 500 <= L < 1000,Standard JPS,Generated successors,56270,201.0,93.0,426.0
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Generated successors,56270,205.0,81.0,552.0
+Reference length,R4: 500 <= L < 1000,Standard JPS,Queue pushes,56270,197.0,93.0,408.0
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Queue pushes,56270,200.0,81.0,521.0
+Reference length,R4: 500 <= L < 1000,Standard JPS,Jump calls,56270,129265.5,83788.0,199856.25
+Reference length,R4: 500 <= L < 1000,Optimized Fast Weighted SA-JPS,Jump calls,56270,161631.5,101824.0,255194.75
+Reference length,R5: L >= 1000,Standard JPS,Runtime (ms),38200,1397.4259499809705,871.9209000119008,2223.046350045479
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Runtime (ms),38200,929.3045999893366,535.2727000208688,1635.9152500003802
+Reference length,R5: L >= 1000,Standard JPS,Path length,38200,1253.3159800087935,1126.2648980945153,1380.458332270468
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Path length,38200,1305.0977259393144,1170.173538012742,1438.9690462828746
+Reference length,R5: L >= 1000,Standard JPS,Turns,38200,63.0,29.0,115.0
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Turns,38200,27.0,15.0,44.0
+Reference length,R5: L >= 1000,Standard JPS,Total turning angle (deg),38200,2835.0,1305.0,5175.0
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Total turning angle (deg),38200,1215.0,675.0,1980.0
+Reference length,R5: L >= 1000,Standard JPS,Expanded nodes,38200,472.0,219.0,964.0
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Expanded nodes,38200,390.0,141.0,1058.0
+Reference length,R5: L >= 1000,Standard JPS,Gap to dataset reference (%),38200,-0.09944537356250552,-0.16427587239529204,-0.04905335314573331
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Gap to dataset reference (%),38200,2.214810435775544,1.4491662621211776e-08,6.11439879014537
+Reference length,R5: L >= 1000,Standard JPS,Waypoints,38200,65.0,31.0,117.0
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Waypoints,38200,29.0,17.0,46.0
+Reference length,R5: L >= 1000,Standard JPS,Generated successors,38200,557.0,277.0,1135.25
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Generated successors,38200,481.0,188.0,1270.0
+Reference length,R5: L >= 1000,Standard JPS,Queue pushes,38200,532.0,269.0,1056.0
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Queue pushes,38200,460.0,185.0,1173.0
+Reference length,R5: L >= 1000,Standard JPS,Jump calls,38200,364256.5,260780.5,521544.25
+Reference length,R5: L >= 1000,Optimized Fast Weighted SA-JPS,Jump calls,38200,405088.0,286311.75,620034.75

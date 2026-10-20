@@ -1,0 +1,3809 @@
+<!doctype html><html><head><meta charset="utf-8"><title>JPS benchmark report</title><style>body{font-family:Arial,sans-serif;max-width:1250px;margin:32px auto;padding:0 24px;color:#243444}table{border-collapse:collapse;font-size:14px;width:100%;margin:20px 0}th,td{padding:9px;border-bottom:1px solid #dce3e9;text-align:right}th:first-child,td:first-child{text-align:left}th{background:#edf3f8}img{width:100%}figure{margin:32px 0}figcaption{font-size:14px;color:#526475}p{line-height:1.5}</style></head><body><h1>Standard JPS versus Optimized FWSAJPS: city-grouped inference</h1><p>Snapshot: 2026-10-14T11:15:44.085992+03:00</p><p><b>197,490 included matched scenarios; 197,490 successful for both.</b></p><p>Source: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\street_all\cache\benchmark_f29e734530e46b1d_street_checkpoint.sqlite3</p><p>Invalid pair metadata excluded: 0.</p><h2>Saved results</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Algorithm</th>
+      <th>Saved runs</th>
+      <th>Successful saved runs</th>
+      <th>Saved success rate (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Standard JPS</td>
+      <td>197490</td>
+      <td>197490</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Optimized Fast Weighted SA-JPS</td>
+      <td>197490</td>
+      <td>197490</td>
+      <td>100.0</td>
+    </tr>
+  </tbody>
+</table><h2>Included scenario counts and success rates</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Grouping</th>
+      <th>Group</th>
+      <th>Matched scenarios</th>
+      <th>Maps represented</th>
+      <th>Both successful</th>
+      <th>Standard JPS successes</th>
+      <th>Standard JPS success rate (%)</th>
+      <th>Optimized FWSAJPS successes</th>
+      <th>Optimized FWSAJPS success rate (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>197490</td>
+      <td>197490</td>
+      <td>100.0</td>
+      <td>197490</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>28020</td>
+      <td>28020</td>
+      <td>100.0</td>
+      <td>28020</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>56270</td>
+      <td>56270</td>
+      <td>100.0</td>
+      <td>56270</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>113200</td>
+      <td>113200</td>
+      <td>100.0</td>
+      <td>113200</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>22500</td>
+      <td>22500</td>
+      <td>100.0</td>
+      <td>22500</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>33748</td>
+      <td>33748</td>
+      <td>100.0</td>
+      <td>33748</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>46772</td>
+      <td>46772</td>
+      <td>100.0</td>
+      <td>46772</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>56270</td>
+      <td>56270</td>
+      <td>100.0</td>
+      <td>56270</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>38200</td>
+      <td>38200</td>
+      <td>100.0</td>
+      <td>38200</td>
+      <td>100.0</td>
+    </tr>
+  </tbody>
+</table><h2>Overall</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Algorithm</th>
+      <th>Group</th>
+      <th>Metric</th>
+      <th>N</th>
+      <th>Optimized Fast Weighted SA-JPS</th>
+      <th>Standard JPS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>All</td>
+      <td>Expanded nodes</td>
+      <td>197490</td>
+      <td>86.00 [21.00, 323.00]</td>
+      <td>84.00 [19.00, 286.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>All</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>197475</td>
+      <td>0.00 [0.00, 4.29]</td>
+      <td>-0.08 [-0.23, 0.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>All</td>
+      <td>Path length</td>
+      <td>197490</td>
+      <td>488.96 [225.60, 888.25]</td>
+      <td>470.86 [218.88, 851.11]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>All</td>
+      <td>Runtime (ms)</td>
+      <td>197490</td>
+      <td>128.89 [38.17, 424.78]</td>
+      <td>175.18 [48.78, 586.51]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>All</td>
+      <td>Total turning angle (deg)</td>
+      <td>197490</td>
+      <td>495.00 [225.00, 1,035.00]</td>
+      <td>855.00 [225.00, 2,205.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>All</td>
+      <td>Turns</td>
+      <td>197490</td>
+      <td>11.00 [5.00, 23.00]</td>
+      <td>19.00 [5.00, 49.00]</td>
+    </tr>
+  </tbody>
+</table><h2>Map size</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Algorithm</th>
+      <th>Group</th>
+      <th>Metric</th>
+      <th>N</th>
+      <th>Optimized Fast Weighted SA-JPS</th>
+      <th>Standard JPS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>1024 x 1024</td>
+      <td>Expanded nodes</td>
+      <td>113200</td>
+      <td>91.00 [22.00, 359.00]</td>
+      <td>106.00 [22.00, 370.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>1024 x 1024</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>113193</td>
+      <td>0.00 [0.00, 4.19]</td>
+      <td>-0.06 [-0.15, 0.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>1024 x 1024</td>
+      <td>Path length</td>
+      <td>113200</td>
+      <td>783.71 [387.52, 1,178.56]</td>
+      <td>753.95 [377.08, 1,130.80]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>1024 x 1024</td>
+      <td>Runtime (ms)</td>
+      <td>113200</td>
+      <td>308.34 [112.53, 740.34]</td>
+      <td>436.35 [165.09, 1,059.44]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>1024 x 1024</td>
+      <td>Total turning angle (deg)</td>
+      <td>113200</td>
+      <td>585.00 [225.00, 1,215.00]</td>
+      <td>1,035.00 [225.00, 2,925.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>1024 x 1024</td>
+      <td>Turns</td>
+      <td>113200</td>
+      <td>13.00 [5.00, 27.00]</td>
+      <td>23.00 [5.00, 65.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>256 x 256</td>
+      <td>Expanded nodes</td>
+      <td>28020</td>
+      <td>77.00 [19.00, 267.00]</td>
+      <td>51.00 [15.00, 151.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>256 x 256</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>28013</td>
+      <td>0.00 [-0.18, 4.40]</td>
+      <td>-0.32 [-0.71, 0.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>256 x 256</td>
+      <td>Path length</td>
+      <td>28020</td>
+      <td>193.68 [95.25, 292.76]</td>
+      <td>185.97 [92.92, 278.82]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>256 x 256</td>
+      <td>Runtime (ms)</td>
+      <td>28020</td>
+      <td>18.57 [7.90, 38.52]</td>
+      <td>19.09 [8.59, 36.97]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>256 x 256</td>
+      <td>Total turning angle (deg)</td>
+      <td>28020</td>
+      <td>405.00 [135.00, 675.00]</td>
+      <td>585.00 [225.00, 1,215.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>256 x 256</td>
+      <td>Turns</td>
+      <td>28020</td>
+      <td>9.00 [3.00, 15.00]</td>
+      <td>13.00 [5.00, 27.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>512 x 512</td>
+      <td>Expanded nodes</td>
+      <td>56270</td>
+      <td>80.00 [20.00, 293.00]</td>
+      <td>72.00 [18.00, 230.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>512 x 512</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>56269</td>
+      <td>0.00 [0.00, 4.45]</td>
+      <td>-0.13 [-0.31, 0.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>512 x 512</td>
+      <td>Path length</td>
+      <td>56270</td>
+      <td>389.27 [192.28, 586.50]</td>
+      <td>374.53 [187.17, 561.58]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>512 x 512</td>
+      <td>Runtime (ms)</td>
+      <td>56270</td>
+      <td>65.60 [27.35, 144.83]</td>
+      <td>86.58 [37.16, 182.31]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>512 x 512</td>
+      <td>Total turning angle (deg)</td>
+      <td>56270</td>
+      <td>495.00 [180.00, 855.00]</td>
+      <td>765.00 [225.00, 1,845.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>512 x 512</td>
+      <td>Turns</td>
+      <td>56270</td>
+      <td>11.00 [4.00, 19.00]</td>
+      <td>17.00 [5.00, 40.00]</td>
+    </tr>
+  </tbody>
+</table><h2>Reference length</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Algorithm</th>
+      <th>Group</th>
+      <th>Metric</th>
+      <th>N</th>
+      <th>Optimized Fast Weighted SA-JPS</th>
+      <th>Standard JPS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Expanded nodes</td>
+      <td>22500</td>
+      <td>5.00 [3.00, 9.00]</td>
+      <td>4.00 [3.00, 8.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>22485</td>
+      <td>0.00 [0.00, 0.00]</td>
+      <td>0.00 [0.00, 0.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Path length</td>
+      <td>22500</td>
+      <td>50.14 [24.97, 75.57]</td>
+      <td>49.94 [24.97, 74.95]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Runtime (ms)</td>
+      <td>22500</td>
+      <td>10.14 [4.70, 23.74]</td>
+      <td>14.38 [6.02, 37.39]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Total turning angle (deg)</td>
+      <td>22500</td>
+      <td>45.00 [45.00, 135.00]</td>
+      <td>45.00 [45.00, 135.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Turns</td>
+      <td>22500</td>
+      <td>1.00 [1.00, 3.00]</td>
+      <td>1.00 [1.00, 3.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Expanded nodes</td>
+      <td>33748</td>
+      <td>24.00 [9.00, 74.00]</td>
+      <td>20.00 [9.00, 47.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>33748</td>
+      <td>0.00 [-0.24, 0.09]</td>
+      <td>0.00 [-0.39, 0.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Path length</td>
+      <td>33748</td>
+      <td>179.05 [139.76, 218.20]</td>
+      <td>174.47 [137.20, 211.95]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Runtime (ms)</td>
+      <td>33748</td>
+      <td>28.60 [16.03, 53.83]</td>
+      <td>34.01 [18.17, 70.87]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Total turning angle (deg)</td>
+      <td>33748</td>
+      <td>225.00 [45.00, 495.00]</td>
+      <td>315.00 [45.00, 675.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Turns</td>
+      <td>33748</td>
+      <td>5.00 [1.00, 10.00]</td>
+      <td>7.00 [1.00, 15.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Expanded nodes</td>
+      <td>46772</td>
+      <td>74.00 [25.00, 230.00]</td>
+      <td>66.00 [26.00, 155.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>46772</td>
+      <td>0.00 [-0.12, 4.54]</td>
+      <td>-0.14 [-0.32, 0.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Path length</td>
+      <td>46772</td>
+      <td>367.07 [311.30, 437.21]</td>
+      <td>353.47 [301.14, 421.95]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Runtime (ms)</td>
+      <td>46772</td>
+      <td>78.08 [44.90, 139.02]</td>
+      <td>97.00 [54.56, 173.67]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Total turning angle (deg)</td>
+      <td>46772</td>
+      <td>405.00 [225.00, 855.00]</td>
+      <td>765.00 [315.00, 1,575.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Turns</td>
+      <td>46772</td>
+      <td>9.00 [5.00, 19.00]</td>
+      <td>17.00 [7.00, 35.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Expanded nodes</td>
+      <td>56270</td>
+      <td>159.00 [55.00, 453.00]</td>
+      <td>162.00 [68.00, 355.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>56270</td>
+      <td>1.02 [0.00, 5.73]</td>
+      <td>-0.09 [-0.21, 0.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Path length</td>
+      <td>56270</td>
+      <td>715.18 [615.23, 850.37]</td>
+      <td>686.22 [592.75, 814.85]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Runtime (ms)</td>
+      <td>56270</td>
+      <td>262.57 [151.00, 470.45]</td>
+      <td>353.92 [209.98, 600.85]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Total turning angle (deg)</td>
+      <td>56270</td>
+      <td>675.00 [405.00, 1,260.00]</td>
+      <td>1,485.00 [585.00, 2,835.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Turns</td>
+      <td>56270</td>
+      <td>15.00 [9.00, 28.00]</td>
+      <td>33.00 [13.00, 63.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R5: L &gt;= 1000</td>
+      <td>Expanded nodes</td>
+      <td>38200</td>
+      <td>390.00 [141.00, 1,058.00]</td>
+      <td>472.00 [219.00, 964.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R5: L &gt;= 1000</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>38200</td>
+      <td>2.21 [0.00, 6.11]</td>
+      <td>-0.10 [-0.16, -0.05]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R5: L &gt;= 1000</td>
+      <td>Path length</td>
+      <td>38200</td>
+      <td>1,305.10 [1,170.17, 1,438.97]</td>
+      <td>1,253.32 [1,126.26, 1,380.46]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R5: L &gt;= 1000</td>
+      <td>Runtime (ms)</td>
+      <td>38200</td>
+      <td>929.30 [535.27, 1,635.92]</td>
+      <td>1,397.43 [871.92, 2,223.05]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R5: L &gt;= 1000</td>
+      <td>Total turning angle (deg)</td>
+      <td>38200</td>
+      <td>1,215.00 [675.00, 1,980.00]</td>
+      <td>2,835.00 [1,305.00, 5,175.00]</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>R5: L &gt;= 1000</td>
+      <td>Turns</td>
+      <td>38200</td>
+      <td>27.00 [15.00, 44.00]</td>
+      <td>63.00 [29.00, 115.00]</td>
+    </tr>
+  </tbody>
+</table><h2>Relative changes: optimized versus Standard JPS</h2><p>Negative values mean a reduction. The two percentage measures below are different calculations.</p><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Grouping</th>
+      <th>Group</th>
+      <th>Metric</th>
+      <th>Metric pairs</th>
+      <th>Positive baseline pairs</th>
+      <th>Zero or negative baseline pairs excluded</th>
+      <th>Difference between medians (%)</th>
+      <th>Per-scenario change median (%)</th>
+      <th>Per-scenario change Q1 (%)</th>
+      <th>Per-scenario change Q3 (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Runtime (ms)</td>
+      <td>197490</td>
+      <td>197490</td>
+      <td>0</td>
+      <td>-26.42</td>
+      <td>-32.48</td>
+      <td>-44.52</td>
+      <td>0.38</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Path length</td>
+      <td>197490</td>
+      <td>197475</td>
+      <td>15</td>
+      <td>3.85</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>4.53</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Turns</td>
+      <td>197490</td>
+      <td>196100</td>
+      <td>1390</td>
+      <td>-42.11</td>
+      <td>0.00</td>
+      <td>-55.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Total turning angle (deg)</td>
+      <td>197490</td>
+      <td>196100</td>
+      <td>1390</td>
+      <td>-42.11</td>
+      <td>0.00</td>
+      <td>-54.95</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Expanded nodes</td>
+      <td>197490</td>
+      <td>197490</td>
+      <td>0</td>
+      <td>2.38</td>
+      <td>1.00</td>
+      <td>-16.67</td>
+      <td>54.55</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Runtime (ms)</td>
+      <td>28020</td>
+      <td>28020</td>
+      <td>0</td>
+      <td>-2.73</td>
+      <td>-9.45</td>
+      <td>-34.51</td>
+      <td>37.88</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Path length</td>
+      <td>28020</td>
+      <td>28013</td>
+      <td>7</td>
+      <td>4.15</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>5.02</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Turns</td>
+      <td>28020</td>
+      <td>27636</td>
+      <td>384</td>
+      <td>-30.77</td>
+      <td>0.00</td>
+      <td>-44.44</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Total turning angle (deg)</td>
+      <td>28020</td>
+      <td>27636</td>
+      <td>384</td>
+      <td>-30.77</td>
+      <td>0.00</td>
+      <td>-44.44</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Expanded nodes</td>
+      <td>28020</td>
+      <td>28020</td>
+      <td>0</td>
+      <td>50.98</td>
+      <td>39.71</td>
+      <td>0.00</td>
+      <td>116.67</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Runtime (ms)</td>
+      <td>56270</td>
+      <td>56270</td>
+      <td>0</td>
+      <td>-24.23</td>
+      <td>-31.13</td>
+      <td>-43.45</td>
+      <td>2.50</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Path length</td>
+      <td>56270</td>
+      <td>56269</td>
+      <td>1</td>
+      <td>3.93</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>4.72</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Turns</td>
+      <td>56270</td>
+      <td>55805</td>
+      <td>465</td>
+      <td>-35.29</td>
+      <td>0.00</td>
+      <td>-52.63</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Total turning angle (deg)</td>
+      <td>56270</td>
+      <td>55805</td>
+      <td>465</td>
+      <td>-35.29</td>
+      <td>0.00</td>
+      <td>-52.63</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Expanded nodes</td>
+      <td>56270</td>
+      <td>56270</td>
+      <td>0</td>
+      <td>11.11</td>
+      <td>9.09</td>
+      <td>-10.00</td>
+      <td>61.82</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Runtime (ms)</td>
+      <td>113200</td>
+      <td>113200</td>
+      <td>0</td>
+      <td>-29.34</td>
+      <td>-36.58</td>
+      <td>-46.86</td>
+      <td>-10.42</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Path length</td>
+      <td>113200</td>
+      <td>113193</td>
+      <td>7</td>
+      <td>3.95</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>4.32</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Turns</td>
+      <td>113200</td>
+      <td>112659</td>
+      <td>541</td>
+      <td>-43.48</td>
+      <td>0.00</td>
+      <td>-59.81</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Total turning angle (deg)</td>
+      <td>113200</td>
+      <td>112659</td>
+      <td>541</td>
+      <td>-43.48</td>
+      <td>0.00</td>
+      <td>-59.77</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Expanded nodes</td>
+      <td>113200</td>
+      <td>113200</td>
+      <td>0</td>
+      <td>-14.15</td>
+      <td>0.00</td>
+      <td>-26.18</td>
+      <td>34.34</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Runtime (ms)</td>
+      <td>22500</td>
+      <td>22500</td>
+      <td>0</td>
+      <td>-29.47</td>
+      <td>-37.91</td>
+      <td>-43.08</td>
+      <td>-16.92</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Path length</td>
+      <td>22500</td>
+      <td>22485</td>
+      <td>15</td>
+      <td>0.40</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Turns</td>
+      <td>22500</td>
+      <td>21225</td>
+      <td>1275</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Total turning angle (deg)</td>
+      <td>22500</td>
+      <td>21225</td>
+      <td>1275</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Expanded nodes</td>
+      <td>22500</td>
+      <td>22500</td>
+      <td>0</td>
+      <td>25.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>33.33</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Runtime (ms)</td>
+      <td>33748</td>
+      <td>33748</td>
+      <td>0</td>
+      <td>-15.90</td>
+      <td>-31.00</td>
+      <td>-42.33</td>
+      <td>8.41</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Path length</td>
+      <td>33748</td>
+      <td>33748</td>
+      <td>0</td>
+      <td>2.62</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.59</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Turns</td>
+      <td>33748</td>
+      <td>33659</td>
+      <td>89</td>
+      <td>-28.57</td>
+      <td>0.00</td>
+      <td>-22.22</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Total turning angle (deg)</td>
+      <td>33748</td>
+      <td>33659</td>
+      <td>89</td>
+      <td>-28.57</td>
+      <td>0.00</td>
+      <td>-22.22</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Expanded nodes</td>
+      <td>33748</td>
+      <td>33748</td>
+      <td>0</td>
+      <td>20.00</td>
+      <td>9.09</td>
+      <td>0.00</td>
+      <td>65.52</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Runtime (ms)</td>
+      <td>46772</td>
+      <td>46772</td>
+      <td>0</td>
+      <td>-19.50</td>
+      <td>-27.93</td>
+      <td>-43.14</td>
+      <td>10.02</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Path length</td>
+      <td>46772</td>
+      <td>46772</td>
+      <td>0</td>
+      <td>3.85</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>4.89</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Turns</td>
+      <td>46772</td>
+      <td>46755</td>
+      <td>17</td>
+      <td>-47.06</td>
+      <td>0.00</td>
+      <td>-51.85</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Total turning angle (deg)</td>
+      <td>46772</td>
+      <td>46755</td>
+      <td>17</td>
+      <td>-47.06</td>
+      <td>0.00</td>
+      <td>-51.85</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Expanded nodes</td>
+      <td>46772</td>
+      <td>46772</td>
+      <td>0</td>
+      <td>12.12</td>
+      <td>12.00</td>
+      <td>-10.00</td>
+      <td>74.16</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Runtime (ms)</td>
+      <td>56270</td>
+      <td>56270</td>
+      <td>0</td>
+      <td>-25.81</td>
+      <td>-30.44</td>
+      <td>-46.14</td>
+      <td>1.88</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Path length</td>
+      <td>56270</td>
+      <td>56270</td>
+      <td>0</td>
+      <td>4.22</td>
+      <td>1.19</td>
+      <td>0.00</td>
+      <td>5.91</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Turns</td>
+      <td>56270</td>
+      <td>56261</td>
+      <td>9</td>
+      <td>-54.55</td>
+      <td>-29.27</td>
+      <td>-63.77</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Total turning angle (deg)</td>
+      <td>56270</td>
+      <td>56261</td>
+      <td>9</td>
+      <td>-54.55</td>
+      <td>-29.27</td>
+      <td>-63.77</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Expanded nodes</td>
+      <td>56270</td>
+      <td>56270</td>
+      <td>0</td>
+      <td>-1.85</td>
+      <td>3.70</td>
+      <td>-28.30</td>
+      <td>58.82</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Runtime (ms)</td>
+      <td>38200</td>
+      <td>38200</td>
+      <td>0</td>
+      <td>-33.50</td>
+      <td>-35.40</td>
+      <td>-49.45</td>
+      <td>-9.54</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Path length</td>
+      <td>38200</td>
+      <td>38200</td>
+      <td>0</td>
+      <td>4.13</td>
+      <td>2.35</td>
+      <td>0.00</td>
+      <td>6.25</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Turns</td>
+      <td>38200</td>
+      <td>38200</td>
+      <td>0</td>
+      <td>-57.14</td>
+      <td>-44.55</td>
+      <td>-69.33</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Total turning angle (deg)</td>
+      <td>38200</td>
+      <td>38200</td>
+      <td>0</td>
+      <td>-57.14</td>
+      <td>-44.56</td>
+      <td>-69.31</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Expanded nodes</td>
+      <td>38200</td>
+      <td>38200</td>
+      <td>0</td>
+      <td>-17.37</td>
+      <td>-10.96</td>
+      <td>-43.79</td>
+      <td>35.73</td>
+    </tr>
+  </tbody>
+</table><p><b>Independent units assumed for inference: 10 source-city groups.</b></p><h2>City grouping</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Map</th>
+      <th>City</th>
+      <th>Matched scenarios</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Berlin_0_1024.map</td>
+      <td>Berlin</td>
+      <td>3850</td>
+    </tr>
+    <tr>
+      <td>Berlin_0_256.map</td>
+      <td>Berlin</td>
+      <td>930</td>
+    </tr>
+    <tr>
+      <td>Berlin_0_512.map</td>
+      <td>Berlin</td>
+      <td>1870</td>
+    </tr>
+    <tr>
+      <td>Berlin_1_1024.map</td>
+      <td>Berlin</td>
+      <td>3920</td>
+    </tr>
+    <tr>
+      <td>Berlin_1_256.map</td>
+      <td>Berlin</td>
+      <td>910</td>
+    </tr>
+    <tr>
+      <td>Berlin_1_512.map</td>
+      <td>Berlin</td>
+      <td>1950</td>
+    </tr>
+    <tr>
+      <td>Berlin_2_1024.map</td>
+      <td>Berlin</td>
+      <td>3870</td>
+    </tr>
+    <tr>
+      <td>Berlin_2_256.map</td>
+      <td>Berlin</td>
+      <td>960</td>
+    </tr>
+    <tr>
+      <td>Berlin_2_512.map</td>
+      <td>Berlin</td>
+      <td>1950</td>
+    </tr>
+    <tr>
+      <td>Boston_0_1024.map</td>
+      <td>Boston</td>
+      <td>3840</td>
+    </tr>
+    <tr>
+      <td>Boston_0_256.map</td>
+      <td>Boston</td>
+      <td>950</td>
+    </tr>
+    <tr>
+      <td>Boston_0_512.map</td>
+      <td>Boston</td>
+      <td>1890</td>
+    </tr>
+    <tr>
+      <td>Boston_1_1024.map</td>
+      <td>Boston</td>
+      <td>3720</td>
+    </tr>
+    <tr>
+      <td>Boston_1_256.map</td>
+      <td>Boston</td>
+      <td>910</td>
+    </tr>
+    <tr>
+      <td>Boston_1_512.map</td>
+      <td>Boston</td>
+      <td>1830</td>
+    </tr>
+    <tr>
+      <td>Boston_2_1024.map</td>
+      <td>Boston</td>
+      <td>3870</td>
+    </tr>
+    <tr>
+      <td>Boston_2_256.map</td>
+      <td>Boston</td>
+      <td>860</td>
+    </tr>
+    <tr>
+      <td>Boston_2_512.map</td>
+      <td>Boston</td>
+      <td>1850</td>
+    </tr>
+    <tr>
+      <td>Denver_0_1024.map</td>
+      <td>Denver</td>
+      <td>3680</td>
+    </tr>
+    <tr>
+      <td>Denver_0_256.map</td>
+      <td>Denver</td>
+      <td>940</td>
+    </tr>
+    <tr>
+      <td>Denver_0_512.map</td>
+      <td>Denver</td>
+      <td>1830</td>
+    </tr>
+    <tr>
+      <td>Denver_1_1024.map</td>
+      <td>Denver</td>
+      <td>3770</td>
+    </tr>
+    <tr>
+      <td>Denver_1_256.map</td>
+      <td>Denver</td>
+      <td>830</td>
+    </tr>
+    <tr>
+      <td>Denver_1_512.map</td>
+      <td>Denver</td>
+      <td>1780</td>
+    </tr>
+    <tr>
+      <td>Denver_2_1024.map</td>
+      <td>Denver</td>
+      <td>3700</td>
+    </tr>
+    <tr>
+      <td>Denver_2_256.map</td>
+      <td>Denver</td>
+      <td>910</td>
+    </tr>
+    <tr>
+      <td>Denver_2_512.map</td>
+      <td>Denver</td>
+      <td>1890</td>
+    </tr>
+    <tr>
+      <td>London_0_1024.map</td>
+      <td>London</td>
+      <td>4010</td>
+    </tr>
+    <tr>
+      <td>London_0_256.map</td>
+      <td>London</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>London_0_512.map</td>
+      <td>London</td>
+      <td>2080</td>
+    </tr>
+    <tr>
+      <td>London_1_1024.map</td>
+      <td>London</td>
+      <td>3410</td>
+    </tr>
+    <tr>
+      <td>London_1_256.map</td>
+      <td>London</td>
+      <td>940</td>
+    </tr>
+    <tr>
+      <td>London_1_512.map</td>
+      <td>London</td>
+      <td>1870</td>
+    </tr>
+    <tr>
+      <td>London_2_1024.map</td>
+      <td>London</td>
+      <td>3840</td>
+    </tr>
+    <tr>
+      <td>London_2_256.map</td>
+      <td>London</td>
+      <td>940</td>
+    </tr>
+    <tr>
+      <td>London_2_512.map</td>
+      <td>London</td>
+      <td>1910</td>
+    </tr>
+    <tr>
+      <td>Milan_0_1024.map</td>
+      <td>Milan</td>
+      <td>3850</td>
+    </tr>
+    <tr>
+      <td>Milan_0_256.map</td>
+      <td>Milan</td>
+      <td>910</td>
+    </tr>
+    <tr>
+      <td>Milan_0_512.map</td>
+      <td>Milan</td>
+      <td>1780</td>
+    </tr>
+    <tr>
+      <td>Milan_1_1024.map</td>
+      <td>Milan</td>
+      <td>3680</td>
+    </tr>
+    <tr>
+      <td>Milan_1_256.map</td>
+      <td>Milan</td>
+      <td>870</td>
+    </tr>
+    <tr>
+      <td>Milan_1_512.map</td>
+      <td>Milan</td>
+      <td>1800</td>
+    </tr>
+    <tr>
+      <td>Milan_2_1024.map</td>
+      <td>Milan</td>
+      <td>3840</td>
+    </tr>
+    <tr>
+      <td>Milan_2_256.map</td>
+      <td>Milan</td>
+      <td>970</td>
+    </tr>
+    <tr>
+      <td>Milan_2_512.map</td>
+      <td>Milan</td>
+      <td>1950</td>
+    </tr>
+    <tr>
+      <td>Moscow_0_1024.map</td>
+      <td>Moscow</td>
+      <td>3630</td>
+    </tr>
+    <tr>
+      <td>Moscow_0_256.map</td>
+      <td>Moscow</td>
+      <td>910</td>
+    </tr>
+    <tr>
+      <td>Moscow_0_512.map</td>
+      <td>Moscow</td>
+      <td>1830</td>
+    </tr>
+    <tr>
+      <td>Moscow_1_1024.map</td>
+      <td>Moscow</td>
+      <td>3870</td>
+    </tr>
+    <tr>
+      <td>Moscow_1_256.map</td>
+      <td>Moscow</td>
+      <td>1100</td>
+    </tr>
+    <tr>
+      <td>Moscow_1_512.map</td>
+      <td>Moscow</td>
+      <td>1970</td>
+    </tr>
+    <tr>
+      <td>Moscow_2_1024.map</td>
+      <td>Moscow</td>
+      <td>4230</td>
+    </tr>
+    <tr>
+      <td>Moscow_2_256.map</td>
+      <td>Moscow</td>
+      <td>990</td>
+    </tr>
+    <tr>
+      <td>Moscow_2_512.map</td>
+      <td>Moscow</td>
+      <td>2090</td>
+    </tr>
+    <tr>
+      <td>NewYork_0_1024.map</td>
+      <td>NewYork</td>
+      <td>3670</td>
+    </tr>
+    <tr>
+      <td>NewYork_0_256.map</td>
+      <td>NewYork</td>
+      <td>910</td>
+    </tr>
+    <tr>
+      <td>NewYork_0_512.map</td>
+      <td>NewYork</td>
+      <td>1790</td>
+    </tr>
+    <tr>
+      <td>NewYork_1_1024.map</td>
+      <td>NewYork</td>
+      <td>3740</td>
+    </tr>
+    <tr>
+      <td>NewYork_1_256.map</td>
+      <td>NewYork</td>
+      <td>910</td>
+    </tr>
+    <tr>
+      <td>NewYork_1_512.map</td>
+      <td>NewYork</td>
+      <td>1820</td>
+    </tr>
+    <tr>
+      <td>NewYork_2_1024.map</td>
+      <td>NewYork</td>
+      <td>3680</td>
+    </tr>
+    <tr>
+      <td>NewYork_2_256.map</td>
+      <td>NewYork</td>
+      <td>870</td>
+    </tr>
+    <tr>
+      <td>NewYork_2_512.map</td>
+      <td>NewYork</td>
+      <td>1850</td>
+    </tr>
+    <tr>
+      <td>Paris_0_1024.map</td>
+      <td>Paris</td>
+      <td>3820</td>
+    </tr>
+    <tr>
+      <td>Paris_0_256.map</td>
+      <td>Paris</td>
+      <td>980</td>
+    </tr>
+    <tr>
+      <td>Paris_0_512.map</td>
+      <td>Paris</td>
+      <td>1810</td>
+    </tr>
+    <tr>
+      <td>Paris_1_1024.map</td>
+      <td>Paris</td>
+      <td>3760</td>
+    </tr>
+    <tr>
+      <td>Paris_1_256.map</td>
+      <td>Paris</td>
+      <td>1090</td>
+    </tr>
+    <tr>
+      <td>Paris_1_512.map</td>
+      <td>Paris</td>
+      <td>1900</td>
+    </tr>
+    <tr>
+      <td>Paris_2_1024.map</td>
+      <td>Paris</td>
+      <td>3990</td>
+    </tr>
+    <tr>
+      <td>Paris_2_256.map</td>
+      <td>Paris</td>
+      <td>1060</td>
+    </tr>
+    <tr>
+      <td>Paris_2_512.map</td>
+      <td>Paris</td>
+      <td>2190</td>
+    </tr>
+    <tr>
+      <td>Shanghai_0_1024.map</td>
+      <td>Shanghai</td>
+      <td>3680</td>
+    </tr>
+    <tr>
+      <td>Shanghai_0_256.map</td>
+      <td>Shanghai</td>
+      <td>870</td>
+    </tr>
+    <tr>
+      <td>Shanghai_0_512.map</td>
+      <td>Shanghai</td>
+      <td>1730</td>
+    </tr>
+    <tr>
+      <td>Shanghai_1_1024.map</td>
+      <td>Shanghai</td>
+      <td>3570</td>
+    </tr>
+    <tr>
+      <td>Shanghai_1_256.map</td>
+      <td>Shanghai</td>
+      <td>900</td>
+    </tr>
+    <tr>
+      <td>Shanghai_1_512.map</td>
+      <td>Shanghai</td>
+      <td>1780</td>
+    </tr>
+    <tr>
+      <td>Shanghai_2_1024.map</td>
+      <td>Shanghai</td>
+      <td>3720</td>
+    </tr>
+    <tr>
+      <td>Shanghai_2_256.map</td>
+      <td>Shanghai</td>
+      <td>920</td>
+    </tr>
+    <tr>
+      <td>Shanghai_2_512.map</td>
+      <td>Shanghai</td>
+      <td>1810</td>
+    </tr>
+    <tr>
+      <td>Sydney_0_1024.map</td>
+      <td>Sydney</td>
+      <td>3650</td>
+    </tr>
+    <tr>
+      <td>Sydney_0_256.map</td>
+      <td>Sydney</td>
+      <td>900</td>
+    </tr>
+    <tr>
+      <td>Sydney_0_512.map</td>
+      <td>Sydney</td>
+      <td>1790</td>
+    </tr>
+    <tr>
+      <td>Sydney_1_1024.map</td>
+      <td>Sydney</td>
+      <td>3670</td>
+    </tr>
+    <tr>
+      <td>Sydney_1_256.map</td>
+      <td>Sydney</td>
+      <td>870</td>
+    </tr>
+    <tr>
+      <td>Sydney_1_512.map</td>
+      <td>Sydney</td>
+      <td>1790</td>
+    </tr>
+    <tr>
+      <td>Sydney_2_1024.map</td>
+      <td>Sydney</td>
+      <td>3670</td>
+    </tr>
+    <tr>
+      <td>Sydney_2_256.map</td>
+      <td>Sydney</td>
+      <td>910</td>
+    </tr>
+    <tr>
+      <td>Sydney_2_512.map</td>
+      <td>Sydney</td>
+      <td>1890</td>
+    </tr>
+  </tbody>
+</table><h2>Statistical comparison</h2><p>Primary analysis: calculate optimized-minus-JPS differences for matched scenarios; take their median within each map; then take the median of those map summaries within each source city. Each city contributes one value to an exact two-sided sign test. Maps are equally weighted within a city; cities are equally weighted in inference. This tests sign balance of nonzero city summaries, not equality of pooled scenario medians. Related variants and resolutions are not counted as independent replicates.</p><p>Primary effect size: paired sign effect = (positive - negative) / nonzero units. Rank-biserial effect is also provided: (positive rank sum - negative rank sum) / total rank sum, using average ranks of absolute nonzero differences. Both range from -1 to +1; negative means lower optimized values. For reference gap, lower does not necessarily mean better. Zero differences are excluded from these denominators; tie counts are reported. All-zero differences yield effect 0 and p=1 by convention.</p><p>Holm adjustment covers all metrics and groups separately for each analysis unit; use adjusted p-values for significance at 0.05. Statistical significance is not practical importance. Primary inference still assumes independent source cities and valid city grouping; grouping cannot prove independence. Only 10 source cities are available in the complete Street dataset, so statistical power and p-value resolution are limited. Nonsignificance is not evidence of equivalence. No scenario-level or map-level inferential p-values are presented.</p><p>Only jointly successful scenarios with finite values are used. Differences are rounded to 9 decimal places before ranking to suppress floating-point artifacts. Fewer than two nonzero units receive no inferential p-value. CSV values of zero p may reflect numerical underflow; HTML displays these as below machine precision.</p><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Metric</th>
+      <th>N units</th>
+      <th>Nonzero units</th>
+      <th>Median paired difference</th>
+      <th>Paired sign effect</th>
+      <th>Rank-biserial effect</th>
+      <th>p-value</th>
+      <th>Holm-adjusted p-value</th>
+      <th>Significant (Holm &lt; 0.05)</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Runtime (ms)</td>
+      <td>10</td>
+      <td>10</td>
+      <td>-11.44</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.953e-03</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <td>Path length</td>
+      <td>10</td>
+      <td>6</td>
+      <td>0.3241</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.125e-02</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <td>Turns</td>
+      <td>10</td>
+      <td>7</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.562e-02</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <td>Total turning angle (deg)</td>
+      <td>10</td>
+      <td>7</td>
+      <td>-90</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.562e-02</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <td>Expanded nodes</td>
+      <td>10</td>
+      <td>8</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.812e-03</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <td>Gap to dataset reference (%)</td>
+      <td>10</td>
+      <td>6</td>
+      <td>0.1372</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.125e-02</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <td>Waypoints</td>
+      <td>10</td>
+      <td>7</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.562e-02</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <td>Generated successors</td>
+      <td>10</td>
+      <td>9</td>
+      <td>6.75</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <td>Queue pushes</td>
+      <td>10</td>
+      <td>9</td>
+      <td>5.75</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+    <tr>
+      <td>Jump calls</td>
+      <td>10</td>
+      <td>9</td>
+      <td>5898</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+      <td>OK</td>
+    </tr>
+  </tbody>
+</table><details><summary>All metrics and groups: city-level tests</summary><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Grouping</th>
+      <th>Group</th>
+      <th>Metric</th>
+      <th>Unit</th>
+      <th>Matched metric scenarios</th>
+      <th>Maps</th>
+      <th>Cities</th>
+      <th>N units</th>
+      <th>Nonzero units</th>
+      <th>Tied units</th>
+      <th>Optimized lower units</th>
+      <th>Optimized higher units</th>
+      <th>Median paired difference</th>
+      <th>Paired sign effect</th>
+      <th>Rank-biserial effect</th>
+      <th>p-value</th>
+      <th>Test</th>
+      <th>Status</th>
+      <th>Holm-adjusted p-value</th>
+      <th>Significant (Holm &lt; 0.05)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Runtime (ms)</td>
+      <td>City median of map differences (primary)</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>-11.44</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Path length</td>
+      <td>City median of map differences (primary)</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>6</td>
+      <td>0.3241</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Turns</td>
+      <td>City median of map differences (primary)</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>7</td>
+      <td>3</td>
+      <td>7</td>
+      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.562e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Total turning angle (deg)</td>
+      <td>City median of map differences (primary)</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>7</td>
+      <td>3</td>
+      <td>7</td>
+      <td>0</td>
+      <td>-90</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.562e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Expanded nodes</td>
+      <td>City median of map differences (primary)</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>City median of map differences (primary)</td>
+      <td>197475</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>6</td>
+      <td>0.1372</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Waypoints</td>
+      <td>City median of map differences (primary)</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>7</td>
+      <td>3</td>
+      <td>7</td>
+      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.562e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Generated successors</td>
+      <td>City median of map differences (primary)</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0</td>
+      <td>9</td>
+      <td>6.75</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Queue pushes</td>
+      <td>City median of map differences (primary)</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0</td>
+      <td>9</td>
+      <td>5.75</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Overall</td>
+      <td>All</td>
+      <td>Jump calls</td>
+      <td>City median of map differences (primary)</td>
+      <td>197490</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0</td>
+      <td>9</td>
+      <td>5898</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Runtime (ms)</td>
+      <td>City median of map differences (primary)</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>7</td>
+      <td>3</td>
+      <td>-0.4976</td>
+      <td>-0.4</td>
+      <td>-0.5636</td>
+      <td>3.438e-01</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Path length</td>
+      <td>City median of map differences (primary)</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>6</td>
+      <td>0.3241</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Turns</td>
+      <td>City median of map differences (primary)</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Total turning angle (deg)</td>
+      <td>City median of map differences (primary)</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0</td>
+      <td>-90</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Expanded nodes</td>
+      <td>City median of map differences (primary)</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>13.5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>City median of map differences (primary)</td>
+      <td>28013</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>6</td>
+      <td>0.1372</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Waypoints</td>
+      <td>City median of map differences (primary)</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Generated successors</td>
+      <td>City median of map differences (primary)</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>21.75</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Queue pushes</td>
+      <td>City median of map differences (primary)</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>20.25</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>256 x 256</td>
+      <td>Jump calls</td>
+      <td>City median of map differences (primary)</td>
+      <td>28020</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>4015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Runtime (ms)</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>-11.44</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Path length</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1.243</td>
+      <td>1</td>
+      <td>1</td>
+      <td>6.250e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Turns</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Total turning angle (deg)</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0</td>
+      <td>-90</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Expanded nodes</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+      <td>7</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.562e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>City median of map differences (primary)</td>
+      <td>56269</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0.2643</td>
+      <td>1</td>
+      <td>1</td>
+      <td>6.250e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Waypoints</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Generated successors</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>5.5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Queue pushes</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>4.75</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>512 x 512</td>
+      <td>Jump calls</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0</td>
+      <td>9</td>
+      <td>7033</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Runtime (ms)</td>
+      <td>City median of map differences (primary)</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>-78.89</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Path length</td>
+      <td>City median of map differences (primary)</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0.6005</td>
+      <td>1</td>
+      <td>1</td>
+      <td>6.250e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Turns</td>
+      <td>City median of map differences (primary)</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Total turning angle (deg)</td>
+      <td>City median of map differences (primary)</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0</td>
+      <td>-90</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Expanded nodes</td>
+      <td>City median of map differences (primary)</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>5.000e-01</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>City median of map differences (primary)</td>
+      <td>113193</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0.0753</td>
+      <td>1</td>
+      <td>1</td>
+      <td>6.250e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Waypoints</td>
+      <td>City median of map differences (primary)</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0</td>
+      <td>-2</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.125e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Generated successors</td>
+      <td>City median of map differences (primary)</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>5.000e-01</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Queue pushes</td>
+      <td>City median of map differences (primary)</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>5.000e-01</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Map size</td>
+      <td>1024 x 1024</td>
+      <td>Jump calls</td>
+      <td>City median of map differences (primary)</td>
+      <td>113200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+      <td>7</td>
+      <td>8320</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.562e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Runtime (ms)</td>
+      <td>City median of map differences (primary)</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>-4.639</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Path length</td>
+      <td>City median of map differences (primary)</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Turns</td>
+      <td>City median of map differences (primary)</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Total turning angle (deg)</td>
+      <td>City median of map differences (primary)</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Expanded nodes</td>
+      <td>City median of map differences (primary)</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>Exact two-sided sign test</td>
+      <td>Fewer than two nonzero units; no inference</td>
+      <td>NaN</td>
+      <td>Not tested</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>City median of map differences (primary)</td>
+      <td>22485</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Waypoints</td>
+      <td>City median of map differences (primary)</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Generated successors</td>
+      <td>City median of map differences (primary)</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>Exact two-sided sign test</td>
+      <td>Fewer than two nonzero units; no inference</td>
+      <td>NaN</td>
+      <td>Not tested</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Queue pushes</td>
+      <td>City median of map differences (primary)</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>Exact two-sided sign test</td>
+      <td>Fewer than two nonzero units; no inference</td>
+      <td>NaN</td>
+      <td>Not tested</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R1: 0 &lt;= L &lt; 100</td>
+      <td>Jump calls</td>
+      <td>City median of map differences (primary)</td>
+      <td>22500</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>Exact two-sided sign test</td>
+      <td>Fewer than two nonzero units; no inference</td>
+      <td>NaN</td>
+      <td>Not tested</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Runtime (ms)</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>-8.483</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Path length</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Turns</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Total turning angle (deg)</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Expanded nodes</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.562e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Waypoints</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>All differences zero</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Generated successors</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Queue pushes</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R2: 100 &lt;= L &lt; 250</td>
+      <td>Jump calls</td>
+      <td>City median of map differences (primary)</td>
+      <td>33748</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0</td>
+      <td>9</td>
+      <td>1250</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Runtime (ms)</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>-14.67</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Path length</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1.318</td>
+      <td>1</td>
+      <td>1</td>
+      <td>6.250e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Turns</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>-3</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Total turning angle (deg)</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>7</td>
+      <td>3</td>
+      <td>7</td>
+      <td>0</td>
+      <td>-135</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.562e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>7.500e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Expanded nodes</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0.4001</td>
+      <td>1</td>
+      <td>1</td>
+      <td>6.250e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Waypoints</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>-3</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Generated successors</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Queue pushes</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>9.5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7.812e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>4.531e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R3: 250 &lt;= L &lt; 500</td>
+      <td>Jump calls</td>
+      <td>City median of map differences (primary)</td>
+      <td>46772</td>
+      <td>90</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0</td>
+      <td>9</td>
+      <td>7597</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Runtime (ms)</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>-70.35</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Path length</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0</td>
+      <td>9</td>
+      <td>12.87</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Turns</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>-15.5</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Total turning angle (deg)</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>-697.5</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Expanded nodes</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>8</td>
+      <td>2</td>
+      <td>1</td>
+      <td>7</td>
+      <td>8</td>
+      <td>0.75</td>
+      <td>0.8889</td>
+      <td>7.031e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0</td>
+      <td>9</td>
+      <td>1.88</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Waypoints</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>-15.5</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Generated successors</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>1</td>
+      <td>8</td>
+      <td>13.88</td>
+      <td>0.7778</td>
+      <td>0.8667</td>
+      <td>3.906e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Queue pushes</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>1</td>
+      <td>8</td>
+      <td>13.5</td>
+      <td>0.7778</td>
+      <td>0.8667</td>
+      <td>3.906e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R4: 500 &lt;= L &lt; 1000</td>
+      <td>Jump calls</td>
+      <td>City median of map differences (primary)</td>
+      <td>56270</td>
+      <td>60</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>1</td>
+      <td>9</td>
+      <td>2.212e+04</td>
+      <td>0.8</td>
+      <td>0.9273</td>
+      <td>2.148e-02</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>8.809e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Runtime (ms)</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>10</td>
+      <td>0</td>
+      <td>-325.8</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Path length</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>36.37</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Turns</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>-40.5</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Total turning angle (deg)</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>-1822</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Expanded nodes</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>6</td>
+      <td>4</td>
+      <td>-6</td>
+      <td>-0.2</td>
+      <td>-0.3455</td>
+      <td>7.539e-01</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Gap to dataset reference (%)</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>2.925</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1.953e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.680e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Waypoints</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>9</td>
+      <td>1</td>
+      <td>9</td>
+      <td>0</td>
+      <td>-40.5</td>
+      <td>-1</td>
+      <td>-1</td>
+      <td>3.906e-03</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>2.812e-01</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Generated successors</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>-2.75</td>
+      <td>0</td>
+      <td>-0.1636</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Queue pushes</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>-1.75</td>
+      <td>0</td>
+      <td>-0.2364</td>
+      <td>1.000e+00</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Reference length</td>
+      <td>R5: L &gt;= 1000</td>
+      <td>Jump calls</td>
+      <td>City median of map differences (primary)</td>
+      <td>38200</td>
+      <td>30</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>2</td>
+      <td>8</td>
+      <td>5.504e+04</td>
+      <td>0.6</td>
+      <td>0.7091</td>
+      <td>1.094e-01</td>
+      <td>Exact two-sided sign test</td>
+      <td>OK</td>
+      <td>1.000e+00</td>
+      <td>No</td>
+    </tr>
+  </tbody>
+</table></details><p>Methods: <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binomtest.html">SciPy exact binomial test</a>.</p><figure><img src="figure_1_map_size.png"><figcaption>Figure 1. Matched successful scenarios; box = Q1-Q3, line = median, whiskers extend to observations within 1.5 IQR. Outlier markers are hidden but observations remain in all calculations. Runtime uses a log axis and excludes nonpositive times.</figcaption></figure><figure><img src="figure_2_length_ranges.png"><figcaption>Figure 2. Median and Q1-Q3 intervals (not confidence intervals). R1: [0,100); R2: [100,250); R3: [250,500); R4: [500,1000); R5: [1000,infinity). The third panel summarizes per-scenario percentage changes, not differences between medians.</figcaption></figure><figure><img src="figure_3_tradeoff.png"><figcaption>Figure 3. All eligible matched successful scenarios; positive horizontal values mean longer optimized paths; positive vertical values mean fewer turns. Zero-length baselines are excluded; all other eligible values are shown.</figcaption></figure><h2>Presentation figures</h2><p>Closest to cohort medians of reference length, percentage length change and turns saved, scaled by IQR; tie-break map/scenario. Trade-off example uses the same rule within positive-extra-length and positive-turn-savings cases, excluding the representative.</p><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>selection</th>
+      <th>map</th>
+      <th>scenario</th>
+      <th>status</th>
+      <th>parameters</th>
+      <th>path_file</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Representative</td>
+      <td>Sydney_0_1024.map</td>
+      <td>1179</td>
+      <td>Verified reconstruction</td>
+      <td>{'turn_weight': 0.35, 'turn_count_weight': 5.0, 'heuristic_weight': 1.15}</td>
+      <td>figure_4_path_example_1.json</td>
+    </tr>
+    <tr>
+      <td>Longer but smoother</td>
+      <td>Milan_0_512.map</td>
+      <td>1665</td>
+      <td>Verified reconstruction</td>
+      <td>{'turn_weight': 0.35, 'turn_count_weight': 5.0, 'heuristic_weight': 1.15}</td>
+      <td>figure_4_path_example_2.json</td>
+    </tr>
+  </tbody>
+</table><figure><a href="figure_4_path_example_1.pdf"><img src="figure_4_path_example_1.png"></a><figcaption>Paths reconstructed using saved weights and checked against saved length/turn count. Runtime annotations are original saved measurements, not rerun timings.</figcaption></figure><figure><a href="figure_4_path_example_2.pdf"><img src="figure_4_path_example_2.png"></a><figcaption>Paths reconstructed using saved weights and checked against saved length/turn count. Runtime annotations are original saved measurements, not rerun timings.</figcaption></figure><figure><a href="figure_5_runtime_scatter.pdf"><img src="figure_5_runtime_scatter.png"></a><figcaption>Paired runtimes on logarithmic axes; all matched scenarios are pooled.</figcaption></figure><figure><a href="figure_6_win_tie_loss.pdf"><img src="figure_6_win_tie_loss.png"></a><figcaption>Optimized relative to JPS. Runtime ties: within 1% of JPS (user-selected descriptive tolerance, not a measured noise threshold). Path ties: absolute difference &lt;= 1e-7; turn ties: exact equality.</figcaption></figure><figure><a href="figure_8_improvement_heatmap.pdf"><img src="figure_8_improvement_heatmap.png"></a><figcaption>Cells use per-scenario changes, then take their median. Runtime requires a positive JPS baseline; turns saved is an absolute difference, so zero-turn baselines remain included. Grey cells have no eligible data.</figcaption></figure><figure><a href="figure_7_effect_sizes.pdf"><img src="figure_7_effect_sizes.png"></a><figcaption>Intervals transform the exact binomial interval for the proportion of positive nonzero city summaries. They condition on nonzero units, assume independent city groups, and are pointwise (not multiplicity-adjusted). All-tie metrics have no interval. Lower reference gap does not imply better optimality.</figcaption></figure><h2>Methods and interpretation</h2><p>Each comparison uses the same map/scenario pairs. Success counts include all included pairs;
+performance summaries and plots use pairs where both algorithms succeeded. For each metric, both values must be finite.
+N is the metric-specific number of pairs. Quartiles use linear interpolation. Descriptive medians and distribution plots pool scenarios; the separate inferential analysis weights map summaries equally within each city and city summaries equally across cities.</p>
+<p>All percentage changes in relative_changes.csv are optimized relative to Standard JPS: 100*(optimized-JPS)/JPS.
+Negative means a reduction. The file separately reports the percentage difference between group medians and
+median [Q1,Q3] of per-scenario changes. Nonpositive baselines are excluded from per-scenario percentages and counted explicitly.</p>
+<p>All saved matched scenarios are pooled for comparison.</p>
+<p>Reference-length groups pool map sizes and do not isolate path length as a causal factor.
+Negative reference gaps are retained; reference compatibility and movement rules must be checked before claiming optimality.
+Statistical results are conditional on the saved sample and the assumptions below; no optimality guarantees are inferred. The report reflects saved progress, not necessarily the complete dataset.</p><p>CSV tables contain full-precision numeric quartiles, relative changes, and supplementary search-effort metrics. Figures are also supplied as PDF.</p></body></html>

@@ -1,0 +1,199 @@
+{
+  "signature": {
+    "cache_version": 6,
+    "dataset_name": "street",
+    "maps": [
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_0_1024.map",
+        "map_size": 1050665,
+        "map_mtime_ns": 1785345642264770500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_0_1024.map.scen",
+        "scenario_size": 232875,
+        "scenario_mtime_ns": 1785345645041812300
+      },
+      {
+        "map": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\maps\\Berlin_0_256.map",
+        "map_size": 66087,
+        "map_mtime_ns": 1785345642264770500,
+        "scenario": "Z:\\Study\\Codex\\JPS_updated_miet_conf\\datasets\\street\\scenarios\\Berlin_0_256.map.scen",
+        "scenario_size": 50837,
+        "scenario_mtime_ns": 1785345645042803500
+      }
+    ],
+    "approaches": [
+      {
+        "label": "Optimized FWSAJPS [lambda=0.35, beta=5, w=1.15]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "turn_count_weight": 5.0,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0, beta=5, w=1.15]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.0,
+          "turn_count_weight": 5.0,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.1, beta=5, w=1.15]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.1,
+          "turn_count_weight": 5.0,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.75, beta=5, w=1.15]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.75,
+          "turn_count_weight": 5.0,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=1.5, beta=5, w=1.15]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 1.5,
+          "turn_count_weight": 5.0,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.35, beta=0, w=1.15]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "turn_count_weight": 0.0,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.35, beta=1, w=1.15]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "turn_count_weight": 1.0,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.35, beta=2.5, w=1.15]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "turn_count_weight": 2.5,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.35, beta=10, w=1.15]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "turn_count_weight": 10.0,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.35, beta=5, w=1]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "turn_count_weight": 5.0,
+          "heuristic_weight": 1.0
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.35, beta=5, w=1.05]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "turn_count_weight": 5.0,
+          "heuristic_weight": 1.05
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.35, beta=5, w=1.3]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "turn_count_weight": 5.0,
+          "heuristic_weight": 1.3
+        }
+      },
+      {
+        "label": "Optimized FWSAJPS [lambda=0.35, beta=5, w=1.5]",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "turn_count_weight": 5.0,
+          "heuristic_weight": 1.5
+        }
+      }
+    ],
+    "scenarios_per_map": 1,
+    "scenario_selection": "longest",
+    "random_seed": 42,
+    "fast_jps_weight": 1.15,
+    "sa_turn_weight": 0.35,
+    "fast_sa_heuristic_weight": 1.15,
+    "hybrid_corridor_radius": 4,
+    "fast_sa_corridor_radius": 4
+  },
+  "rows": 26,
+  "columns": [
+    "Map name",
+    "Map type",
+    "Map width",
+    "Map height",
+    "Obstacle percentage",
+    "Obstacle density",
+    "Free-cell ratio",
+    "Dead-end ratio",
+    "Corridor ratio",
+    "Junction ratio",
+    "Obstacle-edge density",
+    "Mean axis visibility",
+    "Connected components",
+    "Largest component ratio",
+    "Scenario index",
+    "Source scenario index",
+    "Start x",
+    "Start y",
+    "Goal x",
+    "Goal y",
+    "Reference path length",
+    "Optimality gap percent",
+    "Search objective",
+    "Turn severity 45deg units",
+    "Turn penalty weight",
+    "Turn count weight",
+    "Search turn count",
+    "Heuristic weight",
+    "Algorithm",
+    "Success",
+    "Path length",
+    "Full path nodes",
+    "Waypoints",
+    "Turns",
+    "Total turning angle deg",
+    "Maximum turn angle deg",
+    "Expanded nodes",
+    "Generated successors",
+    "Queue pushes",
+    "Jump calls",
+    "Time ms",
+    "Note",
+    "Execution workers",
+    "A* reference length",
+    "Gap vs A* percent"
+  ]
+}

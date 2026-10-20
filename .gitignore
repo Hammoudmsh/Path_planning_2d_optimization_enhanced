@@ -1,0 +1,13 @@
+# User-requested exclusions (names apply at every directory level).
+New folder/
+datasets/
+exp.txt
+street_street_50x20_astar_jps_results_street.zip
+street_street_all_astar_jps_results_street.zip
+*pycache*/
+*.py[cod]
+Astar_JPS_SA_JPS_dataset_suffix_plot_data_mean_median_std.ipynb
+
+# Local Python environments.
+.venv/
+venv/

@@ -1,0 +1,136 @@
+========================================================================
+SELECTED EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : test
+Description   : Two maps, one nontrivial scenario each; configurable optimized FWSJPS equation
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024
+========================================================================
+Datasets: ['bg512', 'bgmaps', 'dao', 'maze', 'random', 'sc1', 'street', 'wc3maps512']
+Profiles: ['debug', 'full', 'optimized_vs_jps', 'street_50x20', 'street_smoothness_50x20', 'test']
+                   Profile  ... Ablation
+0                    debug  ...     True
+1                     full  ...     True
+2         optimized_vs_jps  ...    False
+3             street_50x20  ...    False
+4  street_smoothness_50x20  ...    False
+5                     test  ...    False
+
+[6 rows x 5 columns]
+
+Active configuration:
+dataset_name        : street
+config_name         : test
+maps_url            : https://www.movingai.com/benchmarks/street/street-map.zip
+scenarios_url       : https://www.movingai.com/benchmarks/street/street-scen.zip
+maps_dir            : Z:\Study\Codex\JPS_updated_miet_conf\datasets\street\maps
+scenarios_dir       : Z:\Study\Codex\JPS_updated_miet_conf\datasets\street\scenarios
+results             : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024
+
+========================================================================
+RUNNING EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : test
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024
+========================================================================
+Selected 2 map(s):
+  Berlin_0_1024.map
+  Berlin_1_1024.map
+
+Running dataset benchmark...
+Preparing benchmark workload...
+
+========================================================================
+BENCHMARK WORKLOAD
+========================================================================
+Dataset             : street
+Maps                : 2
+Scenario iterations : 2
+Algorithms          : 3
+Search executions   : 6
+------------------------------------------------------------------------
+[  1/2] Berlin_0_1024.map                               1 scenarios
+[  2/2] Berlin_1_1024.map                               1 scenarios
+------------------------------------------------------------------------
+Selected approaches:
+  [1/3] {'label': 'Standard JPS', 'algorithm': 'Standard JPS', 'parameters': {'heuristic_weight': 1.0, 'smooth_tie_break': False}}
+  [2/3] {'label': 'Fast Weighted SA-JPS', 'algorithm': 'Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'heuristic_weight': 1.15}}
+  [3/3] {'label': 'Optimized Fast Weighted SA-JPS', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'heuristic_weight': 1.15, 'turn_count_weight': 5.0}}
+========================================================================
+
+Checkpoint: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024\cache\benchmark_23249024a382cca1_street_checkpoint.sqlite3
+Resuming 0 saved algorithm results.
+
+Benchmark:   0%|          | 0/2 [00:00<?, ?scenario/s]
+Map 1/2:   0%|          | 0/2 [00:00<?, ?scenario/s]  
+Map 1/2:   0%|          | 0/2 [00:00<?, ?scenario/s, name=Berlin_0_1024, scenario=1/1, overall=1/2, searches=0/6, elapsed=00:00:00, ETA=--:--:--]
+Map 1/2:  50%|#####     | 1/2 [00:03<00:03,  3.03s/scenario, name=Berlin_0_1024, scenario=1/1, overall=1/2, searches=0/6, elapsed=00:00:00, ETA=--:--:--]
+Map 1/2:  50%|#####     | 1/2 [00:03<00:03,  3.03s/scenario, name=Berlin_0_1024, scenario=1/1, overall=1/2, searches=3/6, elapsed=00:00:03, ETA=00:00:03]
+Map 2/2:  50%|#####     | 1/2 [00:03<00:03,  3.03s/scenario, name=Berlin_0_1024, scenario=1/1, overall=1/2, searches=3/6, elapsed=00:00:03, ETA=00:00:03]
+Map 2/2:  50%|#####     | 1/2 [00:03<00:03,  3.03s/scenario, name=Berlin_1_1024, scenario=1/1, overall=2/2, searches=3/6, elapsed=00:00:03, ETA=00:00:03]
+Map 2/2: 100%|##########| 2/2 [00:09<00:00,  4.85s/scenario, name=Berlin_1_1024, scenario=1/1, overall=2/2, searches=3/6, elapsed=00:00:03, ETA=00:00:03]
+Map 2/2: 100%|##########| 2/2 [00:09<00:00,  4.85s/scenario, name=Berlin_1_1024, scenario=1/1, overall=2/2, searches=6/6, elapsed=00:00:09, ETA=00:00:00]
+Map 2/2: 100%|##########| 2/2 [00:09<00:00,  4.58s/scenario, name=Berlin_1_1024, scenario=1/1, overall=2/2, searches=6/6, elapsed=00:00:09, ETA=00:00:00]
+
+========================================================================
+BENCHMARK COMPLETED
+========================================================================
+Maps processed       : 2/2
+Scenario iterations  : 2/2
+Search executions    : 6/6
+Generated rows       : 6
+Total elapsed time   : 00:00:09
+Average per scenario : 4.593818 s
+Average per search   : 1.531273 s
+Cache data           : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024\cache\benchmark_23249024a382cca1_street.pkl
+Cache metadata       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024\cache\benchmark_23249024a382cca1_street.json
+========================================================================
+
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024\per_run_results_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024\map_structure_features_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024\summary_results_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024\per_map_summary_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\test\lambda_0.35_beta_5.0_w_1.15\maps_1024x1024\algorithm_performance_by_map_type_street.csv
+                                 Algorithm  ...  Max_turn_severity_45deg_units
+0                                       A*  ...                            NaN
+1                             Standard JPS  ...                            NaN
+2               Bidirectional Standard JPS  ...                            NaN
+3                               Smooth JPS  ...                            NaN
+4                                   SA-JPS  ...                            NaN
+5                     Bidirectional SA-JPS  ...                            NaN
+6                     Fast Weighted SA-JPS  ...                          115.0
+7           Optimized Fast Weighted SA-JPS  ...                           51.0
+8       Bidirectional Fast Weighted SA-JPS  ...                            NaN
+9                    JPS-Dijkstra Corridor  ...                            NaN
+10  Fast Weighted SA-JPS-Dijkstra Corridor  ...                            NaN
+
+[11 rows x 69 columns]
+  Map type  ... Max turn severity 45deg units
+0    Mixed  ...                           NaN
+1    Mixed  ...                         115.0
+2    Mixed  ...                          51.0
+
+[3 rows x 64 columns]
+  Map type                       Algorithm  ...  Turn rank  Turning-angle rank
+0    Mixed                    Standard JPS  ...        2.0                 2.0
+1    Mixed            Fast Weighted SA-JPS  ...        3.0                 3.0
+2    Mixed  Optimized Fast Weighted SA-JPS  ...        1.0                 1.0
+
+[3 rows x 70 columns]
+                                 Algorithm  ...  Median_turns_change_percent
+0                                       A*  ...                          NaN
+1                             Standard JPS  ...                     0.000000
+2               Bidirectional Standard JPS  ...                          NaN
+3                               Smooth JPS  ...                          NaN
+4                                   SA-JPS  ...                          NaN
+5                     Bidirectional SA-JPS  ...                          NaN
+6                     Fast Weighted SA-JPS  ...                    14.606742
+7           Optimized Fast Weighted SA-JPS  ...                   -21.348315
+8       Bidirectional Fast Weighted SA-JPS  ...                          NaN
+9                    JPS-Dijkstra Corridor  ...                          NaN
+10  Fast Weighted SA-JPS-Dijkstra Corridor  ...                          NaN
+
+[11 rows x 6 columns]
+
+Experiment completed successfully.

@@ -1,0 +1,54 @@
+========================================================================
+SELECTED EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : sensitivity_test
+Description   : Sensitivity smoke test: 2 maps, 1 nontrivial scenario each, optimized FWSAJPS only
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\sensitivity_test
+========================================================================
+
+========================================================================
+RUNNING EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : sensitivity_test
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\sensitivity_test
+========================================================================
+Selected 2 map(s):
+  Berlin_0_1024.map
+  Berlin_0_256.map
+
+Running dataset benchmark...
+Preparing benchmark workload...
+
+========================================================================
+BENCHMARK WORKLOAD
+========================================================================
+Dataset             : street
+Maps                : 2
+Scenario iterations : 2
+Algorithms          : 13
+Search executions   : 26
+------------------------------------------------------------------------
+[  1/2] Berlin_0_1024.map                               1 scenarios
+[  2/2] Berlin_0_256.map                                1 scenarios
+------------------------------------------------------------------------
+Selected approaches:
+  [1/13] {'label': 'Optimized FWSAJPS [lambda=0.35, beta=5, w=1.15]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'turn_count_weight': 5.0, 'heuristic_weight': 1.15}}
+  [2/13] {'label': 'Optimized FWSAJPS [lambda=0, beta=5, w=1.15]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.0, 'turn_count_weight': 5.0, 'heuristic_weight': 1.15}}
+  [3/13] {'label': 'Optimized FWSAJPS [lambda=0.1, beta=5, w=1.15]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.1, 'turn_count_weight': 5.0, 'heuristic_weight': 1.15}}
+  [4/13] {'label': 'Optimized FWSAJPS [lambda=0.75, beta=5, w=1.15]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.75, 'turn_count_weight': 5.0, 'heuristic_weight': 1.15}}
+  [5/13] {'label': 'Optimized FWSAJPS [lambda=1.5, beta=5, w=1.15]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 1.5, 'turn_count_weight': 5.0, 'heuristic_weight': 1.15}}
+  [6/13] {'label': 'Optimized FWSAJPS [lambda=0.35, beta=0, w=1.15]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'turn_count_weight': 0.0, 'heuristic_weight': 1.15}}
+  [7/13] {'label': 'Optimized FWSAJPS [lambda=0.35, beta=1, w=1.15]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'turn_count_weight': 1.0, 'heuristic_weight': 1.15}}
+  [8/13] {'label': 'Optimized FWSAJPS [lambda=0.35, beta=2.5, w=1.15]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'turn_count_weight': 2.5, 'heuristic_weight': 1.15}}
+  [9/13] {'label': 'Optimized FWSAJPS [lambda=0.35, beta=10, w=1.15]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'turn_count_weight': 10.0, 'heuristic_weight': 1.15}}
+  [10/13] {'label': 'Optimized FWSAJPS [lambda=0.35, beta=5, w=1]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'turn_count_weight': 5.0, 'heuristic_weight': 1.0}}
+  [11/13] {'label': 'Optimized FWSAJPS [lambda=0.35, beta=5, w=1.05]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'turn_count_weight': 5.0, 'heuristic_weight': 1.05}}
+  [12/13] {'label': 'Optimized FWSAJPS [lambda=0.35, beta=5, w=1.3]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'turn_count_weight': 5.0, 'heuristic_weight': 1.3}}
+  [13/13] {'label': 'Optimized FWSAJPS [lambda=0.35, beta=5, w=1.5]', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'turn_count_weight': 5.0, 'heuristic_weight': 1.5}}
+========================================================================
+
+Checkpoint: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\sensitivity_test\cache\benchmark_9c6ee337ef642caa_street_checkpoint.sqlite3
+Resuming 0 saved algorithm results.
+Benchmark:   0%|          | 0/2 [00:00<?, ?scenario/s]Map 1/2:   0%|          | 0/2 [00:00<?, ?scenario/s]  Map 1/2:   0%|          | 0/2 [00:00<?, ?scenario/s, name=Berlin_0_1024, scenario=1/1, overall=1/2, searches=0/26, elapsed=00:00:00, ETA=--:--:--]Map 1/2:  50%|#####     | 1/2 [00:08<00:08,  8.76s/scenario, name=Berlin_0_1024, scenario=1/1, overall=1/2, searches=0/26, elapsed=00:00:00, ETA=--:--:--]Map 1/2:  50%|#####     | 1/2 [00:08<00:08,  8.76s/scenario, name=Berlin_0_1024, scenario=1/1, overall=1/2, searches=13/26, elapsed=00:00:08, ETA=00:00:08]Map 1/2:  50%|#####     | 1/2 [00:08<00:08,  8.76s/scenario, name=Berlin_0_1024, scenario=1/1, overall=1/2, searches=13/26, elapsed=00:00:08, ETA=00:00:08]

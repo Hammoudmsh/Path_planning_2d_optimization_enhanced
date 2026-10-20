@@ -1,0 +1,901 @@
+Grouping,Group,Metric,City,Maps,Median of map differences
+Overall,All,Runtime (ms),Berlin,9,-5.722749978
+Overall,All,Runtime (ms),Boston,9,-14.937300002
+Overall,All,Runtime (ms),Denver,9,-40.846150004
+Overall,All,Runtime (ms),London,9,-7.8164
+Overall,All,Runtime (ms),Milan,9,-15.856049984
+Overall,All,Runtime (ms),Moscow,9,-12.075900013
+Overall,All,Runtime (ms),NewYork,9,-8.89925001
+Overall,All,Runtime (ms),Paris,9,-10.529849998
+Overall,All,Runtime (ms),Shanghai,9,-10.804
+Overall,All,Runtime (ms),Sydney,9,-25.636449998
+Overall,All,Path length,Berlin,9,0.0
+Overall,All,Path length,Boston,9,0.0
+Overall,All,Path length,Denver,9,0.0
+Overall,All,Path length,London,9,0.435028843
+Overall,All,Path length,Milan,9,2.727922061
+Overall,All,Path length,Moscow,9,5.748737342
+Overall,All,Path length,NewYork,9,0.213203435
+Overall,All,Path length,Paris,9,4.142135624
+Overall,All,Path length,Shanghai,9,3.292893219
+Overall,All,Path length,Sydney,9,0.0
+Overall,All,Turns,Berlin,9,-2.0
+Overall,All,Turns,Boston,9,0.0
+Overall,All,Turns,Denver,9,0.0
+Overall,All,Turns,London,9,-2.0
+Overall,All,Turns,Milan,9,-4.0
+Overall,All,Turns,Moscow,9,-5.0
+Overall,All,Turns,NewYork,9,-2.0
+Overall,All,Turns,Paris,9,-6.0
+Overall,All,Turns,Shanghai,9,-4.0
+Overall,All,Turns,Sydney,9,0.0
+Overall,All,Total turning angle (deg),Berlin,9,-90.0
+Overall,All,Total turning angle (deg),Boston,9,0.0
+Overall,All,Total turning angle (deg),Denver,9,0.0
+Overall,All,Total turning angle (deg),London,9,-90.0
+Overall,All,Total turning angle (deg),Milan,9,-180.0
+Overall,All,Total turning angle (deg),Moscow,9,-247.5
+Overall,All,Total turning angle (deg),NewYork,9,-90.0
+Overall,All,Total turning angle (deg),Paris,9,-270.0
+Overall,All,Total turning angle (deg),Shanghai,9,-180.0
+Overall,All,Total turning angle (deg),Sydney,9,0.0
+Overall,All,Expanded nodes,Berlin,9,8.0
+Overall,All,Expanded nodes,Boston,9,0.0
+Overall,All,Expanded nodes,Denver,9,0.0
+Overall,All,Expanded nodes,London,9,11.0
+Overall,All,Expanded nodes,Milan,9,3.0
+Overall,All,Expanded nodes,Moscow,9,5.0
+Overall,All,Expanded nodes,NewYork,9,3.0
+Overall,All,Expanded nodes,Paris,9,8.0
+Overall,All,Expanded nodes,Shanghai,9,1.0
+Overall,All,Expanded nodes,Sydney,9,1.0
+Overall,All,Gap to dataset reference (%),Berlin,9,0.0
+Overall,All,Gap to dataset reference (%),Boston,9,0.0
+Overall,All,Gap to dataset reference (%),Denver,9,0.0
+Overall,All,Gap to dataset reference (%),London,9,0.176240714
+Overall,All,Gap to dataset reference (%),Milan,9,0.65245871
+Overall,All,Gap to dataset reference (%),Moscow,9,1.210399278
+Overall,All,Gap to dataset reference (%),NewYork,9,0.098209599
+Overall,All,Gap to dataset reference (%),Paris,9,1.379834786
+Overall,All,Gap to dataset reference (%),Shanghai,9,1.111510159
+Overall,All,Gap to dataset reference (%),Sydney,9,0.0
+Overall,All,Waypoints,Berlin,9,-2.0
+Overall,All,Waypoints,Boston,9,0.0
+Overall,All,Waypoints,Denver,9,0.0
+Overall,All,Waypoints,London,9,-2.0
+Overall,All,Waypoints,Milan,9,-4.0
+Overall,All,Waypoints,Moscow,9,-5.0
+Overall,All,Waypoints,NewYork,9,-2.0
+Overall,All,Waypoints,Paris,9,-6.0
+Overall,All,Waypoints,Shanghai,9,-4.0
+Overall,All,Waypoints,Sydney,9,0.0
+Overall,All,Generated successors,Berlin,9,15.0
+Overall,All,Generated successors,Boston,9,1.0
+Overall,All,Generated successors,Denver,9,0.0
+Overall,All,Generated successors,London,9,15.0
+Overall,All,Generated successors,Milan,9,7.0
+Overall,All,Generated successors,Moscow,9,10.0
+Overall,All,Generated successors,NewYork,9,6.5
+Overall,All,Generated successors,Paris,9,15.5
+Overall,All,Generated successors,Shanghai,9,2.0
+Overall,All,Generated successors,Sydney,9,1.0
+Overall,All,Queue pushes,Berlin,9,13.0
+Overall,All,Queue pushes,Boston,9,1.0
+Overall,All,Queue pushes,Denver,9,0.0
+Overall,All,Queue pushes,London,9,15.0
+Overall,All,Queue pushes,Milan,9,5.5
+Overall,All,Queue pushes,Moscow,9,9.0
+Overall,All,Queue pushes,NewYork,9,6.0
+Overall,All,Queue pushes,Paris,9,13.0
+Overall,All,Queue pushes,Shanghai,9,2.0
+Overall,All,Queue pushes,Sydney,9,1.0
+Overall,All,Jump calls,Berlin,9,7111.0
+Overall,All,Jump calls,Boston,9,1291.0
+Overall,All,Jump calls,Denver,9,0.0
+Overall,All,Jump calls,London,9,5514.0
+Overall,All,Jump calls,Milan,9,4879.0
+Overall,All,Jump calls,Moscow,9,7907.5
+Overall,All,Jump calls,NewYork,9,9325.5
+Overall,All,Jump calls,Paris,9,6283.0
+Overall,All,Jump calls,Shanghai,9,6812.0
+Overall,All,Jump calls,Sydney,9,1835.5
+Map size,256 x 256,Runtime (ms),Berlin,3,0.00320001
+Map size,256 x 256,Runtime (ms),Boston,3,-1.451150004
+Map size,256 x 256,Runtime (ms),Denver,3,-4.439700016
+Map size,256 x 256,Runtime (ms),London,3,0.608799979
+Map size,256 x 256,Runtime (ms),Milan,3,-1.18584992
+Map size,256 x 256,Runtime (ms),Moscow,3,0.624899956
+Map size,256 x 256,Runtime (ms),NewYork,3,-0.588099996
+Map size,256 x 256,Runtime (ms),Paris,3,-0.407099986
+Map size,256 x 256,Runtime (ms),Shanghai,3,-0.047600025
+Map size,256 x 256,Runtime (ms),Sydney,3,-2.7382
+Map size,256 x 256,Path length,Berlin,3,0.0
+Map size,256 x 256,Path length,Boston,3,0.0
+Map size,256 x 256,Path length,Denver,3,0.0
+Map size,256 x 256,Path length,London,3,0.435028843
+Map size,256 x 256,Path length,Milan,3,0.606601718
+Map size,256 x 256,Path length,Moscow,3,2.485281374
+Map size,256 x 256,Path length,NewYork,3,0.213203435
+Map size,256 x 256,Path length,Paris,3,4.100505063
+Map size,256 x 256,Path length,Shanghai,3,1.393398282
+Map size,256 x 256,Path length,Sydney,3,0.0
+Map size,256 x 256,Turns,Berlin,3,0.0
+Map size,256 x 256,Turns,Boston,3,0.0
+Map size,256 x 256,Turns,Denver,3,0.0
+Map size,256 x 256,Turns,London,3,-2.0
+Map size,256 x 256,Turns,Milan,3,-2.5
+Map size,256 x 256,Turns,Moscow,3,-4.0
+Map size,256 x 256,Turns,NewYork,3,-2.0
+Map size,256 x 256,Turns,Paris,3,-6.0
+Map size,256 x 256,Turns,Shanghai,3,-4.0
+Map size,256 x 256,Turns,Sydney,3,0.0
+Map size,256 x 256,Total turning angle (deg),Berlin,3,0.0
+Map size,256 x 256,Total turning angle (deg),Boston,3,0.0
+Map size,256 x 256,Total turning angle (deg),Denver,3,0.0
+Map size,256 x 256,Total turning angle (deg),London,3,-90.0
+Map size,256 x 256,Total turning angle (deg),Milan,3,-90.0
+Map size,256 x 256,Total turning angle (deg),Moscow,3,-180.0
+Map size,256 x 256,Total turning angle (deg),NewYork,3,-90.0
+Map size,256 x 256,Total turning angle (deg),Paris,3,-270.0
+Map size,256 x 256,Total turning angle (deg),Shanghai,3,-180.0
+Map size,256 x 256,Total turning angle (deg),Sydney,3,0.0
+Map size,256 x 256,Expanded nodes,Berlin,3,27.0
+Map size,256 x 256,Expanded nodes,Boston,3,8.0
+Map size,256 x 256,Expanded nodes,Denver,3,2.0
+Map size,256 x 256,Expanded nodes,London,3,33.5
+Map size,256 x 256,Expanded nodes,Milan,3,16.0
+Map size,256 x 256,Expanded nodes,Moscow,3,54.0
+Map size,256 x 256,Expanded nodes,NewYork,3,6.5
+Map size,256 x 256,Expanded nodes,Paris,3,62.5
+Map size,256 x 256,Expanded nodes,Shanghai,3,11.0
+Map size,256 x 256,Expanded nodes,Sydney,3,5.0
+Map size,256 x 256,Gap to dataset reference (%),Berlin,3,0.0
+Map size,256 x 256,Gap to dataset reference (%),Boston,3,0.0
+Map size,256 x 256,Gap to dataset reference (%),Denver,3,0.0
+Map size,256 x 256,Gap to dataset reference (%),London,3,0.176240714
+Map size,256 x 256,Gap to dataset reference (%),Milan,3,0.366949324
+Map size,256 x 256,Gap to dataset reference (%),Moscow,3,1.129025744
+Map size,256 x 256,Gap to dataset reference (%),NewYork,3,0.098209599
+Map size,256 x 256,Gap to dataset reference (%),Paris,3,1.177185226
+Map size,256 x 256,Gap to dataset reference (%),Shanghai,3,0.666586283
+Map size,256 x 256,Gap to dataset reference (%),Sydney,3,0.0
+Map size,256 x 256,Waypoints,Berlin,3,0.0
+Map size,256 x 256,Waypoints,Boston,3,0.0
+Map size,256 x 256,Waypoints,Denver,3,0.0
+Map size,256 x 256,Waypoints,London,3,-2.0
+Map size,256 x 256,Waypoints,Milan,3,-2.5
+Map size,256 x 256,Waypoints,Moscow,3,-4.0
+Map size,256 x 256,Waypoints,NewYork,3,-2.0
+Map size,256 x 256,Waypoints,Paris,3,-6.0
+Map size,256 x 256,Waypoints,Shanghai,3,-4.0
+Map size,256 x 256,Waypoints,Sydney,3,0.0
+Map size,256 x 256,Generated successors,Berlin,3,33.5
+Map size,256 x 256,Generated successors,Boston,3,11.0
+Map size,256 x 256,Generated successors,Denver,3,4.0
+Map size,256 x 256,Generated successors,London,3,44.0
+Map size,256 x 256,Generated successors,Milan,3,25.0
+Map size,256 x 256,Generated successors,Moscow,3,76.0
+Map size,256 x 256,Generated successors,NewYork,3,12.0
+Map size,256 x 256,Generated successors,Paris,3,84.5
+Map size,256 x 256,Generated successors,Shanghai,3,18.5
+Map size,256 x 256,Generated successors,Sydney,3,7.0
+Map size,256 x 256,Queue pushes,Berlin,3,32.5
+Map size,256 x 256,Queue pushes,Boston,3,11.5
+Map size,256 x 256,Queue pushes,Denver,3,4.0
+Map size,256 x 256,Queue pushes,London,3,43.0
+Map size,256 x 256,Queue pushes,Milan,3,23.0
+Map size,256 x 256,Queue pushes,Moscow,3,72.0
+Map size,256 x 256,Queue pushes,NewYork,3,12.0
+Map size,256 x 256,Queue pushes,Paris,3,78.0
+Map size,256 x 256,Queue pushes,Shanghai,3,17.5
+Map size,256 x 256,Queue pushes,Sydney,3,7.0
+Map size,256 x 256,Jump calls,Berlin,3,4314.0
+Map size,256 x 256,Jump calls,Boston,3,1856.0
+Map size,256 x 256,Jump calls,Denver,3,815.5
+Map size,256 x 256,Jump calls,London,3,4535.0
+Map size,256 x 256,Jump calls,Milan,3,2494.5
+Map size,256 x 256,Jump calls,Moscow,3,5322.5
+Map size,256 x 256,Jump calls,NewYork,3,3716.5
+Map size,256 x 256,Jump calls,Paris,3,5045.0
+Map size,256 x 256,Jump calls,Shanghai,3,4956.5
+Map size,256 x 256,Jump calls,Sydney,3,1835.5
+Map size,512 x 512,Runtime (ms),Berlin,3,-5.722749978
+Map size,512 x 512,Runtime (ms),Boston,3,-14.937300002
+Map size,512 x 512,Runtime (ms),Denver,3,-40.846150004
+Map size,512 x 512,Runtime (ms),London,3,-7.8164
+Map size,512 x 512,Runtime (ms),Milan,3,-15.856049984
+Map size,512 x 512,Runtime (ms),Moscow,3,-12.075900013
+Map size,512 x 512,Runtime (ms),NewYork,3,-8.89925001
+Map size,512 x 512,Runtime (ms),Paris,3,-10.529849998
+Map size,512 x 512,Runtime (ms),Shanghai,3,-10.804
+Map size,512 x 512,Runtime (ms),Sydney,3,-25.636449998
+Map size,512 x 512,Path length,Berlin,3,0.0
+Map size,512 x 512,Path length,Boston,3,0.0
+Map size,512 x 512,Path length,Denver,3,0.0
+Map size,512 x 512,Path length,London,3,2.485281374
+Map size,512 x 512,Path length,Milan,3,3.514718626
+Map size,512 x 512,Path length,Moscow,3,6.627416998
+Map size,512 x 512,Path length,NewYork,3,0.0
+Map size,512 x 512,Path length,Paris,3,8.201010127
+Map size,512 x 512,Path length,Shanghai,3,4.008621971
+Map size,512 x 512,Path length,Sydney,3,0.0
+Map size,512 x 512,Turns,Berlin,3,-2.0
+Map size,512 x 512,Turns,Boston,3,0.0
+Map size,512 x 512,Turns,Denver,3,0.0
+Map size,512 x 512,Turns,London,3,-2.0
+Map size,512 x 512,Turns,Milan,3,-8.0
+Map size,512 x 512,Turns,Moscow,3,-8.0
+Map size,512 x 512,Turns,NewYork,3,0.0
+Map size,512 x 512,Turns,Paris,3,-8.0
+Map size,512 x 512,Turns,Shanghai,3,-4.0
+Map size,512 x 512,Turns,Sydney,3,0.0
+Map size,512 x 512,Total turning angle (deg),Berlin,3,-90.0
+Map size,512 x 512,Total turning angle (deg),Boston,3,0.0
+Map size,512 x 512,Total turning angle (deg),Denver,3,0.0
+Map size,512 x 512,Total turning angle (deg),London,3,-90.0
+Map size,512 x 512,Total turning angle (deg),Milan,3,-360.0
+Map size,512 x 512,Total turning angle (deg),Moscow,3,-360.0
+Map size,512 x 512,Total turning angle (deg),NewYork,3,0.0
+Map size,512 x 512,Total turning angle (deg),Paris,3,-360.0
+Map size,512 x 512,Total turning angle (deg),Shanghai,3,-180.0
+Map size,512 x 512,Total turning angle (deg),Sydney,3,0.0
+Map size,512 x 512,Expanded nodes,Berlin,3,22.0
+Map size,512 x 512,Expanded nodes,Boston,3,0.0
+Map size,512 x 512,Expanded nodes,Denver,3,0.0
+Map size,512 x 512,Expanded nodes,London,3,13.0
+Map size,512 x 512,Expanded nodes,Milan,3,3.0
+Map size,512 x 512,Expanded nodes,Moscow,3,5.0
+Map size,512 x 512,Expanded nodes,NewYork,3,0.0
+Map size,512 x 512,Expanded nodes,Paris,3,8.0
+Map size,512 x 512,Expanded nodes,Shanghai,3,3.0
+Map size,512 x 512,Expanded nodes,Sydney,3,1.0
+Map size,512 x 512,Gap to dataset reference (%),Berlin,3,0.0
+Map size,512 x 512,Gap to dataset reference (%),Boston,3,0.0
+Map size,512 x 512,Gap to dataset reference (%),Denver,3,0.0
+Map size,512 x 512,Gap to dataset reference (%),London,3,0.528639868
+Map size,512 x 512,Gap to dataset reference (%),Milan,3,0.65245871
+Map size,512 x 512,Gap to dataset reference (%),Moscow,3,1.222117851
+Map size,512 x 512,Gap to dataset reference (%),NewYork,3,0.0
+Map size,512 x 512,Gap to dataset reference (%),Paris,3,1.839524395
+Map size,512 x 512,Gap to dataset reference (%),Shanghai,3,1.111510159
+Map size,512 x 512,Gap to dataset reference (%),Sydney,3,0.0
+Map size,512 x 512,Waypoints,Berlin,3,-2.0
+Map size,512 x 512,Waypoints,Boston,3,0.0
+Map size,512 x 512,Waypoints,Denver,3,0.0
+Map size,512 x 512,Waypoints,London,3,-2.0
+Map size,512 x 512,Waypoints,Milan,3,-8.0
+Map size,512 x 512,Waypoints,Moscow,3,-8.0
+Map size,512 x 512,Waypoints,NewYork,3,0.0
+Map size,512 x 512,Waypoints,Paris,3,-8.0
+Map size,512 x 512,Waypoints,Shanghai,3,-4.0
+Map size,512 x 512,Waypoints,Sydney,3,0.0
+Map size,512 x 512,Generated successors,Berlin,3,28.0
+Map size,512 x 512,Generated successors,Boston,3,1.0
+Map size,512 x 512,Generated successors,Denver,3,0.0
+Map size,512 x 512,Generated successors,London,3,19.0
+Map size,512 x 512,Generated successors,Milan,3,7.0
+Map size,512 x 512,Generated successors,Moscow,3,10.0
+Map size,512 x 512,Generated successors,NewYork,3,0.0
+Map size,512 x 512,Generated successors,Paris,3,15.5
+Map size,512 x 512,Generated successors,Shanghai,3,4.0
+Map size,512 x 512,Generated successors,Sydney,3,1.0
+Map size,512 x 512,Queue pushes,Berlin,3,26.0
+Map size,512 x 512,Queue pushes,Boston,3,1.0
+Map size,512 x 512,Queue pushes,Denver,3,0.0
+Map size,512 x 512,Queue pushes,London,3,18.0
+Map size,512 x 512,Queue pushes,Milan,3,5.5
+Map size,512 x 512,Queue pushes,Moscow,3,9.0
+Map size,512 x 512,Queue pushes,NewYork,3,0.0
+Map size,512 x 512,Queue pushes,Paris,3,13.0
+Map size,512 x 512,Queue pushes,Shanghai,3,4.0
+Map size,512 x 512,Queue pushes,Sydney,3,1.0
+Map size,512 x 512,Jump calls,Berlin,3,13646.0
+Map size,512 x 512,Jump calls,Boston,3,939.0
+Map size,512 x 512,Jump calls,Denver,3,0.0
+Map size,512 x 512,Jump calls,London,3,6159.0
+Map size,512 x 512,Jump calls,Milan,3,5154.0
+Map size,512 x 512,Jump calls,Moscow,3,7907.5
+Map size,512 x 512,Jump calls,NewYork,3,9325.5
+Map size,512 x 512,Jump calls,Paris,3,7968.0
+Map size,512 x 512,Jump calls,Shanghai,3,10064.5
+Map size,512 x 512,Jump calls,Sydney,3,1999.5
+Map size,1024 x 1024,Runtime (ms),Berlin,3,-42.186950013
+Map size,1024 x 1024,Runtime (ms),Boston,3,-101.347100004
+Map size,1024 x 1024,Runtime (ms),Denver,3,-202.92424997
+Map size,1024 x 1024,Runtime (ms),London,3,-59.6946
+Map size,1024 x 1024,Runtime (ms),Milan,3,-96.916099952
+Map size,1024 x 1024,Runtime (ms),Moscow,3,-43.460050016
+Map size,1024 x 1024,Runtime (ms),NewYork,3,-47.364049998
+Map size,1024 x 1024,Runtime (ms),Paris,3,-84.870100022
+Map size,1024 x 1024,Runtime (ms),Shanghai,3,-72.917500016
+Map size,1024 x 1024,Runtime (ms),Sydney,3,-203.1031
+Map size,1024 x 1024,Path length,Berlin,3,0.0
+Map size,1024 x 1024,Path length,Boston,3,0.0
+Map size,1024 x 1024,Path length,Denver,3,0.0
+Map size,1024 x 1024,Path length,London,3,0.0
+Map size,1024 x 1024,Path length,Milan,3,8.263455967
+Map size,1024 x 1024,Path length,Moscow,3,13.254833996
+Map size,1024 x 1024,Path length,NewYork,3,1.201010126
+Map size,1024 x 1024,Path length,Paris,3,12.890872966
+Map size,1024 x 1024,Path length,Shanghai,3,11.36396103
+Map size,1024 x 1024,Path length,Sydney,3,0.0
+Map size,1024 x 1024,Turns,Berlin,3,-2.0
+Map size,1024 x 1024,Turns,Boston,3,0.0
+Map size,1024 x 1024,Turns,Denver,3,0.0
+Map size,1024 x 1024,Turns,London,3,0.0
+Map size,1024 x 1024,Turns,Milan,3,-12.0
+Map size,1024 x 1024,Turns,Moscow,3,-18.0
+Map size,1024 x 1024,Turns,NewYork,3,-2.0
+Map size,1024 x 1024,Turns,Paris,3,-14.0
+Map size,1024 x 1024,Turns,Shanghai,3,-10.0
+Map size,1024 x 1024,Turns,Sydney,3,0.0
+Map size,1024 x 1024,Total turning angle (deg),Berlin,3,-90.0
+Map size,1024 x 1024,Total turning angle (deg),Boston,3,0.0
+Map size,1024 x 1024,Total turning angle (deg),Denver,3,0.0
+Map size,1024 x 1024,Total turning angle (deg),London,3,0.0
+Map size,1024 x 1024,Total turning angle (deg),Milan,3,-540.0
+Map size,1024 x 1024,Total turning angle (deg),Moscow,3,-810.0
+Map size,1024 x 1024,Total turning angle (deg),NewYork,3,-90.0
+Map size,1024 x 1024,Total turning angle (deg),Paris,3,-630.0
+Map size,1024 x 1024,Total turning angle (deg),Shanghai,3,-450.0
+Map size,1024 x 1024,Total turning angle (deg),Sydney,3,0.0
+Map size,1024 x 1024,Expanded nodes,Berlin,3,7.0
+Map size,1024 x 1024,Expanded nodes,Boston,3,0.0
+Map size,1024 x 1024,Expanded nodes,Denver,3,0.0
+Map size,1024 x 1024,Expanded nodes,London,3,0.0
+Map size,1024 x 1024,Expanded nodes,Milan,3,0.0
+Map size,1024 x 1024,Expanded nodes,Moscow,3,1.0
+Map size,1024 x 1024,Expanded nodes,NewYork,3,0.0
+Map size,1024 x 1024,Expanded nodes,Paris,3,0.0
+Map size,1024 x 1024,Expanded nodes,Shanghai,3,0.0
+Map size,1024 x 1024,Expanded nodes,Sydney,3,0.0
+Map size,1024 x 1024,Gap to dataset reference (%),Berlin,3,0.0
+Map size,1024 x 1024,Gap to dataset reference (%),Boston,3,0.0
+Map size,1024 x 1024,Gap to dataset reference (%),Denver,3,0.0
+Map size,1024 x 1024,Gap to dataset reference (%),London,3,0.0
+Map size,1024 x 1024,Gap to dataset reference (%),Milan,3,0.982808511
+Map size,1024 x 1024,Gap to dataset reference (%),Moscow,3,1.210399278
+Map size,1024 x 1024,Gap to dataset reference (%),NewYork,3,0.150594906
+Map size,1024 x 1024,Gap to dataset reference (%),Paris,3,1.495152968
+Map size,1024 x 1024,Gap to dataset reference (%),Shanghai,3,1.199331298
+Map size,1024 x 1024,Gap to dataset reference (%),Sydney,3,0.0
+Map size,1024 x 1024,Waypoints,Berlin,3,-2.0
+Map size,1024 x 1024,Waypoints,Boston,3,0.0
+Map size,1024 x 1024,Waypoints,Denver,3,0.0
+Map size,1024 x 1024,Waypoints,London,3,0.0
+Map size,1024 x 1024,Waypoints,Milan,3,-12.0
+Map size,1024 x 1024,Waypoints,Moscow,3,-18.0
+Map size,1024 x 1024,Waypoints,NewYork,3,-2.0
+Map size,1024 x 1024,Waypoints,Paris,3,-14.0
+Map size,1024 x 1024,Waypoints,Shanghai,3,-10.0
+Map size,1024 x 1024,Waypoints,Sydney,3,0.0
+Map size,1024 x 1024,Generated successors,Berlin,3,9.0
+Map size,1024 x 1024,Generated successors,Boston,3,0.0
+Map size,1024 x 1024,Generated successors,Denver,3,0.0
+Map size,1024 x 1024,Generated successors,London,3,0.0
+Map size,1024 x 1024,Generated successors,Milan,3,0.0
+Map size,1024 x 1024,Generated successors,Moscow,3,1.0
+Map size,1024 x 1024,Generated successors,NewYork,3,0.0
+Map size,1024 x 1024,Generated successors,Paris,3,0.0
+Map size,1024 x 1024,Generated successors,Shanghai,3,0.0
+Map size,1024 x 1024,Generated successors,Sydney,3,0.0
+Map size,1024 x 1024,Queue pushes,Berlin,3,9.0
+Map size,1024 x 1024,Queue pushes,Boston,3,0.0
+Map size,1024 x 1024,Queue pushes,Denver,3,0.0
+Map size,1024 x 1024,Queue pushes,London,3,0.0
+Map size,1024 x 1024,Queue pushes,Milan,3,0.0
+Map size,1024 x 1024,Queue pushes,Moscow,3,2.0
+Map size,1024 x 1024,Queue pushes,NewYork,3,0.0
+Map size,1024 x 1024,Queue pushes,Paris,3,0.0
+Map size,1024 x 1024,Queue pushes,Shanghai,3,0.0
+Map size,1024 x 1024,Queue pushes,Sydney,3,0.0
+Map size,1024 x 1024,Jump calls,Berlin,3,29556.5
+Map size,1024 x 1024,Jump calls,Boston,3,0.0
+Map size,1024 x 1024,Jump calls,Denver,3,0.0
+Map size,1024 x 1024,Jump calls,London,3,6876.0
+Map size,1024 x 1024,Jump calls,Milan,3,14163.5
+Map size,1024 x 1024,Jump calls,Moscow,3,9764.0
+Map size,1024 x 1024,Jump calls,NewYork,3,17754.5
+Map size,1024 x 1024,Jump calls,Paris,3,6283.0
+Map size,1024 x 1024,Jump calls,Shanghai,3,32540.5
+Map size,1024 x 1024,Jump calls,Sydney,3,0.0
+Reference length,R1: 0 <= L < 100,Runtime (ms),Berlin,9,-4.672150011
+Reference length,R1: 0 <= L < 100,Runtime (ms),Boston,9,-4.605900002
+Reference length,R1: 0 <= L < 100,Runtime (ms),Denver,9,-10.268500002
+Reference length,R1: 0 <= L < 100,Runtime (ms),London,9,-4.036550003
+Reference length,R1: 0 <= L < 100,Runtime (ms),Milan,9,-4.476800008
+Reference length,R1: 0 <= L < 100,Runtime (ms),Moscow,9,-3.983800038
+Reference length,R1: 0 <= L < 100,Runtime (ms),NewYork,9,-5.521199986
+Reference length,R1: 0 <= L < 100,Runtime (ms),Paris,9,-3.137549996
+Reference length,R1: 0 <= L < 100,Runtime (ms),Shanghai,9,-10.729900001
+Reference length,R1: 0 <= L < 100,Runtime (ms),Sydney,9,-12.650399999
+Reference length,R1: 0 <= L < 100,Path length,Berlin,9,0.0
+Reference length,R1: 0 <= L < 100,Path length,Boston,9,0.0
+Reference length,R1: 0 <= L < 100,Path length,Denver,9,0.0
+Reference length,R1: 0 <= L < 100,Path length,London,9,0.0
+Reference length,R1: 0 <= L < 100,Path length,Milan,9,0.0
+Reference length,R1: 0 <= L < 100,Path length,Moscow,9,0.0
+Reference length,R1: 0 <= L < 100,Path length,NewYork,9,0.0
+Reference length,R1: 0 <= L < 100,Path length,Paris,9,0.0
+Reference length,R1: 0 <= L < 100,Path length,Shanghai,9,0.0
+Reference length,R1: 0 <= L < 100,Path length,Sydney,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,Berlin,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,Boston,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,Denver,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,London,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,Milan,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,Moscow,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,NewYork,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,Paris,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,Shanghai,9,0.0
+Reference length,R1: 0 <= L < 100,Turns,Sydney,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),Berlin,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),Boston,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),Denver,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),London,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),Milan,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),Moscow,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),NewYork,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),Paris,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),Shanghai,9,0.0
+Reference length,R1: 0 <= L < 100,Total turning angle (deg),Sydney,9,0.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,Berlin,9,0.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,Boston,9,0.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,Denver,9,0.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,London,9,0.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,Milan,9,0.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,Moscow,9,0.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,NewYork,9,0.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,Paris,9,1.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,Shanghai,9,0.0
+Reference length,R1: 0 <= L < 100,Expanded nodes,Sydney,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),Berlin,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),Boston,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),Denver,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),London,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),Milan,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),Moscow,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),NewYork,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),Paris,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),Shanghai,9,0.0
+Reference length,R1: 0 <= L < 100,Gap to dataset reference (%),Sydney,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,Berlin,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,Boston,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,Denver,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,London,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,Milan,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,Moscow,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,NewYork,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,Paris,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,Shanghai,9,0.0
+Reference length,R1: 0 <= L < 100,Waypoints,Sydney,9,0.0
+Reference length,R1: 0 <= L < 100,Generated successors,Berlin,9,0.0
+Reference length,R1: 0 <= L < 100,Generated successors,Boston,9,0.0
+Reference length,R1: 0 <= L < 100,Generated successors,Denver,9,0.0
+Reference length,R1: 0 <= L < 100,Generated successors,London,9,0.0
+Reference length,R1: 0 <= L < 100,Generated successors,Milan,9,0.0
+Reference length,R1: 0 <= L < 100,Generated successors,Moscow,9,0.0
+Reference length,R1: 0 <= L < 100,Generated successors,NewYork,9,0.0
+Reference length,R1: 0 <= L < 100,Generated successors,Paris,9,1.0
+Reference length,R1: 0 <= L < 100,Generated successors,Shanghai,9,0.0
+Reference length,R1: 0 <= L < 100,Generated successors,Sydney,9,0.0
+Reference length,R1: 0 <= L < 100,Queue pushes,Berlin,9,0.0
+Reference length,R1: 0 <= L < 100,Queue pushes,Boston,9,0.0
+Reference length,R1: 0 <= L < 100,Queue pushes,Denver,9,0.0
+Reference length,R1: 0 <= L < 100,Queue pushes,London,9,0.0
+Reference length,R1: 0 <= L < 100,Queue pushes,Milan,9,0.0
+Reference length,R1: 0 <= L < 100,Queue pushes,Moscow,9,0.0
+Reference length,R1: 0 <= L < 100,Queue pushes,NewYork,9,0.0
+Reference length,R1: 0 <= L < 100,Queue pushes,Paris,9,1.0
+Reference length,R1: 0 <= L < 100,Queue pushes,Shanghai,9,0.0
+Reference length,R1: 0 <= L < 100,Queue pushes,Sydney,9,0.0
+Reference length,R1: 0 <= L < 100,Jump calls,Berlin,9,0.0
+Reference length,R1: 0 <= L < 100,Jump calls,Boston,9,0.0
+Reference length,R1: 0 <= L < 100,Jump calls,Denver,9,0.0
+Reference length,R1: 0 <= L < 100,Jump calls,London,9,0.0
+Reference length,R1: 0 <= L < 100,Jump calls,Milan,9,0.0
+Reference length,R1: 0 <= L < 100,Jump calls,Moscow,9,0.0
+Reference length,R1: 0 <= L < 100,Jump calls,NewYork,9,0.0
+Reference length,R1: 0 <= L < 100,Jump calls,Paris,9,12.0
+Reference length,R1: 0 <= L < 100,Jump calls,Shanghai,9,0.0
+Reference length,R1: 0 <= L < 100,Jump calls,Sydney,9,0.0
+Reference length,R2: 100 <= L < 250,Runtime (ms),Berlin,9,-8.108950016
+Reference length,R2: 100 <= L < 250,Runtime (ms),Boston,9,-7.510700001
+Reference length,R2: 100 <= L < 250,Runtime (ms),Denver,9,-20.496400015
+Reference length,R2: 100 <= L < 250,Runtime (ms),London,9,-6.613450008
+Reference length,R2: 100 <= L < 250,Runtime (ms),Milan,9,-9.896599979
+Reference length,R2: 100 <= L < 250,Runtime (ms),Moscow,9,-6.019450026
+Reference length,R2: 100 <= L < 250,Runtime (ms),NewYork,9,-8.856250032
+Reference length,R2: 100 <= L < 250,Runtime (ms),Paris,9,-6.050200027
+Reference length,R2: 100 <= L < 250,Runtime (ms),Shanghai,9,-13.847899999
+Reference length,R2: 100 <= L < 250,Runtime (ms),Sydney,9,-18.6192
+Reference length,R2: 100 <= L < 250,Path length,Berlin,9,0.0
+Reference length,R2: 100 <= L < 250,Path length,Boston,9,0.0
+Reference length,R2: 100 <= L < 250,Path length,Denver,9,0.0
+Reference length,R2: 100 <= L < 250,Path length,London,9,0.0
+Reference length,R2: 100 <= L < 250,Path length,Milan,9,0.0
+Reference length,R2: 100 <= L < 250,Path length,Moscow,9,0.0
+Reference length,R2: 100 <= L < 250,Path length,NewYork,9,0.0
+Reference length,R2: 100 <= L < 250,Path length,Paris,9,0.0
+Reference length,R2: 100 <= L < 250,Path length,Shanghai,9,0.0
+Reference length,R2: 100 <= L < 250,Path length,Sydney,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,Berlin,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,Boston,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,Denver,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,London,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,Milan,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,Moscow,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,NewYork,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,Paris,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,Shanghai,9,0.0
+Reference length,R2: 100 <= L < 250,Turns,Sydney,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),Berlin,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),Boston,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),Denver,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),London,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),Milan,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),Moscow,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),NewYork,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),Paris,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),Shanghai,9,0.0
+Reference length,R2: 100 <= L < 250,Total turning angle (deg),Sydney,9,0.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,Berlin,9,4.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,Boston,9,1.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,Denver,9,0.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,London,9,2.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,Milan,9,1.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,Moscow,9,5.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,NewYork,9,0.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,Paris,9,4.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,Shanghai,9,0.0
+Reference length,R2: 100 <= L < 250,Expanded nodes,Sydney,9,0.5
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),Berlin,9,0.0
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),Boston,9,0.0
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),Denver,9,0.0
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),London,9,0.0
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),Milan,9,0.0
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),Moscow,9,0.0
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),NewYork,9,0.0
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),Paris,9,0.0
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),Shanghai,9,0.0
+Reference length,R2: 100 <= L < 250,Gap to dataset reference (%),Sydney,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,Berlin,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,Boston,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,Denver,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,London,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,Milan,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,Moscow,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,NewYork,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,Paris,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,Shanghai,9,0.0
+Reference length,R2: 100 <= L < 250,Waypoints,Sydney,9,0.0
+Reference length,R2: 100 <= L < 250,Generated successors,Berlin,9,6.0
+Reference length,R2: 100 <= L < 250,Generated successors,Boston,9,2.0
+Reference length,R2: 100 <= L < 250,Generated successors,Denver,9,0.0
+Reference length,R2: 100 <= L < 250,Generated successors,London,9,4.0
+Reference length,R2: 100 <= L < 250,Generated successors,Milan,9,2.0
+Reference length,R2: 100 <= L < 250,Generated successors,Moscow,9,9.0
+Reference length,R2: 100 <= L < 250,Generated successors,NewYork,9,1.0
+Reference length,R2: 100 <= L < 250,Generated successors,Paris,9,8.0
+Reference length,R2: 100 <= L < 250,Generated successors,Shanghai,9,0.0
+Reference length,R2: 100 <= L < 250,Generated successors,Sydney,9,1.0
+Reference length,R2: 100 <= L < 250,Queue pushes,Berlin,9,6.0
+Reference length,R2: 100 <= L < 250,Queue pushes,Boston,9,2.0
+Reference length,R2: 100 <= L < 250,Queue pushes,Denver,9,0.0
+Reference length,R2: 100 <= L < 250,Queue pushes,London,9,4.0
+Reference length,R2: 100 <= L < 250,Queue pushes,Milan,9,2.0
+Reference length,R2: 100 <= L < 250,Queue pushes,Moscow,9,9.0
+Reference length,R2: 100 <= L < 250,Queue pushes,NewYork,9,1.0
+Reference length,R2: 100 <= L < 250,Queue pushes,Paris,9,7.5
+Reference length,R2: 100 <= L < 250,Queue pushes,Shanghai,9,0.0
+Reference length,R2: 100 <= L < 250,Queue pushes,Sydney,9,1.0
+Reference length,R2: 100 <= L < 250,Jump calls,Berlin,9,2620.0
+Reference length,R2: 100 <= L < 250,Jump calls,Boston,9,1279.0
+Reference length,R2: 100 <= L < 250,Jump calls,Denver,9,0.0
+Reference length,R2: 100 <= L < 250,Jump calls,London,9,1200.5
+Reference length,R2: 100 <= L < 250,Jump calls,Milan,9,1220.0
+Reference length,R2: 100 <= L < 250,Jump calls,Moscow,9,3712.0
+Reference length,R2: 100 <= L < 250,Jump calls,NewYork,9,1313.5
+Reference length,R2: 100 <= L < 250,Jump calls,Paris,9,3194.0
+Reference length,R2: 100 <= L < 250,Jump calls,Shanghai,9,669.5
+Reference length,R2: 100 <= L < 250,Jump calls,Sydney,9,79.5
+Reference length,R3: 250 <= L < 500,Runtime (ms),Berlin,9,-8.747200001
+Reference length,R3: 250 <= L < 500,Runtime (ms),Boston,9,-17.710699991
+Reference length,R3: 250 <= L < 500,Runtime (ms),Denver,9,-47.850800008
+Reference length,R3: 250 <= L < 500,Runtime (ms),London,9,-10.080599954
+Reference length,R3: 250 <= L < 500,Runtime (ms),Milan,9,-21.965300082
+Reference length,R3: 250 <= L < 500,Runtime (ms),Moscow,9,-12.49340002
+Reference length,R3: 250 <= L < 500,Runtime (ms),NewYork,9,-6.433049973
+Reference length,R3: 250 <= L < 500,Runtime (ms),Paris,9,-9.638500022
+Reference length,R3: 250 <= L < 500,Runtime (ms),Shanghai,9,-16.844900005
+Reference length,R3: 250 <= L < 500,Runtime (ms),Sydney,9,-31.297000001
+Reference length,R3: 250 <= L < 500,Path length,Berlin,9,0.0
+Reference length,R3: 250 <= L < 500,Path length,Boston,9,0.0
+Reference length,R3: 250 <= L < 500,Path length,Denver,9,0.0
+Reference length,R3: 250 <= L < 500,Path length,London,9,0.0
+Reference length,R3: 250 <= L < 500,Path length,Milan,9,5.272077939
+Reference length,R3: 250 <= L < 500,Path length,Moscow,9,7.363961031
+Reference length,R3: 250 <= L < 500,Path length,NewYork,9,3.686291501
+Reference length,R3: 250 <= L < 500,Path length,Paris,9,8.201010127
+Reference length,R3: 250 <= L < 500,Path length,Shanghai,9,2.63603897
+Reference length,R3: 250 <= L < 500,Path length,Sydney,9,0.0
+Reference length,R3: 250 <= L < 500,Turns,Berlin,9,-1.0
+Reference length,R3: 250 <= L < 500,Turns,Boston,9,-2.0
+Reference length,R3: 250 <= L < 500,Turns,Denver,9,0.0
+Reference length,R3: 250 <= L < 500,Turns,London,9,-1.0
+Reference length,R3: 250 <= L < 500,Turns,Milan,9,-4.0
+Reference length,R3: 250 <= L < 500,Turns,Moscow,9,-8.0
+Reference length,R3: 250 <= L < 500,Turns,NewYork,9,-6.0
+Reference length,R3: 250 <= L < 500,Turns,Paris,9,-8.0
+Reference length,R3: 250 <= L < 500,Turns,Shanghai,9,-6.0
+Reference length,R3: 250 <= L < 500,Turns,Sydney,9,0.0
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),Berlin,9,-45.0
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),Boston,9,-90.0
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),Denver,9,0.0
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),London,9,0.0
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),Milan,9,-180.0
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),Moscow,9,-360.0
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),NewYork,9,-270.0
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),Paris,9,-337.5
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),Shanghai,9,-270.0
+Reference length,R3: 250 <= L < 500,Total turning angle (deg),Sydney,9,0.0
+Reference length,R3: 250 <= L < 500,Expanded nodes,Berlin,9,5.5
+Reference length,R3: 250 <= L < 500,Expanded nodes,Boston,9,2.0
+Reference length,R3: 250 <= L < 500,Expanded nodes,Denver,9,0.0
+Reference length,R3: 250 <= L < 500,Expanded nodes,London,9,24.0
+Reference length,R3: 250 <= L < 500,Expanded nodes,Milan,9,9.0
+Reference length,R3: 250 <= L < 500,Expanded nodes,Moscow,9,19.0
+Reference length,R3: 250 <= L < 500,Expanded nodes,NewYork,9,6.5
+Reference length,R3: 250 <= L < 500,Expanded nodes,Paris,9,39.0
+Reference length,R3: 250 <= L < 500,Expanded nodes,Shanghai,9,0.0
+Reference length,R3: 250 <= L < 500,Expanded nodes,Sydney,9,3.0
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),Berlin,9,0.0
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),Boston,9,0.0
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),Denver,9,0.0
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),London,9,0.0
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),Milan,9,1.699751078
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),Moscow,9,2.337993531
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),NewYork,9,0.800264379
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),Paris,9,2.115420805
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),Shanghai,9,0.898425636
+Reference length,R3: 250 <= L < 500,Gap to dataset reference (%),Sydney,9,0.0
+Reference length,R3: 250 <= L < 500,Waypoints,Berlin,9,-1.0
+Reference length,R3: 250 <= L < 500,Waypoints,Boston,9,-2.0
+Reference length,R3: 250 <= L < 500,Waypoints,Denver,9,0.0
+Reference length,R3: 250 <= L < 500,Waypoints,London,9,-1.0
+Reference length,R3: 250 <= L < 500,Waypoints,Milan,9,-4.0
+Reference length,R3: 250 <= L < 500,Waypoints,Moscow,9,-8.0
+Reference length,R3: 250 <= L < 500,Waypoints,NewYork,9,-6.0
+Reference length,R3: 250 <= L < 500,Waypoints,Paris,9,-8.0
+Reference length,R3: 250 <= L < 500,Waypoints,Shanghai,9,-6.0
+Reference length,R3: 250 <= L < 500,Waypoints,Sydney,9,0.0
+Reference length,R3: 250 <= L < 500,Generated successors,Berlin,9,7.0
+Reference length,R3: 250 <= L < 500,Generated successors,Boston,9,4.0
+Reference length,R3: 250 <= L < 500,Generated successors,Denver,9,0.0
+Reference length,R3: 250 <= L < 500,Generated successors,London,9,36.0
+Reference length,R3: 250 <= L < 500,Generated successors,Milan,9,14.0
+Reference length,R3: 250 <= L < 500,Generated successors,Moscow,9,28.0
+Reference length,R3: 250 <= L < 500,Generated successors,NewYork,9,13.0
+Reference length,R3: 250 <= L < 500,Generated successors,Paris,9,60.0
+Reference length,R3: 250 <= L < 500,Generated successors,Shanghai,9,0.0
+Reference length,R3: 250 <= L < 500,Generated successors,Sydney,9,5.0
+Reference length,R3: 250 <= L < 500,Queue pushes,Berlin,9,7.0
+Reference length,R3: 250 <= L < 500,Queue pushes,Boston,9,4.0
+Reference length,R3: 250 <= L < 500,Queue pushes,Denver,9,0.0
+Reference length,R3: 250 <= L < 500,Queue pushes,London,9,34.0
+Reference length,R3: 250 <= L < 500,Queue pushes,Milan,9,14.0
+Reference length,R3: 250 <= L < 500,Queue pushes,Moscow,9,26.5
+Reference length,R3: 250 <= L < 500,Queue pushes,NewYork,9,12.0
+Reference length,R3: 250 <= L < 500,Queue pushes,Paris,9,53.5
+Reference length,R3: 250 <= L < 500,Queue pushes,Shanghai,9,0.0
+Reference length,R3: 250 <= L < 500,Queue pushes,Sydney,9,5.0
+Reference length,R3: 250 <= L < 500,Jump calls,Berlin,9,10586.0
+Reference length,R3: 250 <= L < 500,Jump calls,Boston,9,3151.0
+Reference length,R3: 250 <= L < 500,Jump calls,Denver,9,0.0
+Reference length,R3: 250 <= L < 500,Jump calls,London,9,13422.5
+Reference length,R3: 250 <= L < 500,Jump calls,Milan,9,5316.5
+Reference length,R3: 250 <= L < 500,Jump calls,Moscow,9,11255.0
+Reference length,R3: 250 <= L < 500,Jump calls,NewYork,9,9877.5
+Reference length,R3: 250 <= L < 500,Jump calls,Paris,9,12445.0
+Reference length,R3: 250 <= L < 500,Jump calls,Shanghai,9,858.0
+Reference length,R3: 250 <= L < 500,Jump calls,Sydney,9,5095.5
+Reference length,R4: 500 <= L < 1000,Runtime (ms),Berlin,6,-41.898750002
+Reference length,R4: 500 <= L < 1000,Runtime (ms),Boston,6,-64.084799997
+Reference length,R4: 500 <= L < 1000,Runtime (ms),Denver,6,-178.331950003
+Reference length,R4: 500 <= L < 1000,Runtime (ms),London,6,-53.367400003
+Reference length,R4: 500 <= L < 1000,Runtime (ms),Milan,6,-84.475575
+Reference length,R4: 500 <= L < 1000,Runtime (ms),Moscow,6,-62.972374973
+Reference length,R4: 500 <= L < 1000,Runtime (ms),NewYork,6,-34.60907501
+Reference length,R4: 500 <= L < 1000,Runtime (ms),Paris,6,-76.611674973
+Reference length,R4: 500 <= L < 1000,Runtime (ms),Shanghai,6,-77.033325026
+Reference length,R4: 500 <= L < 1000,Runtime (ms),Sydney,6,-155.44685
+Reference length,R4: 500 <= L < 1000,Path length,Berlin,6,13.158639918
+Reference length,R4: 500 <= L < 1000,Path length,Boston,6,5.52081528
+Reference length,R4: 500 <= L < 1000,Path length,Denver,6,0.0
+Reference length,R4: 500 <= L < 1000,Path length,London,6,12.31192283
+Reference length,R4: 500 <= L < 1000,Path length,Milan,6,12.590097423
+Reference length,R4: 500 <= L < 1000,Path length,Moscow,6,18.338834765
+Reference length,R4: 500 <= L < 1000,Path length,NewYork,6,21.498214331
+Reference length,R4: 500 <= L < 1000,Path length,Paris,6,16.949747468
+Reference length,R4: 500 <= L < 1000,Path length,Shanghai,6,23.265981284
+Reference length,R4: 500 <= L < 1000,Path length,Sydney,6,2.34314575
+Reference length,R4: 500 <= L < 1000,Turns,Berlin,6,-17.0
+Reference length,R4: 500 <= L < 1000,Turns,Boston,6,-5.0
+Reference length,R4: 500 <= L < 1000,Turns,Denver,6,0.0
+Reference length,R4: 500 <= L < 1000,Turns,London,6,-15.0
+Reference length,R4: 500 <= L < 1000,Turns,Milan,6,-13.0
+Reference length,R4: 500 <= L < 1000,Turns,Moscow,6,-24.25
+Reference length,R4: 500 <= L < 1000,Turns,NewYork,6,-24.0
+Reference length,R4: 500 <= L < 1000,Turns,Paris,6,-16.0
+Reference length,R4: 500 <= L < 1000,Turns,Shanghai,6,-23.0
+Reference length,R4: 500 <= L < 1000,Turns,Sydney,6,-3.0
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),Berlin,6,-765.0
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),Boston,6,-225.0
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),Denver,6,0.0
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),London,6,-675.0
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),Milan,6,-585.0
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),Moscow,6,-1102.5
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),NewYork,6,-1080.0
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),Paris,6,-720.0
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),Shanghai,6,-1035.0
+Reference length,R4: 500 <= L < 1000,Total turning angle (deg),Sydney,6,-135.0
+Reference length,R4: 500 <= L < 1000,Expanded nodes,Berlin,6,50.5
+Reference length,R4: 500 <= L < 1000,Expanded nodes,Boston,6,0.0
+Reference length,R4: 500 <= L < 1000,Expanded nodes,Denver,6,-5.75
+Reference length,R4: 500 <= L < 1000,Expanded nodes,London,6,25.25
+Reference length,R4: 500 <= L < 1000,Expanded nodes,Milan,6,8.0
+Reference length,R4: 500 <= L < 1000,Expanded nodes,Moscow,6,8.0
+Reference length,R4: 500 <= L < 1000,Expanded nodes,NewYork,6,1.0
+Reference length,R4: 500 <= L < 1000,Expanded nodes,Paris,6,32.75
+Reference length,R4: 500 <= L < 1000,Expanded nodes,Shanghai,6,9.5
+Reference length,R4: 500 <= L < 1000,Expanded nodes,Sydney,6,0.0
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),Berlin,6,1.843228654
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),Boston,6,0.88848312
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),Denver,6,0.0
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),London,6,1.917673959
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),Milan,6,1.610757217
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),Moscow,6,2.788528802
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),NewYork,6,3.631104457
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),Paris,6,2.229546934
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),Shanghai,6,3.074467771
+Reference length,R4: 500 <= L < 1000,Gap to dataset reference (%),Sydney,6,0.397989735
+Reference length,R4: 500 <= L < 1000,Waypoints,Berlin,6,-17.0
+Reference length,R4: 500 <= L < 1000,Waypoints,Boston,6,-5.0
+Reference length,R4: 500 <= L < 1000,Waypoints,Denver,6,0.0
+Reference length,R4: 500 <= L < 1000,Waypoints,London,6,-15.0
+Reference length,R4: 500 <= L < 1000,Waypoints,Milan,6,-13.0
+Reference length,R4: 500 <= L < 1000,Waypoints,Moscow,6,-24.25
+Reference length,R4: 500 <= L < 1000,Waypoints,NewYork,6,-24.0
+Reference length,R4: 500 <= L < 1000,Waypoints,Paris,6,-16.0
+Reference length,R4: 500 <= L < 1000,Waypoints,Shanghai,6,-23.0
+Reference length,R4: 500 <= L < 1000,Waypoints,Sydney,6,-3.0
+Reference length,R4: 500 <= L < 1000,Generated successors,Berlin,6,63.25
+Reference length,R4: 500 <= L < 1000,Generated successors,Boston,6,0.0
+Reference length,R4: 500 <= L < 1000,Generated successors,Denver,6,-9.0
+Reference length,R4: 500 <= L < 1000,Generated successors,London,6,37.5
+Reference length,R4: 500 <= L < 1000,Generated successors,Milan,6,13.0
+Reference length,R4: 500 <= L < 1000,Generated successors,Moscow,6,14.75
+Reference length,R4: 500 <= L < 1000,Generated successors,NewYork,6,3.25
+Reference length,R4: 500 <= L < 1000,Generated successors,Paris,6,47.5
+Reference length,R4: 500 <= L < 1000,Generated successors,Shanghai,6,16.0
+Reference length,R4: 500 <= L < 1000,Generated successors,Sydney,6,0.75
+Reference length,R4: 500 <= L < 1000,Queue pushes,Berlin,6,59.0
+Reference length,R4: 500 <= L < 1000,Queue pushes,Boston,6,0.0
+Reference length,R4: 500 <= L < 1000,Queue pushes,Denver,6,-8.5
+Reference length,R4: 500 <= L < 1000,Queue pushes,London,6,34.5
+Reference length,R4: 500 <= L < 1000,Queue pushes,Milan,6,13.5
+Reference length,R4: 500 <= L < 1000,Queue pushes,Moscow,6,13.5
+Reference length,R4: 500 <= L < 1000,Queue pushes,NewYork,6,3.0
+Reference length,R4: 500 <= L < 1000,Queue pushes,Paris,6,44.25
+Reference length,R4: 500 <= L < 1000,Queue pushes,Shanghai,6,15.5
+Reference length,R4: 500 <= L < 1000,Queue pushes,Sydney,6,0.5
+Reference length,R4: 500 <= L < 1000,Jump calls,Berlin,6,49288.25
+Reference length,R4: 500 <= L < 1000,Jump calls,Boston,6,3810.75
+Reference length,R4: 500 <= L < 1000,Jump calls,Denver,6,-6510.25
+Reference length,R4: 500 <= L < 1000,Jump calls,London,6,21703.75
+Reference length,R4: 500 <= L < 1000,Jump calls,Milan,6,22318.0
+Reference length,R4: 500 <= L < 1000,Jump calls,Moscow,6,29147.25
+Reference length,R4: 500 <= L < 1000,Jump calls,NewYork,6,31426.25
+Reference length,R4: 500 <= L < 1000,Jump calls,Paris,6,21914.75
+Reference length,R4: 500 <= L < 1000,Jump calls,Shanghai,6,55030.75
+Reference length,R4: 500 <= L < 1000,Jump calls,Sydney,6,10019.5
+Reference length,R5: L >= 1000,Runtime (ms),Berlin,3,-206.600450008
+Reference length,R5: L >= 1000,Runtime (ms),Boston,3,-336.829150008
+Reference length,R5: L >= 1000,Runtime (ms),Denver,3,-663.424400002
+Reference length,R5: L >= 1000,Runtime (ms),London,3,-385.916850006
+Reference length,R5: L >= 1000,Runtime (ms),Milan,3,-286.993650021
+Reference length,R5: L >= 1000,Runtime (ms),Moscow,3,-314.682950004
+Reference length,R5: L >= 1000,Runtime (ms),NewYork,3,-255.510349962
+Reference length,R5: L >= 1000,Runtime (ms),Paris,3,-606.286399998
+Reference length,R5: L >= 1000,Runtime (ms),Shanghai,3,-284.399350028
+Reference length,R5: L >= 1000,Runtime (ms),Sydney,3,-773.7517
+Reference length,R5: L >= 1000,Path length,Berlin,3,60.336003076
+Reference length,R5: L >= 1000,Path length,Boston,3,11.715728753
+Reference length,R5: L >= 1000,Path length,Denver,3,0.585786438
+Reference length,R5: L >= 1000,Path length,London,3,20.987806691
+Reference length,R5: L >= 1000,Path length,Milan,3,62.28069991
+Reference length,R5: L >= 1000,Path length,Moscow,3,32.107647738
+Reference length,R5: L >= 1000,Path length,NewYork,3,52.720779386
+Reference length,R5: L >= 1000,Path length,Paris,3,40.627416998
+Reference length,R5: L >= 1000,Path length,Shanghai,3,56.017243943
+Reference length,R5: L >= 1000,Path length,Sydney,3,18.966991411
+Reference length,R5: L >= 1000,Turns,Berlin,3,-58.0
+Reference length,R5: L >= 1000,Turns,Boston,3,-10.0
+Reference length,R5: L >= 1000,Turns,Denver,3,0.0
+Reference length,R5: L >= 1000,Turns,London,3,-27.0
+Reference length,R5: L >= 1000,Turns,Milan,3,-72.0
+Reference length,R5: L >= 1000,Turns,Moscow,3,-48.0
+Reference length,R5: L >= 1000,Turns,NewYork,3,-60.0
+Reference length,R5: L >= 1000,Turns,Paris,3,-37.0
+Reference length,R5: L >= 1000,Turns,Shanghai,3,-44.0
+Reference length,R5: L >= 1000,Turns,Sydney,3,-16.0
+Reference length,R5: L >= 1000,Total turning angle (deg),Berlin,3,-2610.0
+Reference length,R5: L >= 1000,Total turning angle (deg),Boston,3,-450.0
+Reference length,R5: L >= 1000,Total turning angle (deg),Denver,3,0.0
+Reference length,R5: L >= 1000,Total turning angle (deg),London,3,-1260.0
+Reference length,R5: L >= 1000,Total turning angle (deg),Milan,3,-3240.0
+Reference length,R5: L >= 1000,Total turning angle (deg),Moscow,3,-2160.0
+Reference length,R5: L >= 1000,Total turning angle (deg),NewYork,3,-2700.0
+Reference length,R5: L >= 1000,Total turning angle (deg),Paris,3,-1665.0
+Reference length,R5: L >= 1000,Total turning angle (deg),Shanghai,3,-1980.0
+Reference length,R5: L >= 1000,Total turning angle (deg),Sydney,3,-720.0
+Reference length,R5: L >= 1000,Expanded nodes,Berlin,3,48.0
+Reference length,R5: L >= 1000,Expanded nodes,Boston,3,-51.0
+Reference length,R5: L >= 1000,Expanded nodes,Denver,3,-41.0
+Reference length,R5: L >= 1000,Expanded nodes,London,3,8.0
+Reference length,R5: L >= 1000,Expanded nodes,Milan,3,8.0
+Reference length,R5: L >= 1000,Expanded nodes,Moscow,3,-1.5
+Reference length,R5: L >= 1000,Expanded nodes,NewYork,3,-129.5
+Reference length,R5: L >= 1000,Expanded nodes,Paris,3,-72.0
+Reference length,R5: L >= 1000,Expanded nodes,Shanghai,3,42.0
+Reference length,R5: L >= 1000,Expanded nodes,Sydney,3,-10.5
+Reference length,R5: L >= 1000,Gap to dataset reference (%),Berlin,3,5.076914064
+Reference length,R5: L >= 1000,Gap to dataset reference (%),Boston,3,1.006753658
+Reference length,R5: L >= 1000,Gap to dataset reference (%),Denver,3,0.042503156
+Reference length,R5: L >= 1000,Gap to dataset reference (%),London,3,1.633715064
+Reference length,R5: L >= 1000,Gap to dataset reference (%),Milan,3,4.996844488
+Reference length,R5: L >= 1000,Gap to dataset reference (%),Moscow,3,2.68162
+Reference length,R5: L >= 1000,Gap to dataset reference (%),NewYork,3,4.107542706
+Reference length,R5: L >= 1000,Gap to dataset reference (%),Paris,3,3.169310898
+Reference length,R5: L >= 1000,Gap to dataset reference (%),Shanghai,3,4.443153442
+Reference length,R5: L >= 1000,Gap to dataset reference (%),Sydney,3,1.53987581
+Reference length,R5: L >= 1000,Waypoints,Berlin,3,-58.0
+Reference length,R5: L >= 1000,Waypoints,Boston,3,-10.0
+Reference length,R5: L >= 1000,Waypoints,Denver,3,0.0
+Reference length,R5: L >= 1000,Waypoints,London,3,-27.0
+Reference length,R5: L >= 1000,Waypoints,Milan,3,-72.0
+Reference length,R5: L >= 1000,Waypoints,Moscow,3,-48.0
+Reference length,R5: L >= 1000,Waypoints,NewYork,3,-60.0
+Reference length,R5: L >= 1000,Waypoints,Paris,3,-37.0
+Reference length,R5: L >= 1000,Waypoints,Shanghai,3,-44.0
+Reference length,R5: L >= 1000,Waypoints,Sydney,3,-16.0
+Reference length,R5: L >= 1000,Generated successors,Berlin,3,66.0
+Reference length,R5: L >= 1000,Generated successors,Boston,3,-64.5
+Reference length,R5: L >= 1000,Generated successors,Denver,3,-65.0
+Reference length,R5: L >= 1000,Generated successors,London,3,15.5
+Reference length,R5: L >= 1000,Generated successors,Milan,3,24.0
+Reference length,R5: L >= 1000,Generated successors,Moscow,3,3.0
+Reference length,R5: L >= 1000,Generated successors,NewYork,3,-120.0
+Reference length,R5: L >= 1000,Generated successors,Paris,3,-50.0
+Reference length,R5: L >= 1000,Generated successors,Shanghai,3,57.5
+Reference length,R5: L >= 1000,Generated successors,Sydney,3,-8.5
+Reference length,R5: L >= 1000,Queue pushes,Berlin,3,54.0
+Reference length,R5: L >= 1000,Queue pushes,Boston,3,-59.0
+Reference length,R5: L >= 1000,Queue pushes,Denver,3,-51.0
+Reference length,R5: L >= 1000,Queue pushes,London,3,11.0
+Reference length,R5: L >= 1000,Queue pushes,Milan,3,22.0
+Reference length,R5: L >= 1000,Queue pushes,Moscow,3,3.0
+Reference length,R5: L >= 1000,Queue pushes,NewYork,3,-116.5
+Reference length,R5: L >= 1000,Queue pushes,Paris,3,-67.0
+Reference length,R5: L >= 1000,Queue pushes,Shanghai,3,53.0
+Reference length,R5: L >= 1000,Queue pushes,Sydney,3,-6.5
+Reference length,R5: L >= 1000,Jump calls,Berlin,3,122308.0
+Reference length,R5: L >= 1000,Jump calls,Boston,3,-19042.0
+Reference length,R5: L >= 1000,Jump calls,Denver,3,-58991.5
+Reference length,R5: L >= 1000,Jump calls,London,3,61878.5
+Reference length,R5: L >= 1000,Jump calls,Milan,3,92986.5
+Reference length,R5: L >= 1000,Jump calls,Moscow,3,48199.5
+Reference length,R5: L >= 1000,Jump calls,NewYork,3,111456.5
+Reference length,R5: L >= 1000,Jump calls,Paris,3,690.0
+Reference length,R5: L >= 1000,Jump calls,Shanghai,3,125711.5
+Reference length,R5: L >= 1000,Jump calls,Sydney,3,14225.5

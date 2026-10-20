@@ -1,0 +1,219 @@
+========================================================================
+SELECTED EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : street_all
+Description   : All street maps and scenarios: standard JPS versus optimized FWSAJPS
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\street_all
+========================================================================
+
+========================================================================
+RUNNING EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : street_all
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\street_all
+========================================================================
+Selected 90 map(s):
+  Berlin_0_1024.map
+  Berlin_0_256.map
+  Berlin_0_512.map
+  Berlin_1_1024.map
+  Berlin_1_256.map
+  Berlin_1_512.map
+  Berlin_2_1024.map
+  Berlin_2_256.map
+  Berlin_2_512.map
+  Boston_0_1024.map
+  Boston_0_256.map
+  Boston_0_512.map
+  Boston_1_1024.map
+  Boston_1_256.map
+  Boston_1_512.map
+  Boston_2_1024.map
+  Boston_2_256.map
+  Boston_2_512.map
+  Denver_0_1024.map
+  Denver_0_256.map
+  Denver_0_512.map
+  Denver_1_1024.map
+  Denver_1_256.map
+  Denver_1_512.map
+  Denver_2_1024.map
+  Denver_2_256.map
+  Denver_2_512.map
+  London_0_1024.map
+  London_0_256.map
+  London_0_512.map
+  London_1_1024.map
+  London_1_256.map
+  London_1_512.map
+  London_2_1024.map
+  London_2_256.map
+  London_2_512.map
+  Milan_0_1024.map
+  Milan_0_256.map
+  Milan_0_512.map
+  Milan_1_1024.map
+  Milan_1_256.map
+  Milan_1_512.map
+  Milan_2_1024.map
+  Milan_2_256.map
+  Milan_2_512.map
+  Moscow_0_1024.map
+  Moscow_0_256.map
+  Moscow_0_512.map
+  Moscow_1_1024.map
+  Moscow_1_256.map
+  Moscow_1_512.map
+  Moscow_2_1024.map
+  Moscow_2_256.map
+  Moscow_2_512.map
+  NewYork_0_1024.map
+  NewYork_0_256.map
+  NewYork_0_512.map
+  NewYork_1_1024.map
+  NewYork_1_256.map
+  NewYork_1_512.map
+  NewYork_2_1024.map
+  NewYork_2_256.map
+  NewYork_2_512.map
+  Paris_0_1024.map
+  Paris_0_256.map
+  Paris_0_512.map
+  Paris_1_1024.map
+  Paris_1_256.map
+  Paris_1_512.map
+  Paris_2_1024.map
+  Paris_2_256.map
+  Paris_2_512.map
+  Shanghai_0_1024.map
+  Shanghai_0_256.map
+  Shanghai_0_512.map
+  Shanghai_1_1024.map
+  Shanghai_1_256.map
+  Shanghai_1_512.map
+  Shanghai_2_1024.map
+  Shanghai_2_256.map
+  Shanghai_2_512.map
+  Sydney_0_1024.map
+  Sydney_0_256.map
+  Sydney_0_512.map
+  Sydney_1_1024.map
+  Sydney_1_256.map
+  Sydney_1_512.map
+  Sydney_2_1024.map
+  Sydney_2_256.map
+  Sydney_2_512.map
+
+Running dataset benchmark...
+Preparing benchmark workload...
+
+========================================================================
+BENCHMARK WORKLOAD
+========================================================================
+Dataset             : street
+Maps                : 90
+Scenario iterations : 197,490
+Algorithms          : 2
+Search executions   : 394,980
+------------------------------------------------------------------------
+[  1/90] Berlin_0_1024.map                           3,850 scenarios
+[  2/90] Berlin_0_256.map                              930 scenarios
+[  3/90] Berlin_0_512.map                            1,870 scenarios
+[  4/90] Berlin_1_1024.map                           3,920 scenarios
+[  5/90] Berlin_1_256.map                              910 scenarios
+[  6/90] Berlin_1_512.map                            1,950 scenarios
+[  7/90] Berlin_2_1024.map                           3,870 scenarios
+[  8/90] Berlin_2_256.map                              960 scenarios
+[  9/90] Berlin_2_512.map                            1,950 scenarios
+[ 10/90] Boston_0_1024.map                           3,840 scenarios
+[ 11/90] Boston_0_256.map                              950 scenarios
+[ 12/90] Boston_0_512.map                            1,890 scenarios
+[ 13/90] Boston_1_1024.map                           3,720 scenarios
+[ 14/90] Boston_1_256.map                              910 scenarios
+[ 15/90] Boston_1_512.map                            1,830 scenarios
+[ 16/90] Boston_2_1024.map                           3,870 scenarios
+[ 17/90] Boston_2_256.map                              860 scenarios
+[ 18/90] Boston_2_512.map                            1,850 scenarios
+[ 19/90] Denver_0_1024.map                           3,680 scenarios
+[ 20/90] Denver_0_256.map                              940 scenarios
+[ 21/90] Denver_0_512.map                            1,830 scenarios
+[ 22/90] Denver_1_1024.map                           3,770 scenarios
+[ 23/90] Denver_1_256.map                              830 scenarios
+[ 24/90] Denver_1_512.map                            1,780 scenarios
+[ 25/90] Denver_2_1024.map                           3,700 scenarios
+[ 26/90] Denver_2_256.map                              910 scenarios
+[ 27/90] Denver_2_512.map                            1,890 scenarios
+[ 28/90] London_0_1024.map                           4,010 scenarios
+[ 29/90] London_0_256.map                            1,000 scenarios
+[ 30/90] London_0_512.map                            2,080 scenarios
+[ 31/90] London_1_1024.map                           3,410 scenarios
+[ 32/90] London_1_256.map                              940 scenarios
+[ 33/90] London_1_512.map                            1,870 scenarios
+[ 34/90] London_2_1024.map                           3,840 scenarios
+[ 35/90] London_2_256.map                              940 scenarios
+[ 36/90] London_2_512.map                            1,910 scenarios
+[ 37/90] Milan_0_1024.map                            3,850 scenarios
+[ 38/90] Milan_0_256.map                               910 scenarios
+[ 39/90] Milan_0_512.map                             1,780 scenarios
+[ 40/90] Milan_1_1024.map                            3,680 scenarios
+[ 41/90] Milan_1_256.map                               870 scenarios
+[ 42/90] Milan_1_512.map                             1,800 scenarios
+[ 43/90] Milan_2_1024.map                            3,840 scenarios
+[ 44/90] Milan_2_256.map                               970 scenarios
+[ 45/90] Milan_2_512.map                             1,950 scenarios
+[ 46/90] Moscow_0_1024.map                           3,630 scenarios
+[ 47/90] Moscow_0_256.map                              910 scenarios
+[ 48/90] Moscow_0_512.map                            1,830 scenarios
+[ 49/90] Moscow_1_1024.map                           3,870 scenarios
+[ 50/90] Moscow_1_256.map                            1,100 scenarios
+[ 51/90] Moscow_1_512.map                            1,970 scenarios
+[ 52/90] Moscow_2_1024.map                           4,230 scenarios
+[ 53/90] Moscow_2_256.map                              990 scenarios
+[ 54/90] Moscow_2_512.map                            2,090 scenarios
+[ 55/90] NewYork_0_1024.map                          3,670 scenarios
+[ 56/90] NewYork_0_256.map                             910 scenarios
+[ 57/90] NewYork_0_512.map                           1,790 scenarios
+[ 58/90] NewYork_1_1024.map                          3,740 scenarios
+[ 59/90] NewYork_1_256.map                             910 scenarios
+[ 60/90] NewYork_1_512.map                           1,820 scenarios
+[ 61/90] NewYork_2_1024.map                          3,680 scenarios
+[ 62/90] NewYork_2_256.map                             870 scenarios
+[ 63/90] NewYork_2_512.map                           1,850 scenarios
+[ 64/90] Paris_0_1024.map                            3,820 scenarios
+[ 65/90] Paris_0_256.map                               980 scenarios
+[ 66/90] Paris_0_512.map                             1,810 scenarios
+[ 67/90] Paris_1_1024.map                            3,760 scenarios
+[ 68/90] Paris_1_256.map                             1,090 scenarios
+[ 69/90] Paris_1_512.map                             1,900 scenarios
+[ 70/90] Paris_2_1024.map                            3,990 scenarios
+[ 71/90] Paris_2_256.map                             1,060 scenarios
+[ 72/90] Paris_2_512.map                             2,190 scenarios
+[ 73/90] Shanghai_0_1024.map                         3,680 scenarios
+[ 74/90] Shanghai_0_256.map                            870 scenarios
+[ 75/90] Shanghai_0_512.map                          1,730 scenarios
+[ 76/90] Shanghai_1_1024.map                         3,570 scenarios
+[ 77/90] Shanghai_1_256.map                            900 scenarios
+[ 78/90] Shanghai_1_512.map                          1,780 scenarios
+[ 79/90] Shanghai_2_1024.map                         3,720 scenarios
+[ 80/90] Shanghai_2_256.map                            920 scenarios
+[ 81/90] Shanghai_2_512.map                          1,810 scenarios
+[ 82/90] Sydney_0_1024.map                           3,650 scenarios
+[ 83/90] Sydney_0_256.map                              900 scenarios
+[ 84/90] Sydney_0_512.map                            1,790 scenarios
+[ 85/90] Sydney_1_1024.map                           3,670 scenarios
+[ 86/90] Sydney_1_256.map                              870 scenarios
+[ 87/90] Sydney_1_512.map                            1,790 scenarios
+[ 88/90] Sydney_2_1024.map                           3,670 scenarios
+[ 89/90] Sydney_2_256.map                              910 scenarios
+[ 90/90] Sydney_2_512.map                            1,890 scenarios
+------------------------------------------------------------------------
+Selected approaches:
+  [1/2] {'label': 'Standard JPS', 'algorithm': 'Standard JPS', 'parameters': {'heuristic_weight': 1.0, 'smooth_tie_break': False}}
+  [2/2] {'label': 'Optimized Fast Weighted SA-JPS', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'heuristic_weight': 1.15, 'turn_count_weight': 5.0}}
+========================================================================
+
+Checkpoint: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\street_all\cache\benchmark_f29e734530e46b1d_street_checkpoint.sqlite3
+Resuming 0 saved algorithm results.
+Benchmark:   0%|          | 0/197490 [00:00<?, ?scenario/s]Benchmark:   0%|          | 0/197490 [02:33<?, ?scenario/s]

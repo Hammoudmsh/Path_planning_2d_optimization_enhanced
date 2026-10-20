@@ -1,0 +1,48 @@
+{
+  "base_profile": "full",
+  "output_root": "results_smooth_fwsjps_vs_jps",
+  "overrides": {
+    "benchmark_approaches": [
+      {
+        "label": "Standard JPS",
+        "algorithm": "Standard JPS",
+        "parameters": {
+          "heuristic_weight": 1.0,
+          "smooth_tie_break": false
+        }
+      },
+      {
+        "label": "Fast Weighted SA-JPS",
+        "algorithm": "Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "heuristic_weight": 1.15
+        }
+      },
+      {
+        "label": "Optimized Fast Weighted SA-JPS",
+        "algorithm": "Optimized Fast Weighted SA-JPS",
+        "parameters": {
+          "turn_weight": 0.35,
+          "heuristic_weight": 1.15,
+          "turn_count_weight": 5.0
+        }
+      }
+    ],
+    "run_smoke_test": false,
+    "download_data": false,
+    "run_inference_example": false,
+    "generate_all_dataset_descriptions": false,
+    "run_structural_clustering": false,
+    "use_benchmark_cache": true,
+    "force_recompute_benchmark": false,
+    "resume_benchmark": true,
+    "run_ablation_study": false,
+    "run_sa_weight_sweep": false,
+    "run_statistical_analysis": false,
+    "save_bar_plots": false,
+    "save_per_map_plots": false,
+    "save_example_plot": false,
+    "description": "JPS, original FWSJPS, and optimized FWSJPS with per-turn penalty"
+  }
+}

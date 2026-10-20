@@ -1,0 +1,229 @@
+========================================================================
+SELECTED EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : optimized_vs_jps
+Description   : Online optimized FWSJPS versus standard JPS
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps
+========================================================================
+Datasets: ['bg512', 'bgmaps', 'dao', 'maze', 'random', 'sc1', 'street', 'wc3maps512']
+Profiles: ['debug', 'full', 'optimized_vs_jps']
+            Profile  ... Ablation
+0             debug  ...     True
+1              full  ...     True
+2  optimized_vs_jps  ...    False
+
+[3 rows x 5 columns]
+
+Active configuration:
+dataset_name        : street
+config_name         : optimized_vs_jps
+maps_url            : https://www.movingai.com/benchmarks/street/street-map.zip
+scenarios_url       : https://www.movingai.com/benchmarks/street/street-scen.zip
+maps_dir            : Z:\Study\Codex\JPS_updated_miet_conf\datasets\street\maps
+scenarios_dir       : Z:\Study\Codex\JPS_updated_miet_conf\datasets\street\scenarios
+results             : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps
+
+========================================================================
+RUNNING EXPERIMENT
+========================================================================
+Dataset       : street
+Configuration : optimized_vs_jps
+Results       : Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps
+========================================================================
+Selected 2 map(s):
+  Berlin_0_1024.map
+  Berlin_0_256.map
+
+Running dataset benchmark...
+Preparing benchmark workload...
+
+========================================================================
+BENCHMARK WORKLOAD
+========================================================================
+Dataset             : street
+Maps                : 2
+Scenario iterations : 4
+Algorithms          : 2
+Search executions   : 8
+------------------------------------------------------------------------
+[  1/2] Berlin_0_1024.map                               2 scenarios [Mixed]
+[  2/2] Berlin_0_256.map                                2 scenarios [Mixed]
+------------------------------------------------------------------------
+Selected approaches:
+  [1/2] {'label': 'Standard JPS', 'algorithm': 'Standard JPS', 'parameters': {'heuristic_weight': 1.0, 'smooth_tie_break': False}}
+  [2/2] {'label': 'Optimized Fast Weighted SA-JPS', 'algorithm': 'Optimized Fast Weighted SA-JPS', 'parameters': {'turn_weight': 0.35, 'heuristic_weight': 1.15}}
+========================================================================
+
+
+Benchmark:   0%|          | 0/4 [00:00<?, ?scenario/s]
+Map 1/2:   0%|          | 0/4 [00:00<?, ?scenario/s]  
+Map 1/2:   0%|          | 0/4 [00:00<?, ?scenario/s, name=Berlin_0_1024, scenario=1/2, overall=1/4, searches=0/8, elapsed=00:00:00, ETA=--:--:--]
+Map 1/2:  25%|##5       | 1/4 [00:00<00:00, 122.85scenario/s, name=Berlin_0_1024, scenario=1/2, overall=1/4, searches=2/8, elapsed=00:00:00, ETA=00:00:00]
+Map 1/2:  25%|##5       | 1/4 [00:00<00:00, 122.85scenario/s, name=Berlin_0_1024, scenario=1/2, overall=1/4, searches=2/8, elapsed=00:00:00, ETA=00:00:00]
+Map 1/2:  25%|##5       | 1/4 [00:00<00:00, 122.85scenario/s, name=Berlin_0_1024, scenario=2/2, overall=2/4, searches=2/8, elapsed=00:00:00, ETA=00:00:00]
+Map 1/2:  50%|#####     | 2/4 [00:01<00:01,  1.60scenario/s, name=Berlin_0_1024, scenario=2/2, overall=2/4, searches=2/8, elapsed=00:00:00, ETA=00:00:00] 
+Map 1/2:  50%|#####     | 2/4 [00:01<00:01,  1.60scenario/s, name=Berlin_0_1024, scenario=2/2, overall=2/4, searches=4/8, elapsed=00:00:01, ETA=00:00:01]
+Map 2/2:  50%|#####     | 2/4 [00:01<00:01,  1.60scenario/s, name=Berlin_0_1024, scenario=2/2, overall=2/4, searches=4/8, elapsed=00:00:01, ETA=00:00:01]
+Map 2/2:  50%|#####     | 2/4 [00:01<00:01,  1.60scenario/s, name=Berlin_0_256, scenario=1/2, overall=3/4, searches=4/8, elapsed=00:00:01, ETA=00:00:01] 
+Map 2/2:  75%|#######5  | 3/4 [00:01<00:00,  1.60scenario/s, name=Berlin_0_256, scenario=1/2, overall=3/4, searches=6/8, elapsed=00:00:01, ETA=00:00:00]
+Map 2/2:  75%|#######5  | 3/4 [00:01<00:00,  1.60scenario/s, name=Berlin_0_256, scenario=1/2, overall=3/4, searches=6/8, elapsed=00:00:01, ETA=00:00:00]
+Map 2/2:  75%|#######5  | 3/4 [00:01<00:00,  1.60scenario/s, name=Berlin_0_256, scenario=2/2, overall=4/4, searches=6/8, elapsed=00:00:01, ETA=00:00:00]
+Map 2/2: 100%|##########| 4/4 [00:01<00:00,  1.60scenario/s, name=Berlin_0_256, scenario=2/2, overall=4/4, searches=8/8, elapsed=00:00:01, ETA=00:00:00]
+Map 2/2: 100%|##########| 4/4 [00:01<00:00,  3.07scenario/s, name=Berlin_0_256, scenario=2/2, overall=4/4, searches=8/8, elapsed=00:00:01, ETA=00:00:00]
+
+========================================================================
+BENCHMARK COMPLETED
+========================================================================
+Maps processed       : 2/2
+Scenario iterations  : 4/4
+Search executions    : 8/8
+Generated rows       : 8
+Total elapsed time   : 00:00:01
+Average per scenario : 0.328543 s
+Average per search   : 0.164271 s
+========================================================================
+
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_run_results_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\map_structure_features_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\summary_results_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_summary_street.csv
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_runtime_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_runtime_per_map_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\mean_runtime_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\mean_runtime_per_map_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_expanded_nodes_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_expanded_nodes_per_map_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\mean_expanded_nodes_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\mean_expanded_nodes_per_map_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_generated_successors_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_generated_successors_per_map_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_path_length_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_path_length_per_map_street.png
+Skipping per-map plot; no valid values for: Mean_gap_vs_Astar_percent
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_turns_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_turns_per_map_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\mean_turns_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\mean_turns_per_map_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_turning_angle_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_turning_angle_per_map_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_waypoints_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\median_waypoints_per_map_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\success_rate_per_map_street_plot_data_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\per_map_plots\success_rate_per_map_street.png
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\algorithm_performance_by_map_type_street.csv
+
+Running non-parametric statistical analysis...
+
+Generating effect-size tables and CD diagrams...
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\statistics\wilcoxon_effect_sizes_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\statistics\friedman_kendall_w_effect_sizes_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\statistics\critical_difference_average_ranks_street.csv
+Saved Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\statistics\critical_difference_diagram_index_street.csv
+Wilcoxon rank-biserial effect sizes
+              Group  ... Preferred algorithm (lower metric)
+0          All maps  ...                                Tie
+1          All maps  ...                                Tie
+2          All maps  ...                                Tie
+3          All maps  ...     Optimized Fast Weighted SA-JPS
+4          All maps  ...                                Tie
+5          All maps  ...                                Tie
+6          All maps  ...                                Tie
+7   Map type: Mixed  ...                                Tie
+8   Map type: Mixed  ...                                Tie
+9   Map type: Mixed  ...                                Tie
+10  Map type: Mixed  ...     Optimized Fast Weighted SA-JPS
+11  Map type: Mixed  ...                                Tie
+12  Map type: Mixed  ...                                Tie
+13  Map type: Mixed  ...                                Tie
+
+[14 rows x 15 columns]
+Friedman effect sizes: Kendall's W
+              Group  ...                                               Note
+0          All maps  ...  Requires at least 3 algorithms and 2 complete ...
+1          All maps  ...  Requires at least 3 algorithms and 2 complete ...
+2          All maps  ...  Requires at least 3 algorithms and 2 complete ...
+3          All maps  ...  Requires at least 3 algorithms and 2 complete ...
+4          All maps  ...  Requires at least 3 algorithms and 2 complete ...
+5          All maps  ...  Requires at least 3 algorithms and 2 complete ...
+6          All maps  ...  Requires at least 3 algorithms and 2 complete ...
+7          All maps  ...  Requires at least 3 algorithms and 2 complete ...
+8   Map type: Mixed  ...  Requires at least 3 algorithms and 2 complete ...
+9   Map type: Mixed  ...  Requires at least 3 algorithms and 2 complete ...
+10  Map type: Mixed  ...  Requires at least 3 algorithms and 2 complete ...
+11  Map type: Mixed  ...  Requires at least 3 algorithms and 2 complete ...
+12  Map type: Mixed  ...  Requires at least 3 algorithms and 2 complete ...
+13  Map type: Mixed  ...  Requires at least 3 algorithms and 2 complete ...
+14  Map type: Mixed  ...  Requires at least 3 algorithms and 2 complete ...
+15  Map type: Mixed  ...  Requires at least 3 algorithms and 2 complete ...
+
+[16 rows x 11 columns]
+Average ranks and Nemenyi critical differences
+Empty DataFrame
+Columns: []
+Index: []
+Saved Critical Difference diagrams
+Empty DataFrame
+Columns: []
+Index: []
+                                 Algorithm  ...  Max_turn_severity_45deg_units
+0                                       A*  ...                            NaN
+1                             Standard JPS  ...                            NaN
+2               Bidirectional Standard JPS  ...                            NaN
+3                               Smooth JPS  ...                            NaN
+4                                   SA-JPS  ...                            NaN
+5                     Bidirectional SA-JPS  ...                            NaN
+6                     Fast Weighted SA-JPS  ...                            NaN
+7           Optimized Fast Weighted SA-JPS  ...                            9.0
+8       Bidirectional Fast Weighted SA-JPS  ...                            NaN
+9                    JPS-Dijkstra Corridor  ...                            NaN
+10  Fast Weighted SA-JPS-Dijkstra Corridor  ...                            NaN
+
+[11 rows x 69 columns]
+  Map type  ... Max turn severity 45deg units
+0    Mixed  ...                           NaN
+1    Mixed  ...                           9.0
+
+[2 rows x 64 columns]
+  Map type                       Algorithm  ...  Turn rank  Turning-angle rank
+0    Mixed                    Standard JPS  ...        1.5                 1.5
+1    Mixed  Optimized Fast Weighted SA-JPS  ...        1.5                 1.5
+
+[2 rows x 70 columns]
+                                 Algorithm  ...  Median_turns_change_percent
+0                                       A*  ...                          NaN
+1                             Standard JPS  ...                          0.0
+2               Bidirectional Standard JPS  ...                          NaN
+3                               Smooth JPS  ...                          NaN
+4                                   SA-JPS  ...                          NaN
+5                     Bidirectional SA-JPS  ...                          NaN
+6                     Fast Weighted SA-JPS  ...                          NaN
+7           Optimized Fast Weighted SA-JPS  ...                          0.0
+8       Bidirectional Fast Weighted SA-JPS  ...                          NaN
+9                    JPS-Dijkstra Corridor  ...                          NaN
+10  Fast Weighted SA-JPS-Dijkstra Corridor  ...                          NaN
+
+[11 rows x 6 columns]
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\median_runtime_street_plot_data_street.csv
+Z:\Study\Codex\JPS_updated_miet_conf\server\Astar_JPS_SA_JPS_config_profiles_ready.py:5434: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Saved figure: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\median_runtime_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\median_expanded_nodes_street_plot_data_street.csv
+Z:\Study\Codex\JPS_updated_miet_conf\server\Astar_JPS_SA_JPS_config_profiles_ready.py:5434: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Saved figure: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\median_expanded_nodes_street.png
+Saved plot data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\median_turns_street_plot_data_street.csv
+Z:\Study\Codex\JPS_updated_miet_conf\server\Astar_JPS_SA_JPS_config_profiles_ready.py:5434: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Saved figure: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\median_turns_street.png
+No valid data available for 'Mean_gap_vs_Astar_percent'.
+Plotting example: ('Berlin_0_1024.map', 8)
+Saved individual path data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\example_paths\Standard_JPS_street_path_data_street.csv
+Saved individual image: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\example_paths\Standard_JPS_street.png
+Saved individual path data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\example_paths\Optimized_Fast_Weighted_SA_JPS_street_path_data_street.csv
+Saved individual image: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\example_paths\Optimized_Fast_Weighted_SA_JPS_street.png
+Saved combined path data: Z:\Study\Codex\JPS_updated_miet_conf\results_new_ablation\street\optimized_vs_jps\example_paths_street_path_data_street.csv
+Z:\Study\Codex\JPS_updated_miet_conf\server\Astar_JPS_SA_JPS_config_profiles_ready.py:5770: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+Experiment completed successfully.
